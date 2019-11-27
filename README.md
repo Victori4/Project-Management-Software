@@ -1,4 +1,4 @@
-#Project Management Software by project-group-12#
+#Project Management Software by project-group-12
 ##Downloading the repository##  
 To get the repository on your computer:  
 1. Start Git Bash in the folder on your computer where you want to download the repository.  
