@@ -1,13 +1,13 @@
 # Project Management Software by project-group-12
-##Downloading the repository##  
+## Downloading the repository  
 To get the repository on your computer:  
 1. Start Git Bash in the folder on your computer where you want to download the repository.  
 2. Clone the repo with the following command  
-3. `git clone https://git.ita.chalmers.se/courses/dit092/project-group-12.git`  
-4. You will be prompted for your username and password, fill those in as requested.  
-5. Done! You should now have the repository downloaded.  
+	`git clone https://git.ita.chalmers.se/courses/dit092/project-group-12.git`  
+3. You will be prompted for your username and password, fill those in as requested.  
+4. Done! You should now have the repository downloaded.  
   
-##Creating an Eclipse-project##  
+## Creating an Eclipse-project  
 To create an Eclipse-project in the repository go through the following steps:  
 1. Start Eclipse  
 2. Navigate to File\New\Java-project  
@@ -19,10 +19,13 @@ To create an Eclipse-project in the repository go through the following steps:
 	Make sure it is the root-folder of your repository, i.e. the one named project-group-12  
 	Leave the other fields as is  
 7. Press Finish  
-The project should now be open in Eclipse and ready for you to work on  
+8. In Git Bash, do a `git status` in the repository to check that the .gitignore file is working as intended
+	There should be no files for you to commit at this point
+	If there is, update .gitignore with those files or inform the group of this
+9. The project should now be open in Eclipse and ready for you to work on  
 Make sure to put code in the src/dit092-package  
   
-##Useful git commands##  
+## Useful git commands  
 `git pull`  
 `git status`  
 `git commit -m "Your message here."`  
