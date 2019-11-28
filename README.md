@@ -5,9 +5,10 @@ To get the repository on your computer:
 2. Clone the repo with the following command  
 	`git clone https://git.ita.chalmers.se/courses/dit092/project-group-12.git`  
 3. You will be prompted for your username and password, fill those in as requested.
-4. If we are working in a branch, use `git checkout name-of-branch` 
+4. Now type `cd project-group-12/`
+5. If we are working in a branch, use `git checkout name-of-branch` 
     For now, we are using the workshop branch
-4. Done! You should now have the repository downloaded and the correct branch ckecked out  
+6. Done! You should now have the repository downloaded and the correct branch ckecked out  
   
 ## Creating an Eclipse-project  
 To create an Eclipse-project in the repository go through the following steps:  
