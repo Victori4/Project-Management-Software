@@ -31,7 +31,19 @@ package dit092;
 			return totalTime;
 		}
 			
-
+		//Finding a team member by iterating through the arraylist with an enhanced for-loop to find the one with the correct ID. 
+		//As of now this one also prints an error message and returns a null if the ID was not found but we might want to make it 
+		//an exception instead.
+		public TeamMember findTeamMember(int id) {
+			for (TeamMember oneMember : members) {
+				if (oneMember.getId() == id) {
+					return oneMember;
+				}
+			}
+		System.out.println("A member with ID " + id + " does not exist."); //exception here instead?
+		return null;
+		}
+		
 		public int getId() {
 			return id;
 		}
