@@ -4,14 +4,6 @@ import java.util.ArrayList;
 
 public class Project {
 
-	private Team team; 
-	private ArrayList <Task> task;
-	
-	public Project (Team team, ArrayList <Task> task) {
-		this.team = team;
-		this.task = task;
-	}
-	
     private ArrayList<Task> tasks;
 
     public Project(ArrayList<Task> tasks) {
@@ -54,4 +46,13 @@ public class Project {
         //PlannedValue probably needs first/last week
         return calculatePlannedValue() * (numberOfTasksFinished/numberOfTasksStarted);
     }
+
+    public double actualCost () {
+    	return 0;
+    }
+
+
+
+
+
 }
