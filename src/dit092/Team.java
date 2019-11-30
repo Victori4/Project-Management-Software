@@ -32,17 +32,21 @@ package dit092;
 		}
 			
 		//Finding a team member by iterating through the arraylist with an enhanced for-loop to find the one with the correct ID. 
-		//As of now this one also prints an error message and returns a null if the ID was not found but we might want to make it 
-		//an exception instead.
+		//Tried with a try/catch-block but I am not sure if it actually works...
 		public TeamMember findTeamMember(int id) {
 			for (TeamMember oneMember : members) {
+				try {
 				if (oneMember.getId() == id) {
 					return oneMember;
 				}
+				}
+				catch (Exception e) {
+					System.out.println("A member with ID " + id + " does not exist."); 
+				}
 			}
-		System.out.println("A member with ID " + id + " does not exist."); //exception here instead?
-		return null;
+			return null;
 		}
+
 		
 		public int getId() {
 			return id;
