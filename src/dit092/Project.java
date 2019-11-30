@@ -47,7 +47,9 @@ public class Project {
         return calculatePlannedValue() * (numberOfTasksFinished/numberOfTasksStarted);
     }
 
+    //According to a website, actual cost is just how much has been spent until that certain point. 
     public double actualCost () {
+    	
     	return 0;
     }
 
