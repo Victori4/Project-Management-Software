@@ -27,24 +27,16 @@ public class Project {
      * @return double Earned Value
      */
     public double calculateEarnedValue(int firstWeekToCompare, int lastWeekToCompare) {
-        double percentageDone = 0;
-        int numberOfTasksStarted = 0;
-        int numberOfTasksFinished = 0;
+        double ev = 0;
 
         for (Task task : tasks) {
+            //Not sure if this if statement is correct
             if (task.getStartWeek() >= firstWeekToCompare && task.getStartWeek() <= lastWeekToCompare) {
-                numberOfTasksStarted++;
-
-                //If it has an end week, it means that the task is finished??
-                //Needs to have a way to check if a task is done so we can calculate the % of what's done
-                if (task.getEndWeek() != 0) {
-                    numberOfTasksFinished++;
-                }
+                ev = ev + (task.getPercentageDone() * task.getEstimatedHours());
             }
         }
 
-        //PlannedValue probably needs first/last week
-        return calculatePlannedValue() * (numberOfTasksFinished/numberOfTasksStarted);
+        return ev;
     }
 
     //According to a website, actual cost is just how much has been spent until that certain point. 
