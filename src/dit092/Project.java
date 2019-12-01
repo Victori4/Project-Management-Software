@@ -32,7 +32,7 @@ public class Project {
         for (Task task : tasks) {
             //Not sure if this if statement is correct
             if (task.getStartWeek() >= firstWeekToCompare && task.getStartWeek() <= lastWeekToCompare) {
-                ev = ev + (task.getPercentageDone() * task.getEstimatedHours());
+                ev = ev + (task.getPercentageDone() * (task.getEstimatedHours() * TeamMember.getHOURLY_RATE()));
             }
         }
 
