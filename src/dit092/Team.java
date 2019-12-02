@@ -14,7 +14,7 @@ package dit092;
 		
 		
 
-		//total salary of all members on this team using enhanced for loop
+//total salary of all members on this team using enhanced for loop
 		public double totalSalary (ArrayList <TeamMember> members) {
 		double sum = 0;
 		for (TeamMember member : members) {
@@ -23,16 +23,7 @@ package dit092;
 		return sum;
 		}
 		
-		/*total salary of all members on this team using classic for loop in case enhanced does not work
-		public double totalSalary (ArrayList <TeamMember> members) {
-			double sum = 0;
-			for (int i =0; i < members.size(); i++) {
-				sum = sum + members.get(i).calculateSalary(members.get(i).getTimeSpent());
-			}
-			return sum;
-		}
-		*/
-		
+
 //total time spent of all members using enhanced for loop
 		public double totalTimeSpent() {
 			double totalTime = 0;
@@ -42,14 +33,6 @@ package dit092;
 			return totalTime;
 		}
 		
-		/*Total time spent by whole team on project using classic for loop in case enhanced does not work
-		public double totalTimeSpent() {
-			double totalTime = 0;
-			for (int i =0; i < members.size(); i++) {
-				totalTime = totalTime + members.get(i).getTimeSpent();
-			}
-			return totalTime;
-		}*/
 		
 		//Finding a team member by iterating through the arraylist with an enhanced for-loop to find the one with the correct ID. 
 		//Tried with a try/catch-block but I am not sure if it actually works...
@@ -67,6 +50,8 @@ package dit092;
 			return null;
 		}
 		
+		//to string
+		
 		public int getId() {
 			return id;
 		}
@@ -82,6 +67,6 @@ package dit092;
 		public void setMembers(ArrayList<TeamMember> members) {
 			this.members = members;
 		}
-		
+	
 	}
 
