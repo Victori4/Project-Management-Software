@@ -45,8 +45,15 @@ public class Project {
     	return 0;
     }
 
+	public double calculateBudgetAtCompletion() {
+
+		double budgetAtCompletion = 0.0;
+		for (Task task : tasks) {
+			budgetAtCompletion = budgetAtCompletion + task.getAnticipatedBudget();
+		}
+		return budgetAtCompletion;
+	}
 
 
-
-
+ 
 }
