@@ -2,9 +2,9 @@ package dit092;
 
 public class ProjectManagement {
 
-    private UI view;
+    private UserInterface view;
 
-    public ProjectManagement(UI view) {
+    public ProjectManagement(UserInterface view) {
         this.view = view;
     }
 
@@ -13,7 +13,7 @@ public class ProjectManagement {
     }
 
     public static void main(String[] args) {
-        UI view = new UI();
+        UserInterface view = new UserInterface();
         ProjectManagement controller = new ProjectManagement(view);
 
         controller.run();
