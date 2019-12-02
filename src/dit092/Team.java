@@ -38,17 +38,12 @@ package dit092;
 		//Tried with a try/catch-block but I am not sure if it actually works...
 		public TeamMember findTeamMember(int id) {
 			for (TeamMember oneMember : members) {
-				try {
 				if (oneMember.getId() == id) {
 					return oneMember;
 				}
-				}
-				catch (Exception e) {
-					System.out.println("A member with ID " + id + " does not exist."); 
-				}
 			}
 			return null;
-		}
+		}	
 		
 		//to string
 		
@@ -56,9 +51,6 @@ package dit092;
 			return id;
 		}
 
-		public void setId(int id) {
-			this.id = id;
-		}
 
 		public ArrayList<TeamMember> getMembers() {
 			return members;
