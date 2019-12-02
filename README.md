@@ -1,3 +1,4 @@
+
 # Project Management Software by project-group-12
 ## Downloading the repository  
 To get the repository on your computer:  
@@ -34,3 +35,4 @@ Make sure to put code in the src/dit092-package
 `git commit -m "Your message here."`  
 `git push`  
 `git checkout name-of-branch`  
+

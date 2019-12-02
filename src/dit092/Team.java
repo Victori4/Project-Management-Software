@@ -41,7 +41,6 @@ package dit092;
 			}
 			return totalTime;
 		}
-			
 		
 		/*Total time spent by whole team on project using classic for loop in case enhanced does not work
 		public double totalTimeSpent() {
@@ -51,7 +50,23 @@ package dit092;
 			}
 			return totalTime;
 		}*/
-
+		
+		//Finding a team member by iterating through the arraylist with an enhanced for-loop to find the one with the correct ID. 
+		//Tried with a try/catch-block but I am not sure if it actually works...
+		public TeamMember findTeamMember(int id) {
+			for (TeamMember oneMember : members) {
+				try {
+				if (oneMember.getId() == id) {
+					return oneMember;
+				}
+				}
+				catch (Exception e) {
+					System.out.println("A member with ID " + id + " does not exist."); 
+				}
+			}
+			return null;
+		}
+		
 		public int getId() {
 			return id;
 		}

@@ -5,7 +5,7 @@ public class TeamMember {
 	private int id;
 	private String name;
 	private double timeSpent;
-	private final double HOURLY_RATE = 250;
+	private static final double HOURLY_RATE = 250;
 	
 	//constructor needed
 	
@@ -32,7 +32,7 @@ public class TeamMember {
 	public void setTimeSpent(double timeSpent) {
 		this.timeSpent = timeSpent;
 	}
-	public double getHOURLY_RATE() {
+	public static double getHOURLY_RATE() {
 		return HOURLY_RATE;
 	}
 	
