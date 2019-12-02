@@ -5,9 +5,11 @@ import java.util.ArrayList;
 public class Project {
 
     private ArrayList<Task> tasks;
+    private Team team;
 
-    public Project(ArrayList<Task> tasks) {
+    public Project(ArrayList<Task> tasks, Team team) {
         this.tasks = tasks;
+        this.team = team;
     }
 
     /**
