@@ -5,20 +5,20 @@ public class TeamMember {
 	private int id;
 	private String name;
 	private double timeSpent;
-	private static final double HOURLY_RATE = 250;
+	private static final double HOURLY_RATE = 250; //public?
 	
 	//constructor needed
-	
+
 	public double calculateSalary(double timeSpent) {
 		double salary = timeSpent * HOURLY_RATE;
 		return salary;
-	}	
-	
+	}
+
+	/**
+	 * Validate parameters for the set methods & throw exceptions where neeeded
+	 */
 	public int getId() {
 		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
 	}
 	public String getName() {
 		return name;
