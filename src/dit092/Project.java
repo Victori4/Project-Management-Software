@@ -39,7 +39,7 @@ public class Project {
         return ev;
     }
 
-    //According to a website, actual cost is just how much has been spent until that certain point. 
+    //According to a website, actual cost is just how much has been spent until that certain point.
     public double actualCost () {
     	
     	return 0;
