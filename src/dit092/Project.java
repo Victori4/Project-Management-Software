@@ -33,12 +33,13 @@ public class Project {
 
         for (Task task : tasks) {
             //Not sure if this if statement is correct
-            if (task.getStartWeek() >= firstWeekToCompare && task.getStartWeek() <= lastWeekToCompare) {
-                ev = ev + (task.getPercentageDone() * (task.getEstimatedHours() * TeamMember.getHOURLY_RATE()));
+            if (task.getActualStartWeek() >= firstWeekToCompare && task.getActualStartWeek() <= lastWeekToCompare
+                    && task.getActualEndWeek() > 0) {
+                ev = ev + task.getEstimatedHours();
             }
         }
 
-        return ev;
+        return ev * TeamMember.getHOURLY_RATE();
     }
 
     //According to a website, actual cost is just how much has been spent until that certain point.
@@ -51,7 +52,7 @@ public class Project {
 
 		double budgetAtCompletion = 0.0;
 		for (Task task : tasks) {
-			budgetAtCompletion = budgetAtCompletion + task.getAnticipatedBudget();
+			budgetAtCompletion = budgetAtCompletion + (task.getEstimatedHours() * TeamMember.getHOURLY_RATE());
 		}
 		return budgetAtCompletion;
 	}
