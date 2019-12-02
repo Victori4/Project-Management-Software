@@ -5,9 +5,11 @@ import java.util.ArrayList;
 public class Project {
 
     private ArrayList<Task> tasks;
+    private Team team;
 
-    public Project(ArrayList<Task> tasks) {
+    public Project(ArrayList<Task> tasks, Team team) {
         this.tasks = tasks;
+        this.team = team;
     }
 
     /**
@@ -45,8 +47,15 @@ public class Project {
     	return 0;
     }
 
+	public double calculateBudgetAtCompletion() {
+
+		double budgetAtCompletion = 0.0;
+		for (Task task : tasks) {
+			budgetAtCompletion = budgetAtCompletion + task.getAnticipatedBudget();
+		}
+		return budgetAtCompletion;
+	}
 
 
-
-
+ 
 }
