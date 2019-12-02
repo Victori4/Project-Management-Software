@@ -43,9 +43,10 @@ public class Project {
     }
 
     //According to a website, actual cost is just how much has been spent until that certain point.
-    public double actualCost () {
-    	
-    	return 0;
+    //Leaving it as this for now because I cannot figure out how to finish it...
+    public double calculateActualCost () {
+    	double actualCost = calculateEarnedValue(0, 0);
+    	return actualCost;
     }
 
 	public double calculateBudgetAtCompletion() {
