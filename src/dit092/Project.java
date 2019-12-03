@@ -62,6 +62,10 @@ public class Project {
 		return budgetAtCompletion;
 	}
 
+	public double calculateCostPerformanceIndex (int firstWeekToCompare, int lastWeekToCompare) {
+		double cPI = calculateEarnedValue(firstWeekToCompare, lastWeekToCompare)/calculateActualCost();
+		return cPI;
+	}
 
  
 }
