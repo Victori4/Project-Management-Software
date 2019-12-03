@@ -45,7 +45,11 @@ public class Project {
     //According to a website, actual cost is just how much has been spent until that certain point.
     //Leaving it as this for now because I cannot figure out how to finish it...
     public double calculateActualCost () {
-    	double actualCost = calculateEarnedValue(0, 0);
+    	double actualCost = 0.0;
+    	
+    	for (Task task : tasks) {
+    		actualCost = task.getActualHours() * TeamMember.getHOURLY_RATE();
+    	}
     	return actualCost;
     }
 
