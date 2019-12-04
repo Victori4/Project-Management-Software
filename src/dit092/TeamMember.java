@@ -7,7 +7,11 @@ public class TeamMember {
 	private double timeSpent;
 	private static final double HOURLY_RATE = 250; //public?
 	
-	//constructor needed
+	public TeamMember (int id, String name, double timeSpent) {
+		this.id = id;
+		this.name = name;
+		this.timeSpent = timeSpent;
+	}
 
 	public double calculateSalary(double timeSpent) {
 		double salary = timeSpent * HOURLY_RATE;
