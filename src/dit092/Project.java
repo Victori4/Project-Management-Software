@@ -66,6 +66,11 @@ public class Project {
 		double cPI = calculateEarnedValue(firstWeekToCompare, lastWeekToCompare)/calculateActualCost();
 		return cPI;
 	}
-
+	
+	//Don't know why this doesn't like the variables as I'm just reusing the method from above??
+	public double calculateCostVariance() {
+		double cv = calculateEarnedValue(int firstWeekToCompare, int lastWeekToCompare) - calculateActualCost();
+		return cv;		
+	}
  
 }
