@@ -11,12 +11,12 @@ public class UserInterface {
     }
 
     public int showStartMenu() {
-        System.out.println("MENU\nPlease press 2 to see EV for week 1-2 or 0 to exit");
+        System.out.println("MENU\nPlease press 2 to see EV for week 1-2 or 0 to exit: ");
         return scanner.nextInt();
     }
 
     public int showEarnedValue(double ev) {
-        System.out.print(ev);
+        System.out.print("EV: " + ev + " SEK.");
 
         return scanner.nextInt();
     }

@@ -45,10 +45,10 @@ public class ProjectManagement {
     }
 
     public void run() {
-        int userInput = START;
+        int userInput = view.showStartMenu();
 
         do {
-            switch (userInput = view.showStartMenu()) {
+            switch (userInput) {
                 case START:
                     userInput = view.showStartMenu();
                     break;
