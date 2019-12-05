@@ -19,12 +19,28 @@ public class RiskMatrix {
 		return risk;
 	}
 	
+	public double getImpact() {
+		return impact;
+	}
+	
+	public double getProbability() {
+		return probability;
+	}
+	
 	public double getRisk() {
 		return risk;
 	}
 	
 	public String getRiskName() {
 		return riskName;
+	}
+	
+	public void setImpact(double impact) {
+		this.impact = impact;
+	}
+	
+	public void setProbability(double probability) {
+		this.probability = probability;
 	}
 	
 	public void setRisk(double risk) {
