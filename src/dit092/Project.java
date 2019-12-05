@@ -72,5 +72,11 @@ public class Project {
 		double cv = calculateEarnedValue(firstWeekToCompare, lastWeekToCompare) - calculateActualCost();
 		return cv;		
 	}
+	
+	//I don't know if this is the right thing to but I put down what I have so far
+	public double calculateSchedulePerformanceIndex(int startWeek, int endWeek) {
+		double sPI = calculateEarnedValue(startWeek, endWeek) / calculatePlannedValue();
+		return sPI;
+	}
  
 }
