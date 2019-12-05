@@ -17,15 +17,15 @@ public class Task {
     public Task(int id, String taskName, int weekSaved, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
                 int actualEndWeek, double estimatedHours, double actualHours, ArrayList<TeamMember> teamMembersWorked) {
         this.id = id;
-        this.taskName = taskName;
-        this.weekSaved = weekSaved;
-        this.plannedStartWeek = plannedStartWeek;
-        this.actualStartWeek = actualStartWeek;
-        this.plannedEndWeek = plannedEndWeek;
-        this.actualEndWeek = actualEndWeek;
-        this.estimatedHours = estimatedHours;
-        this.actualHours = actualHours;
-        this.teamMembersWorked = teamMembersWorked;
+        setTaskName(taskName);
+        setWeekSaved(weekSaved);
+        setPlannedStartWeek(plannedStartWeek);
+        setActualStartWeek(actualStartWeek);
+        setPlannedEndWeek(plannedEndWeek);
+        setActualEndWeek(actualEndWeek);
+        setEstimatedHours(estimatedHours);
+        setActualHours(actualHours);
+        setTeamMembersWorked(teamMembersWorked);
     }
 
     public int getId() {
@@ -34,6 +34,10 @@ public class Task {
 
     public String getTaskName() {
         return taskName;
+    }
+
+    public void setTaskName(String taskName) {
+        this.taskName = taskName;
     }
 
     public int getWeekSaved() {
