@@ -21,25 +21,22 @@ public class Project {
     }
 
     /**
-     * Budgeted Cost of Work Performed.
-     * Needs to calculate every 2 weeks: 3, 5, 7, 9, 11? Combine week 1 & 2?
-     * Call it from somewhere where input is every 2 weeks for the entire project?
-     * Also is it every 2 weeks EV or the EV for the entire project but every 2 weeks?
-     *
+	 * Returns the budgeted cost of work performed, for the weeks specified in the params, by adding up all estimated/
+	 * budgeted hours for each task that is started within the specified weeks.
+	 *
      * @return double Earned Value
      */
     public double calculateEarnedValue(int firstWeekToCompare, int lastWeekToCompare) {
-        double ev = 0;
+        double totalEstimatedHours = 0;
 
         for (Task task : tasks) {
-            //Not sure if this if statement is correct
-            if (task.getActualStartWeek() >= firstWeekToCompare && task.getActualStartWeek() <= lastWeekToCompare
-                    && task.getActualEndWeek() > 0) {
-                ev = ev + task.getEstimatedHours();
+        	//Perhaps remove the last = depending on if we want the last week to be included or not
+            if (task.getActualStartWeek() >= firstWeekToCompare && task.getActualStartWeek() <= lastWeekToCompare) {
+				totalEstimatedHours = totalEstimatedHours + task.getEstimatedHours();
             }
         }
 
-        return ev * TeamMember.getHOURLY_RATE();
+        return totalEstimatedHours * TeamMember.getHOURLY_RATE();
     }
 
     //According to a website, actual cost is just how much has been spent until that certain point.
