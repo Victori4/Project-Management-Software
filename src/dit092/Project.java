@@ -68,8 +68,8 @@ public class Project {
 	}
 	
 	//Don't know why this doesn't like the variables as I'm just reusing the method from above??
-	public double calculateCostVariance() {
-		double cv = calculateEarnedValue(int firstWeekToCompare, int lastWeekToCompare) - calculateActualCost();
+	public double calculateCostVariance(int firstWeekToCompare, int lastWeekToCompare) {
+		double cv = calculateEarnedValue(firstWeekToCompare, lastWeekToCompare) - calculateActualCost();
 		return cv;		
 	}
  
