@@ -9,7 +9,7 @@ public class ProjectManagement {
     private DataAccessLayer data;
     private Project project;
 
-    //Menu options
+    //Menu options, do we need options for total Salary and total time spent as well?
     private static final int EXIT = 0;
     private static final int START = 1;
     private static final int EV = 2;
