@@ -24,5 +24,10 @@ public class UserInterface {
     public void showDefault() {
         System.out.println("Please try again!");
     }
+    
+    public int showCostPerformanceIndex(double CPI) {
+    	System.out.print("Cost Performance Index: " + CPI);
+    	return scanner.nextInt();
+    }
 
 }
