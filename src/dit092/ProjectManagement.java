@@ -9,7 +9,10 @@ public class ProjectManagement {
     private DataAccessLayer data;
     private Project project;
 
-    //Menu options, do we need options for total Salary and total time spent as well?
+    //Menu options, do we need options for total Salary and total time spent as well? Below are in case we want those options. Can add to 
+    //switch case as well once decided.
+    //private static final int TOTAL_SALARY = 14;
+    //private static final int TOTAL_TIME = 15;
     private static final int EXIT = 0;
     private static final int START = 1;
     private static final int EV = 2;
@@ -49,16 +52,24 @@ public class ProjectManagement {
 
         do {
             switch (userInput) {
+            
                 case START:
                     userInput = view.showStartMenu();
                     break;
+                    
                 case EV:
                     //Obviously get the weeks some other way, perhaps getEarnedValue() which could return a string?
                     userInput = view.showEarnedValue(project.calculateEarnedValue(1,2));
                     break;
+                    
+                case CPI:
+                	userInput = view.showCostPerformanceIndex(project.calculateCostPerformanceIndex(1, 2));
+                	break;
+                	
                 case EXIT:
                     userInput = 0;
                     break;
+                    
                 default:
                     view.showDefault();
                     break;
