@@ -29,5 +29,17 @@ public class UserInterface {
     	System.out.print("Cost Performance Index: " + CPI);
     	return scanner.nextInt();
     }
+    
+    
+    /* Added below in case we wanted to print total salary and total time? uncomment or delete after decision is made
+     * public int showTotalSalary (double totalSal) {
+    	System.out.print("Total Salary: " + totalSal);
+    	return scanner.nextInt();
+    }
+    
+    public int showTotalTime (double totalTime) {
+    	System.out.print("Total time spent: " + totalTime);
+    	return scanner.nextInt();
+    } */
 
 }
