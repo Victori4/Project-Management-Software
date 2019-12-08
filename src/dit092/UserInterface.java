@@ -40,6 +40,11 @@ public class UserInterface {
     public int showTotalTime (double totalTime) {
     	System.out.print("Total time spent: " + totalTime);
     	return scanner.nextInt();
-    } 
+    }
+    
+    public int showSchedulePerformanceIndex(double spi) {
+    	System.out.print("Schedule Performance Index: " + spi);
+    	return scanner.nextInt();
+    }
 
 }
