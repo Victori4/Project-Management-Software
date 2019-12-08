@@ -25,7 +25,7 @@ package dit092;
 		
 
 //total time spent of all members using enhanced for loop
-		public double calculateTotalTimeSpent() {
+		public double calculateTotalTimeSpent(ArrayList <TeamMember> members) {
 			double totalTime = 0;
 			for (TeamMember member : members) {
 				totalTime = totalTime + member.getTimeSpent();
