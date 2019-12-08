@@ -8,11 +8,11 @@ public class ProjectManagement {
     private UserInterface view;
     private DataAccessLayer data;
     private Project project;
+    private Team team;
 
-    //Menu options, do we need options for total Salary and total time spent as well? Below are in case we want those options. Can add to 
-    //switch case as well once decided.
-    //private static final int TOTAL_SALARY = 14;
-    //private static final int TOTAL_TIME = 15;
+    //Menu option
+    //Added Total Salary and total time spent as well as team variable to ensure it works. If we do not want, can remove all.
+
     private static final int EXIT = 0;
     private static final int START = 1;
     private static final int EV = 2;
@@ -27,6 +27,8 @@ public class ProjectManagement {
     private static final int PROJECT_SCHEDULE = 11;
     private static final int SEARCH_TEAM_MEMBER_HOURS_BY_ID = 12;
     private static final int SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID = 13;
+    private static final int TOTAL_SALARY = 14;
+    private static final int TOTAL_TIME = 15;
 
     public ProjectManagement() {
         this.view = new UserInterface();
@@ -34,16 +36,21 @@ public class ProjectManagement {
 
         ArrayList<Task> testTasks = new ArrayList<Task>();
         ArrayList<TeamMember> testTeamMembers = new ArrayList<TeamMember>();
+        
+        this.team = new Team (1, testTeamMembers);
+        
         Task task1 = new Task(1, "One", 1, 1, 1,
                 2, 2, 10, 10, testTeamMembers);
         Task task2 = new Task(2, "Two",1, 2, 2,
                 2,2, 5, 5, testTeamMembers);
         Task task3 = new Task(3, "Three",1, 3, 3,
                 4, 4, 5, 5, testTeamMembers);
+        
         testTasks.add(task1);
         testTasks.add(task2);
         testTasks.add(task3);
-        this.project = new Project(testTasks, new Team(1, testTeamMembers));
+        
+        this.project = new Project(testTasks, team);
         //this.project = data.loadProject(); ?
     }
 
@@ -64,6 +71,14 @@ public class ProjectManagement {
                     
                 case CPI:
                 	userInput = view.showCostPerformanceIndex(project.calculateCostPerformanceIndex(1, 2));
+                	break;
+                	
+                case TOTAL_SALARY:
+                	userInput = view.showTotalSalary(team.calculateTotalSalary(team.getMembers()));
+                	break;
+                	
+                case TOTAL_TIME:
+                	userInput = view.showTotalTime(team.calculateTotalTimeSpent(team.getMembers()));
                 	break;
                 	
                 case EXIT:
