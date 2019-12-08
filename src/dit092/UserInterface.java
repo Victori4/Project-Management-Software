@@ -46,5 +46,10 @@ public class UserInterface {
     	System.out.print("Schedule Performance Index: " + spi);
     	return scanner.nextInt();
     }
+    
+    public int showBudgetAtCompletion(double bac) {
+    	System.out.print("Budget at completion: " + bac);
+    	return scanner.nextInt();
+    }
 
 }
