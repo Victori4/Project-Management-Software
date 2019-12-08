@@ -31,8 +31,8 @@ public class UserInterface {
     }
     
     
-    /* Added below in case we wanted to print total salary and total time? uncomment or delete after decision is made
-     * public int showTotalSalary (double totalSal) {
+    //Added below in case we wanted to print total salary and total time? Can delete if we do not want
+      public int showTotalSalary (double totalSal) {
     	System.out.print("Total Salary: " + totalSal);
     	return scanner.nextInt();
     }
@@ -40,6 +40,6 @@ public class UserInterface {
     public int showTotalTime (double totalTime) {
     	System.out.print("Total time spent: " + totalTime);
     	return scanner.nextInt();
-    } */
+    } 
 
 }
