@@ -35,7 +35,6 @@ package dit092;
 		
 		
 		//Finding a team member by iterating through the arraylist with an enhanced for-loop to find the one with the correct ID. 
-		//Tried with a try/catch-block but I am not sure if it actually works...
 		public TeamMember findTeamMember(int id) {
 			for (TeamMember oneMember : members) {
 				if (oneMember.getId() == id) {
@@ -45,7 +44,10 @@ package dit092;
 			return null;
 		}	
 		
-		//to string
+		public String toString() {
+			return "A"; //ID: " + getId() + "\nName: " + TeamMember.getName() + "\nHours worked: " + TeamMember.getTimeSpent() + 
+		//			"\nActivities worked on:" + Task.getTaskName();
+		}
 		
 		public int getId() {
 			return id;
