@@ -19,7 +19,7 @@ public class UserInterface {
     	System.out.println(" 3. Retrieve an employee's info. ");
     	System.out.println(" 4. Update employee information. ");
     	System.out.println(" 5. Calculate total expenses from gross salaries. ");
-    	System.out.println(" 6. Calculate total expenses from net salaries. ");
+    	System.out.println(" 6. Calculate actual cost. ");
     	System.out.println(" 7. Print the total number of employees. ");
     	System.out.println(" 8. Calculate Cost Performance Index. ");
     	System.out.println(" 9.  ");
