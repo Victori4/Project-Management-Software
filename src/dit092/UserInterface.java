@@ -86,4 +86,10 @@ public class UserInterface {
     	System.out.println("Actual cost: " + ac);
     	return scanner.nextInt();
     }
+    
+    public int showScheduleVariance(double sv) {
+    	System.out.println("Schedule variance: " + sv);
+    	return scanner.nextInt();
+    }
+    }
 }
