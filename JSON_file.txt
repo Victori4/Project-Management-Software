@@ -1,43 +1,94 @@
 
-"Team" 
+//TEAM
 {
-"id": 1,
-"members": [
-{
-"name": "Negin Hashmati", 
-"id": 1,
-"timeSpent": 9,
-"HOURLY_RATE": 250. 
-},
-{
-"name": "Dominique Deramat", 
-"id": 2,
-"timeSpent": 10,
-"HOURLY_RATE": 250. 
-},
-{
-"name": "Fayona Cowperthwaite", 
-"id": 3,
-"timeSpent": 9,
-"HOURLY_RATE": 250. 
-},
-{
-"name": "Victoria Vu", 
-"id": 4,
-"timeSpent": 9,
-"HOURLY_RATE": 250. 
-},
-{
-"name": "Ella Alklid", 
-"id": 5,
-"timeSpent": 9,
-"HOURLY_RATE": 250. 
-},
-{
-"name": "Jennifer Nord", 
-"id": 6,
-"timeSpent": 9,
-"HOURLY_RATE": 250. 
+	"id": 1,
+	"members": [
+	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  ]
 }
-]
-}
+
+//TASK
+{
+	"id": 1.1,
+	"name": "Trello",
+	"weekSaved": 0,
+	"plannedStartWeek": 1,
+	"actualStartWeek: 2,
+	"plannedEndWeek": 10,
+	"actualEndWeek": 10,
+	"estimatedHours": 6,
+	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  }
