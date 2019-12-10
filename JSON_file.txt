@@ -468,6 +468,226 @@
   	]
   }
   
+  {
+	"id": "3.5.2",
+	"name":"Calculate planned value",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 4,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 6,
+	"estimatedHours": 2,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+  {
+	"id": "3.5.3",
+	"name":"Calculate earned value",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 4,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 4,
+	"estimatedHours": 2,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+  {
+	"id": "3.5.4",
+	"name":"Calculate actual cost",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 4,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 5,
+	"estimatedHours": 2,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  } 
+  
+   {
+	"id": "3.5.5",
+	"name":"Calculate cost variance",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 5,
+	"plannedEndWeek": 5,
+	"actualEndWeek": 5,
+	"estimatedHours": 2,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": "3.5.6",
+	"name":"Calculate schedule variance",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 5,
+	"plannedEndWeek": 5,
+	"actualEndWeek": 5,
+	"estimatedHours": 2,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": "3.5.7",
+	"name":"Calculate cost performance index",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 5,
+	"plannedEndWeek": 5,
+	"actualEndWeek": 5,
+	"estimatedHours": 2,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+  {
+	"id": "3.5.8",
+	"name":"Calculate schedule performance index",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 5,
+	"plannedEndWeek": 5,
+	"actualEndWeek": 5,
+	"estimatedHours": 2,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": "3.6.1",
+	"name":"Format JSON file and put in data",
+	"weekSaved": 0,
+	"plannedStartWeek": 6,
+	"actualStartWeek": 6,
+	"plannedEndWeek": 7,
+	"actualEndWeek": 7,
+	"estimatedHours": 6,
+	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+		
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": "3.6.2",
+	"name":"Read from JSON file",
+	"weekSaved": 0,
+	"plannedStartWeek": 6,
+	"actualStartWeek": 6,
+	"plannedEndWeek": 7,
+	"actualEndWeek": 7,
+	"estimatedHours": 12,
+	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+		
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": "3.7.1",
+	"name":"Set up risk matrix",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 5,
+	"plannedEndWeek": 5,
+	"actualEndWeek": 5,
+	"estimatedHours": 1,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
   
   
   
