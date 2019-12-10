@@ -48,7 +48,7 @@
 	"name": "Trello",
 	"weekSaved": 0,
 	"plannedStartWeek": 1,
-	"actualStartWeek: 2,
+	"actualStartWeek": 2,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
 	"estimatedHours": 6,
@@ -91,4 +91,5 @@
 		"timeSpent": 9,
 		"HOURLY_RATE": 250 
   	}
+  	]
   }
