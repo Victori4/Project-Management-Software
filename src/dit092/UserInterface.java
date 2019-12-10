@@ -16,13 +16,13 @@ public class UserInterface {
     	System.out.println(" ");
     	System.out.println(" 1.  ");
     	System.out.println(" 2. EV for week 1-2. ");
-    	System.out.println(" 3.  ");
-    	System.out.println(" 4.  ");
+    	System.out.println(" 3. Calculate Schedule Variance. ");
+    	System.out.println(" 4. Calculate Cost Variance. ");
     	System.out.println(" 5. ");
      	System.out.println(" 6. Calculate actual cost. ");
     	System.out.println(" 7. Calculate Budget At Completion. ");
     	System.out.println(" 8. Calculate Cost Performance Index. ");
-    	System.out.println(" 9. Caculate Schedule Performance Index. ");
+    	System.out.println(" 9. Calculate Schedule Performance Index. ");
     	System.out.println(" 10.  ");
     	System.out.println(" 11. ");
     	System.out.println(" 12. Search team member by ID to see time spent. ");
