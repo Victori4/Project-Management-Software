@@ -39,7 +39,7 @@
   	}
   ]
 }
-
+}
 
 {
 	"id": "1.1",
@@ -632,7 +632,8 @@
 		"id": 1,
 		"timeSpent": 9,
 		"HOURLY_RATE": 250 
-		
+		},
+ 	{
 		"name": "Dominique Deramat", 
 		"id": 2,
 		"timeSpent": 9,
@@ -658,7 +659,8 @@
 		"id": 6,
 		"timeSpent": 9,
 		"HOURLY_RATE": 250 
-		
+		},
+ 	{
 		"name": "Victoria Vu", 
 		"id": 4,
 		"timeSpent": 9,
@@ -1137,8 +1139,8 @@
 	"actualStartWeek": 10,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
-	"estimatedHours": 1,8,
-	"actualHours": 1,8,
+	"estimatedHours": 1.8,
+	"actualHours": 1.8,
 	"teamMembersWorked": [
 	
  	{
@@ -1188,8 +1190,8 @@
 	"actualStartWeek": 10,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
-	"estimatedHours": 1,98,
-	"actualHours": 1,98,
+	"estimatedHours": 1.98,
+	"actualHours": 1.98,
 	"teamMembersWorked": [
 	
  	{
