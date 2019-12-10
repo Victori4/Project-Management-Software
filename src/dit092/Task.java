@@ -3,7 +3,7 @@ package dit092;
 import java.util.ArrayList;
 
 public class Task {
-    private int id;
+    private String id;
     private String taskName;
     private int weekSaved; //Stats for the week, do we need this?
     private int plannedStartWeek;
@@ -14,7 +14,7 @@ public class Task {
     private double actualHours; //Actual work spent on this task
     private ArrayList<TeamMember> teamMembersWorked;
 
-    public Task(int id, String taskName, int weekSaved, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
+    public Task(String id, String taskName, int weekSaved, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
                 int actualEndWeek, double estimatedHours, double actualHours, ArrayList<TeamMember> teamMembersWorked) {
         this.id = id;
         setTaskName(taskName);
@@ -28,7 +28,7 @@ public class Task {
         setTeamMembersWorked(teamMembersWorked);
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
