@@ -299,3 +299,171 @@
   	}
   	]
   }
+  
+  {
+	"id": 2.2,
+	"name":"Updating class diagram",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 5,
+	"plannedEndWeek": 10,
+	"actualEndWeek": 10,
+	"estimatedHours": 5,
+	"actualHours": 5,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	}
+  	]
+  }
+  
+  {
+	"id": 3.1,
+	"name":"Creating classes and project structure",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 4,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 4,
+	"estimatedHours": 1,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	}
+  	]
+  }
+  
+  {
+	"id": 3.2.1,
+	"name":"Calculate salary",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 4,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 4,
+	"estimatedHours": 1,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": 3.3.1,
+	"name":"Find member by ID",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 4,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 4,
+	"estimatedHours": 2,
+	"actualHours": 2,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": 3.3.2,
+	"name":"Calculate total time spent",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 4,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 4,
+	"estimatedHours": 1,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": 3.3.3,
+	"name":"Calculate total salary",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 4,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 4,
+	"estimatedHours": 1,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": 3.4,
+	"name":"Creating Task Class",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 4,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 4,
+	"estimatedHours": 1,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": 3.5.1,
+	"name":"Calculate budget at completion",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 4,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 4,
+	"estimatedHours": 2,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
