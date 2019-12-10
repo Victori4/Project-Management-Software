@@ -40,5 +40,7 @@ public class TeamMember {
 		return HOURLY_RATE;
 	}
 	
-	// toString needed
+	public String toString() {
+		return "ID: " + id + "\nName: " + name + "\nTotal time spent: " + timeSpent + "\nPaid for whole project: " + calculateSalary(timeSpent);
+	}
 }
