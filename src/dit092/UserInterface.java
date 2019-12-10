@@ -91,5 +91,9 @@ public class UserInterface {
     	System.out.println("Schedule variance: " + sv);
     	return scanner.nextInt();
     }
+    
+    public int showCostVariance(double cv) {
+    	System.out.println("Cost variance: " + cv);
+    	return scanner.nextInt();
     }
 }
