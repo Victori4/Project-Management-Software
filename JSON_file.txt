@@ -1,5 +1,3 @@
-
-//TEAM
 {
 	"id": 1,
 	"members": [
@@ -42,7 +40,7 @@
   ]
 }
 
-//TASK
+
 {
 	"id": 1.1,
 	"name": "Trello",
@@ -53,6 +51,214 @@
 	"actualEndWeek": 10,
 	"estimatedHours": 6,
 	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+
+{
+	"id": 1.2,
+	"name":"TA meetings",
+	"weekSaved": 0,
+	"plannedStartWeek": 1,
+	"actualStartWeek": 1,
+	"plannedEndWeek": 7,
+	"actualEndWeek": 7,
+	"estimatedHours": 12.6,
+	"actualHours": 12.6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+
+{
+	"id": 1.3,
+	"name":"Weekly meetings",
+	"weekSaved": 0,
+	"plannedStartWeek": 1,
+	"actualStartWeek": 2,
+	"plannedEndWeek": 10,
+	"actualEndWeek": 10,
+	"estimatedHours": 60,
+	"actualHours": 0,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+
+{
+	"id": 1.4,
+	"name":"Risk list",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 6,
+	"plannedEndWeek": 6,
+	"actualEndWeek": 6,
+	"estimatedHours": 12,
+	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+
+{
+	"id": 2.1,
+	"name":"Creating class diagram",
+	"weekSaved": 0,
+	"plannedStartWeek": 1,
+	"actualStartWeek": 2,
+	"plannedEndWeek": 2,
+	"actualEndWeek": 3,
+	"estimatedHours": 6,
+	"actualHours": 12,
 	"teamMembersWorked": [
 	
  	{
