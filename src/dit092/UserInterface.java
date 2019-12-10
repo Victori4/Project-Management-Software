@@ -11,9 +11,29 @@ public class UserInterface {
     }
 
     public int showStartMenu() {
-        System.out.println("MENU\nPlease press 2 to see EV for week 1-2 or 0 to exit: ");
+        System.out.println(" === Welcome to The Project Management System === ");
+    	System.out.println(" Choose an option below: ");
+    	System.out.println(" ");
+    	System.out.println(" 1. Register an employee. ");
+    	System.out.println(" 2. EV for week 1-2. ");
+    	System.out.println(" 3. Retrieve an employee's info. ");
+    	System.out.println(" 4. Update employee information. ");
+    	System.out.println(" 5. Calculate total expenses from gross salaries. ");
+    	System.out.println(" 6. Calculate total expenses from net salaries. ");
+    	System.out.println(" 7. Print the total number of employees. ");
+    	System.out.println(" 8. Calculate Cost Performance Index. ");
+    	System.out.println(" 9.  ");
+    	System.out.println(" 10.  ");
+    	System.out.println(" 11. ");
+    	System.out.println(" 12. ");
+    	System.out.println(" 13. ");
+    	System.out.println(" 14. Calculate Total Salary. ");
+    	System.out.println(" 15. Calculate Total Time Spent. ");
+
+    	System.out.println(" 0. Quit this program. ");
         return scanner.nextInt();
     }
+    
 
     public int showEarnedValue(double ev) {
         System.out.print("EV: " + ev + " SEK.");
