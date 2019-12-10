@@ -39,11 +39,11 @@ public class ProjectManagement {
         
         this.team = new Team (1, testTeamMembers);
         
-        Task task1 = new Task(1, "One", 1, 1, 1,
+        Task task1 = new Task("1", "One", 1, 1, 1,
                 2, 2, 10, 10, testTeamMembers);
-        Task task2 = new Task(2, "Two",1, 2, 2,
+        Task task2 = new Task("2", "Two",1, 2, 2,
                 2,2, 5, 5, testTeamMembers);
-        Task task3 = new Task(3, "Three",1, 3, 3,
+        Task task3 = new Task("3", "Three",1, 3, 3,
                 4, 4, 5, 5, testTeamMembers);
         
         testTasks.add(task1);
