@@ -688,6 +688,545 @@
   	]
   }
   
+   {
+	"id": "3.7.2",
+	"name":"Risk matrix/planning",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 6,
+	"plannedEndWeek": 5,
+	"actualEndWeek": 6,
+	"estimatedHours": 1,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	}
+  	]
+  }
   
+   {
+	"id": "3.8",
+	"name":"Project management controller",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 6,
+	"plannedEndWeek": 5,
+	"actualEndWeek": 6,
+	"estimatedHours": 6,
+	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
   
+   {
+	"id": "3.8",
+	"name":"Project management controller",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 6,
+	"plannedEndWeek": 5,
+	"actualEndWeek": 6,
+	"estimatedHours": 6,
+	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
   
+   {
+	"id": "3.9",
+	"name":"User interface",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 5,
+	"plannedEndWeek": 7,
+	"actualEndWeek": 7,
+	"estimatedHours": 6,
+	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": "4.1",
+	"name":"Unit testing",
+	"weekSaved": 0,
+	"plannedStartWeek": 4,
+	"actualStartWeek": 6,
+	"plannedEndWeek": 7,
+	"actualEndWeek": 6,
+	"estimatedHours": 1,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	}
+  	]
+  }
+  
+   {
+	"id": "4.2",
+	"name":"Integration testing",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 6,
+	"plannedEndWeek": 7,
+	"actualEndWeek": 10,
+	"estimatedHours": 6,
+	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+  {
+	"id": "4.3",
+	"name":"System testing",
+	"weekSaved": 0,
+	"plannedStartWeek": 7,
+	"actualStartWeek": 7,
+	"plannedEndWeek": 7,
+	"actualEndWeek": 7,
+	"estimatedHours": 12,
+	"actualHours": 12,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+  {
+	"id": "4.4",
+	"name":"Bug fixing",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 7,
+	"plannedEndWeek": 10,
+	"actualEndWeek": 10,
+	"estimatedHours": 6,
+	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+  {
+	"id": "5.1",
+	"name":"Assignment 1",
+	"weekSaved": 0,
+	"plannedStartWeek": 3,
+	"actualStartWeek": 3,
+	"plannedEndWeek": 4,
+	"actualEndWeek": 4,
+	"estimatedHours": 36,
+	"actualHours": 36,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": "5.2",
+	"name":"Assignment 2",
+	"weekSaved": 0,
+	"plannedStartWeek": 5,
+	"actualStartWeek": 6,
+	"plannedEndWeek": 6,
+	"actualEndWeek": 6,
+	"estimatedHours": 36,
+	"actualHours": 36,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": "5.3",
+	"name":"User manual",
+	"weekSaved": 0,
+	"plannedStartWeek": 7,
+	"actualStartWeek": 7,
+	"plannedEndWeek": 10,
+	"actualEndWeek": 10,
+	"estimatedHours": 12,
+	"actualHours": 12,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": "5.4",
+	"name":"Final acceptance test",
+	"weekSaved": 0,
+	"plannedStartWeek": 10,
+	"actualStartWeek": 10,
+	"plannedEndWeek": 10,
+	"actualEndWeek": 10,
+	"estimatedHours": 1,8,
+	"actualHours": 1,8,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
+  
+   {
+	"id": "5.5",
+	"name":"Project demo/presentation",
+	"weekSaved": 0,
+	"plannedStartWeek": 10,
+	"actualStartWeek": 10,
+	"plannedEndWeek": 10,
+	"actualEndWeek": 10,
+	"estimatedHours": 1,98,
+	"actualHours": 1,98,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+  }
