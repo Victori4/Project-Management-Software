@@ -21,12 +21,17 @@ public class UserInterface {
     	System.out.println(" 5. ");
     	System.out.println(" 6. ");
     	System.out.println(" 7. Calculate Budget At Completion");
+    	System.out.println(" 3. Retrieve an employee's info. ");
+    	System.out.println(" 4. Update employee information. ");
+    	System.out.println(" 5. Calculate total expenses from gross salaries. ");
+    	System.out.println(" 6. Calculate actual cost. ");
+    	System.out.println(" 7. Print the total number of employees. ");
     	System.out.println(" 8. Calculate Cost Performance Index. ");
     	System.out.println(" 9. Caculate Schedule Performance Index. ");
     	System.out.println(" 10.  ");
     	System.out.println(" 11. ");
-    	System.out.println(" 12. ");
-    	System.out.println(" 13. ");
+    	System.out.println(" 12. Search team member by ID to see time spent. ");
+    	System.out.println(" 13. Search team member by ID to see which tasks the member has worked on. ");
     	System.out.println(" 14. Calculate Total Salary. ");
     	System.out.println(" 15. Calculate Total Time Spent. ");
 
