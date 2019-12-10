@@ -25,8 +25,8 @@ public class UserInterface {
     	System.out.println(" 9.  ");
     	System.out.println(" 10.  ");
     	System.out.println(" 11. ");
-    	System.out.println(" 12. ");
-    	System.out.println(" 13. ");
+    	System.out.println(" 12. Search team member by ID to see time spent. ");
+    	System.out.println(" 13. Search team member by ID to see which tasks the member has worked on. ");
     	System.out.println(" 14. Calculate Total Salary. ");
     	System.out.println(" 15. Calculate Total Time Spent. ");
 
