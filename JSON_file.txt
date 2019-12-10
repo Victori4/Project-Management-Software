@@ -42,7 +42,7 @@
 
 
 {
-	"id": 1.1,
+	"id": "1.1",
 	"name": "Trello",
 	"weekSaved": 0,
 	"plannedStartWeek": 1,
@@ -94,7 +94,7 @@
   
 
 {
-	"id": 1.2,
+	"id": "1.2",
 	"name":"TA meetings",
 	"weekSaved": 0,
 	"plannedStartWeek": 1,
@@ -146,7 +146,7 @@
   
 
 {
-	"id": 1.3,
+	"id": "1.3",
 	"name":"Weekly meetings",
 	"weekSaved": 0,
 	"plannedStartWeek": 1,
@@ -198,7 +198,7 @@
   
 
 {
-	"id": 1.4,
+	"id": "1.4",
 	"name":"Risk list",
 	"weekSaved": 0,
 	"plannedStartWeek": 5,
@@ -250,7 +250,7 @@
   
 
 {
-	"id": 2.1,
+	"id": "2.1",
 	"name":"Creating class diagram",
 	"weekSaved": 0,
 	"plannedStartWeek": 1,
@@ -301,7 +301,7 @@
   }
   
   {
-	"id": 2.2,
+	"id": "2.2",
 	"name":"Updating class diagram",
 	"weekSaved": 0,
 	"plannedStartWeek": 5,
@@ -322,7 +322,7 @@
   }
   
   {
-	"id": 3.1,
+	"id": "3.1",
 	"name":"Creating classes and project structure",
 	"weekSaved": 0,
 	"plannedStartWeek": 4,
@@ -343,7 +343,7 @@
   }
   
   {
-	"id": 3.2.1,
+	"id": "3.2.1",
 	"name":"Calculate salary",
 	"weekSaved": 0,
 	"plannedStartWeek": 4,
@@ -364,7 +364,7 @@
   }
   
    {
-	"id": 3.3.1,
+	"id": "3.3.1",
 	"name":"Find member by ID",
 	"weekSaved": 0,
 	"plannedStartWeek": 4,
@@ -385,7 +385,7 @@
   }
   
    {
-	"id": 3.3.2,
+	"id": "3.3.2",
 	"name":"Calculate total time spent",
 	"weekSaved": 0,
 	"plannedStartWeek": 4,
@@ -406,7 +406,7 @@
   }
   
    {
-	"id": 3.3.3,
+	"id": "3.3.3",
 	"name":"Calculate total salary",
 	"weekSaved": 0,
 	"plannedStartWeek": 4,
@@ -427,7 +427,7 @@
   }
   
    {
-	"id": 3.4,
+	"id": "3.4",
 	"name":"Creating Task Class",
 	"weekSaved": 0,
 	"plannedStartWeek": 4,
@@ -448,7 +448,7 @@
   }
   
    {
-	"id": 3.5.1,
+	"id": "3.5.1",
 	"name":"Calculate budget at completion",
 	"weekSaved": 0,
 	"plannedStartWeek": 4,
@@ -467,3 +467,7 @@
   	}
   	]
   }
+  
+  
+  
+  
