@@ -36,7 +36,7 @@ public class Project {
             }
         }
 
-        return totalEstimatedHours * TeamMember.getHOURLY_RATE();
+        return totalEstimatedHours * TeamMember.HOURLY_RATE;
     }
 
     //According to a website, actual cost is just how much has been spent until that certain point.
@@ -45,7 +45,7 @@ public class Project {
     	double actualCost = 0.0;
     	
     	for (Task task : tasks) {
-    		actualCost = task.getActualHours() * TeamMember.getHOURLY_RATE();
+    		actualCost = task.getActualHours() * TeamMember.HOURLY_RATE;
     	}
     	return actualCost;
     }
@@ -54,7 +54,7 @@ public class Project {
 
 		double budgetAtCompletion = 0.0;
 		for (Task task : tasks) {
-			budgetAtCompletion = budgetAtCompletion + (task.getEstimatedHours() * TeamMember.getHOURLY_RATE());
+			budgetAtCompletion = budgetAtCompletion + (task.getEstimatedHours() * TeamMember.HOURLY_RATE);
 		}
 		return budgetAtCompletion;
 	}
