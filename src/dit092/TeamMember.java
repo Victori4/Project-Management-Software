@@ -10,11 +10,18 @@ public class TeamMember {
 	public static final double HOURLY_RATE = 250;
 	private ArrayList<Task> tasks;
 	
-	public TeamMember (int id, String name, double timeSpent, ArrayList<Task> tasks) {
+	public TeamMember(int id, String name, double timeSpent, ArrayList<Task> tasks) {
 		this.id = id;
 		this.name = name;
 		this.timeSpent = timeSpent;
 		this.tasks = tasks;
+	}
+
+	public TeamMember(int id, String name, double timeSpent) {
+		this.id = id;
+		setName(name);
+		setTimeSpent(timeSpent);
+		tasks = new ArrayList<Task>();
 	}
 
 	public double calculateSalary(double timeSpent) {
