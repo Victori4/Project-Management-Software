@@ -103,4 +103,14 @@ public class Task {
     public void setTeamMembersWorked(ArrayList<TeamMember> teamMembersWorked) {
         this.teamMembersWorked = teamMembersWorked;
     }
+    
+    public double calculateTotalPlannedHours() {
+    	double totalHours = estimatedHours * this.calculateTotalPlannedWeeks();
+    	return totalHours;
+    }
+
+    public int calculateTotalPlannedWeeks() {
+    	int totalWeeks = (plannedEndWeek + plannedStartWeek) + 1;
+    	return totalWeeks;
+    }
 }
