@@ -1,16 +1,20 @@
 package dit092;
 
+import java.util.ArrayList;
+
 public class TeamMember {
 	
 	private int id;
 	private String name;
 	private double timeSpent;
 	private static final double HOURLY_RATE = 250; //public?
+	private ArrayList<Task> tasks;
 	
-	public TeamMember (int id, String name, double timeSpent) {
+	public TeamMember (int id, String name, double timeSpent, ArrayList<Task> tasks) {
 		this.id = id;
 		this.name = name;
 		this.timeSpent = timeSpent;
+		this.tasks = tasks;
 	}
 
 	public double calculateSalary(double timeSpent) {
@@ -40,7 +44,16 @@ public class TeamMember {
 		return HOURLY_RATE;
 	}
 	
+	public String getTaskString() {
+		String allTasks = "";
+		for (Task task : tasks) {
+			allTasks = allTasks + task.getTaskName() + "\n";
+		}
+		return allTasks;
+	}
+	
 	public String toString() {
-		return "ID: " + id + "\nName: " + name + "\nTotal time spent: " + timeSpent + "\nPaid for whole project: " + calculateSalary(timeSpent);
+		return "ID: " + getId() + "\nName: " + getName() + "\nHours worked: " + getTimeSpent() + 
+				"\nActivities worked on:" + getTaskString();
 	}
 }
