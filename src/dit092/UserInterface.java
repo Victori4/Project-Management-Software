@@ -15,7 +15,7 @@ public class UserInterface {
     	System.out.println(" Choose an option below: ");
     	System.out.println(" ");
     	System.out.println(" 1.  ");
-    	System.out.println(" 2. EV for week 1-2. ");
+    	System.out.println(" 2. Get Earned Value calculations");
     	System.out.println(" 3. Calculate Schedule Variance. ");
     	System.out.println(" 4. Calculate Cost Variance. ");
     	System.out.println(" 5. ");
