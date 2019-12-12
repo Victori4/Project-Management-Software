@@ -30,7 +30,10 @@ public class Project {
         double totalEstimatedHours = 0;
 
         for (Task task : tasks) {
-            if (task.getActualStartWeek() <= week) {
+        	//If statement needs testing to see if it includes the correct weeks.
+			//Should be all tasks started before the week and the actual week and all tasks completed before that week
+			//and during that week
+            if (task.getActualStartWeek() <= week && task.getActualEndWeek() <= week) {
 				totalEstimatedHours = totalEstimatedHours + task.getEstimatedHours();
             }
         }
