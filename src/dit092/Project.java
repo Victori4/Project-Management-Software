@@ -21,17 +21,16 @@ public class Project {
     }
 
     /**
-	 * Returns the budgeted cost of work performed, for the weeks specified in the params, by adding up all estimated/
-	 * budgeted hours for each task that is started within the specified weeks.
+	 * Returns the budgeted cost of work performed, for the week specified in the params, by adding up all estimated/
+	 * budgeted hours for each task that is started before that week (the week specified is included).
 	 *
      * @return double Earned Value
      */
-    public double calculateEarnedValue(int firstWeekToCompare, int lastWeekToCompare) {
+    public double calculateEarnedValue(int week) {
         double totalEstimatedHours = 0;
 
         for (Task task : tasks) {
-        	//Perhaps remove the last = depending on if we want the last week to be included or not
-            if (task.getActualStartWeek() >= firstWeekToCompare && task.getActualStartWeek() <= lastWeekToCompare) {
+            if (task.getActualStartWeek() <= week) {
 				totalEstimatedHours = totalEstimatedHours + task.getEstimatedHours();
             }
         }
@@ -59,24 +58,24 @@ public class Project {
 		return budgetAtCompletion;
 	}
 
-	public double calculateCostPerformanceIndex (int firstWeekToCompare, int lastWeekToCompare) {
-		double cPI = calculateEarnedValue(firstWeekToCompare, lastWeekToCompare)/calculateActualCost();
+	public double calculateCostPerformanceIndex (int week) {
+		double cPI = calculateEarnedValue(week)/calculateActualCost();
 		return cPI;
 	}
 	
-	public double calculateCostVariance(int firstWeekToCompare, int lastWeekToCompare) {
-		double cv = calculateEarnedValue(firstWeekToCompare, lastWeekToCompare) - calculateActualCost();
+	public double calculateCostVariance(int week) {
+		double cv = calculateEarnedValue(week) - calculateActualCost();
 		return cv;		
 	}
 	
-	public double calculateScheduleVariance (int firstWeekToCompare, int lastWeekToCompare) {
-		double sv = calculateEarnedValue(firstWeekToCompare, lastWeekToCompare) - calculatePlannedValue();
+	public double calculateScheduleVariance (int week) {
+		double sv = calculateEarnedValue(week) - calculatePlannedValue();
 		return sv;
 	}
 	
 	//I don't know if this is the right thing to but I put down what I have so far
-	public double calculateSchedulePerformanceIndex(int startWeek, int endWeek) {
-		double sPI = calculateEarnedValue(startWeek, endWeek) / calculatePlannedValue();
+	public double calculateSchedulePerformanceIndex(int week) {
+		double sPI = calculateEarnedValue(week) / calculatePlannedValue();
 		return sPI;
 	}
  
