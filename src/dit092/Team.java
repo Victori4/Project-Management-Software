@@ -44,10 +44,6 @@ package dit092;
 			return null;
 		}	
 		
-		public String toString() {
-			return "A"; //ID: " + getId() + "\nName: " + TeamMember.getName() + "\nHours worked: " + TeamMember.getTimeSpent() + 
-		//			"\nActivities worked on:" + Task.getTaskName();
-		}
 		
 		public int getId() {
 			return id;
