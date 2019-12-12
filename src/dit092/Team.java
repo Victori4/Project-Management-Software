@@ -13,7 +13,14 @@ package dit092;
 		}
 		
 		
-
+	//Weak attempt at calculating time spent on project per team member - iterate through array and print every member with 
+		//their corresponding time spent, don't think printing should be here?
+		public void displayTimeSpentPerMember () {
+			for (TeamMember member : members) {
+			System.out.println(member + ": " + member.getTimeSpent() + System.lineSeparator());
+			}
+		}
+		
 //total salary of all members on this team using enhanced for loop
 		public double calculateTotalSalary (ArrayList <TeamMember> members) {
 		double sum = 0;
