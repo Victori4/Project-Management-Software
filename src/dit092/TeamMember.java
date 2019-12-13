@@ -1,16 +1,27 @@
 package dit092;
 
+import java.util.ArrayList;
+
 public class TeamMember {
 	
 	private int id;
 	private String name;
 	private double timeSpent;
-	private static final double HOURLY_RATE = 250; //public?
+	public static final double HOURLY_RATE = 250;
+	private ArrayList<Task> tasks;
 	
-	public TeamMember (int id, String name, double timeSpent) {
+	public TeamMember(int id, String name, double timeSpent, ArrayList<Task> tasks) {
 		this.id = id;
 		this.name = name;
 		this.timeSpent = timeSpent;
+		this.tasks = tasks;
+	}
+
+	public TeamMember(int id, String name, double timeSpent) {
+		this.id = id;
+		setName(name);
+		setTimeSpent(timeSpent);
+		tasks = new ArrayList<Task>();
 	}
 
 	public double calculateSalary(double timeSpent) {
@@ -19,28 +30,38 @@ public class TeamMember {
 	}
 
 	/**
-	 * Validate parameters for the set methods & throw exceptions where neeeded
+	 * Validate parameters for the set methods & throw exceptions where needed
 	 */
 	public int getId() {
 		return id;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public double getTimeSpent() {
 		return timeSpent;
 	}
+
 	public void setTimeSpent(double timeSpent) {
 		this.timeSpent = timeSpent;
 	}
-	public static double getHOURLY_RATE() {
-		return HOURLY_RATE;
+	
+	public String getTaskString() {
+		String allTasks = "";
+		for (Task task : tasks) {
+			allTasks = allTasks + task.getTaskName() + "\n";
+		}
+		return allTasks;
 	}
 	
 	public String toString() {
-		return "ID: " + id + "\nName: " + name + "\nTotal time spent: " + timeSpent + "\nPaid for whole project: " + calculateSalary(timeSpent);
+		return "ID: " + getId() + "\nName: " + getName() + "\nHours worked: " + getTimeSpent() + 
+				"\nActivities worked on:" + getTaskString();
 	}
 }

@@ -25,7 +25,21 @@ public class Task {
         setActualEndWeek(actualEndWeek);
         setEstimatedHours(estimatedHours);
         setActualHours(actualHours);
-        setTeamMembersWorked(teamMembersWorked);
+        setTeamMembersWorked(teamMembersWorked); //Do we really need a setter for this one?
+    }
+
+    public Task(String id, String taskName, int weekSaved, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
+                int actualEndWeek, double estimatedHours, double actualHours) {
+        this.id = id;
+        setTaskName(taskName);
+        setWeekSaved(weekSaved);
+        setPlannedStartWeek(plannedStartWeek);
+        setActualStartWeek(actualStartWeek);
+        setPlannedEndWeek(plannedEndWeek);
+        setActualEndWeek(actualEndWeek);
+        setEstimatedHours(estimatedHours);
+        setActualHours(actualHours);
+        setTeamMembersWorked(new ArrayList<TeamMember>()); //Empty array of team members, do we really need a setter?
     }
 
     public String getId() {

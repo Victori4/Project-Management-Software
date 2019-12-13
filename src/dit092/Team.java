@@ -13,7 +13,14 @@ package dit092;
 		}
 		
 		
-
+	//Weak attempt at calculating time spent on project per team member - iterate through array and print every member with 
+		//their corresponding time spent, don't think printing should be here?
+		public void displayTimeSpentPerMember () {
+			for (TeamMember member : members) {
+			System.out.println(member + ": " + member.getTimeSpent() + System.lineSeparator());
+			}
+		}
+		
 //total salary of all members on this team using enhanced for loop
 		public double calculateTotalSalary (ArrayList <TeamMember> members) {
 		double sum = 0;
@@ -44,9 +51,14 @@ package dit092;
 			return null;
 		}	
 		
-		public String toString() {
-			return "A"; //ID: " + getId() + "\nName: " + TeamMember.getName() + "\nHours worked: " + TeamMember.getTimeSpent() + 
-		//			"\nActivities worked on:" + Task.getTaskName();
+		//method to allow searching for specific member and displaying their time spent
+		public double findMemberTimeSpent(int id) {
+			for (TeamMember oneMember : members) {
+				if (oneMember.getId() == id) {
+					return oneMember.getTimeSpent();
+				}
+			}
+			return 0;
 		}
 		
 		public int getId() {

@@ -28,6 +28,9 @@ To create an Eclipse-project in the repository go through the following steps:
 	If there is, update .gitignore with those files or inform the group of this
 9. The project should now be open in Eclipse and ready for you to work on  
 Make sure to put code in the src/dit092-package  
+
+## Setting up JSON.simple
+https://stackoverflow.com/a/8997703
   
 ## Useful git commands  
 `git pull`  

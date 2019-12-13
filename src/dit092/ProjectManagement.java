@@ -65,12 +65,11 @@ public class ProjectManagement {
                     break;
                     
                 case EV:
-                    //Obviously get the weeks some other way, perhaps getEarnedValue() which could return a string?
-                    userInput = view.showEarnedValue(project.calculateEarnedValue(1,2));
+                    userInput = view.showEarnedValue(project.calculateEarnedValue(2));
                     break;
                     
                 case CPI:
-                	userInput = view.showCostPerformanceIndex(project.calculateCostPerformanceIndex(1, 2));
+                	userInput = view.showCostPerformanceIndex(project.calculateCostPerformanceIndex(2));
                 	break;
                 	
                 case TOTAL_SALARY:
