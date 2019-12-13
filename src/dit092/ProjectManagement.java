@@ -67,10 +67,50 @@ public class ProjectManagement {
                     userInput = view.showEarnedValue(project.calculateEarnedValue(2));
                     break;
                     
+                case SV:
+                	userInput = 0;
+                    break;
+                   
+                case CV:
+                	userInput = 0;
+                    break;
+                    
+                case PV:
+                	userInput = 0;
+                    break;
+                    
+                case AC:
+                	userInput = 0;
+                    break;
+                    
+                case BAC:
+                	userInput = 0;
+                    break;
+                    
                 case CPI:
                 	userInput = view.showCostPerformanceIndex(project.calculateCostPerformanceIndex(2));
                 	break;
                 	
+                case SPI:
+                	userInput = 0;
+                    break;
+                	
+                case RISK_MATRIX:
+                	userInput = 0;
+                    break;
+                    
+                case PROJECT_SCHEDULE:
+                	userInput = 0;
+                    break;
+                    
+                case SEARCH_TEAM_MEMBER_HOURS_BY_ID:
+                	userInput = 0;
+                    break;
+                    
+                case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
+                	userInput = 0;
+                    break;
+                    
                 case TOTAL_SALARY:
                 	userInput = view.showTotalTeamSalary(team.calculateTotalTeamSalary(team.getMembers()));
                 	break;
