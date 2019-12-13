@@ -14,10 +14,32 @@ public class Project {
 
     /**
      * Making sure it compiles! Please feel free to finish the method and edit this comment!
-     * @return
+     * @return double Planned Value
+     * TODO Ella
      */
-    public double calculatePlannedValue() {
-        return 0;
+    public double calculatePlannedValue(int week) {
+    	double plannedValue = 0;
+    	
+    	/* ArrayList<Task> plannedTasks = new ArrayList<Task>();
+    	ArrayList<Task> unfinishedTasks = new ArrayList<Task>();
+    	ArrayList<Task> finishedTasks = new ArrayList<Task>();
+        
+    	//Collects all the tasks that are planned to be started at  param week
+    	for (Task task : tasks) {
+        	if (task.getPlannedStartWeek() <= week) {
+        		plannedTasks.add(task);
+        	}
+        }
+    	*/
+    	
+    	//Collects all the tasks that are planned to be finished by param week
+    	for (Task task : tasks) {
+    		if (task.getPlannedEndWeek() <= week) {
+    			plannedValue = plannedValue + task.calculatePlannedCost();
+    		}
+    	}
+    	
+    	return plannedValue;
     }
 
     /**
@@ -70,13 +92,13 @@ public class Project {
 	}
 	
 	public double calculateScheduleVariance (int firstWeekToCompare, int lastWeekToCompare) {
-		double sv = calculateEarnedValue(firstWeekToCompare, lastWeekToCompare) - calculatePlannedValue();
+		double sv = calculateEarnedValue(firstWeekToCompare, lastWeekToCompare) - calculatePlannedValue(lastWeekToCompare);
 		return sv;
 	}
 	
 	//I don't know if this is the right thing to but I put down what I have so far
 	public double calculateSchedulePerformanceIndex(int startWeek, int endWeek) {
-		double sPI = calculateEarnedValue(startWeek, endWeek) / calculatePlannedValue();
+		double sPI = calculateEarnedValue(startWeek, endWeek) / calculatePlannedValue(endWeek);
 		return sPI;
 	}
  
