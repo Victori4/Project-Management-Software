@@ -127,4 +127,11 @@ public class Task {
     	int totalWeeks = (plannedEndWeek + plannedStartWeek) + 1;
     	return totalWeeks;
     }
+    
+    public double calculatePlannedCost() {
+    	int teamSize = teamMembersWorked.size();
+    	double plannedCost = teamSize * TeamMember.getHOURLY_RATE();
+    	
+    	return plannedCost;
+    }
 }
