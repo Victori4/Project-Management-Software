@@ -1,5 +1,6 @@
 package dit092;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UserInterface {
@@ -96,4 +97,13 @@ public class UserInterface {
     	System.out.println("Cost variance: " + cv);
     	return scanner.nextInt();
     }
+    
+  //Weak attempt at calculating time spent on project per team member - iterate through array and print every member with 
+  		//their corresponding time spent
+  		public void showTimeSpentPerMember (ArrayList<TeamMember> members) {
+  			for (TeamMember member : members) {
+  			System.out.println(member + ": " + member.getTimeSpent() + System.lineSeparator());
+  			}
+  		}
+  		
 }
