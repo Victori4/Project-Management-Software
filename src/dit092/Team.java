@@ -14,7 +14,7 @@ package dit092;
 		
 		
 //total salary of all members on this team using enhanced for loop
-		public double calculateTotalSalary (ArrayList <TeamMember> members) {
+		public double calculateTotalTeamSalary (ArrayList <TeamMember> members) {
 		double sum = 0;
 		for (TeamMember member : members) {
 		sum = sum + member.calculateSalary(member.getTimeSpent());
@@ -24,7 +24,7 @@ package dit092;
 		
 
 //total time spent of all members using enhanced for loop
-		public double calculateTotalTimeSpent(ArrayList <TeamMember> members) {
+		public double calculateTotalTeamTimeSpent(ArrayList <TeamMember> members) {
 			double totalTime = 0;
 			for (TeamMember member : members) {
 				totalTime = totalTime + member.getTimeSpent();

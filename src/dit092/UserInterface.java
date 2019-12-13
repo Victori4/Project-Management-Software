@@ -53,12 +53,12 @@ public class UserInterface {
     
     
     //Added below in case we wanted to print total salary and total time? Can delete if we do not want
-      public int showTotalSalary (double totalSal) {
+      public int showTotalTeamSalary (double totalSal) {
     	System.out.print("Total Salary: " + totalSal);
     	return scanner.nextInt();
     }
     
-    public int showTotalTime (double totalTime) {
+    public int showTotalTeamTime (double totalTime) {
     	System.out.print("Total time spent: " + totalTime);
     	return scanner.nextInt();
     }
