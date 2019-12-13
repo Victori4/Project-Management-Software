@@ -1196,6 +1196,72 @@
   	}
   	]
 
-{
-}
+	{
+		"id": 1,
+		"name": "Not being able to use GitLab successfully"
+		"probability": 2,
+		"impact": 5
+	}
+	{
+		"id": 2,
+		"name": "Not understanding how to use the JSON library"
+		"probability": 3,
+		"impact": 4
+	}
+ 
+	{
+		"id": 3,
+		"name": "Wrong estimates"
+		"probability": 4,
+		"impact": 1
+	}
+	
+	{
+		"id": 4,
+		"name": "Understanding the code design"
+		"probability": 2,
+		"impact": 2
+	}
+
+	{
+		"id": 5,
+		"name": "Poor time management"
+		"probability": 2,
+		"impact": 4
+	}
+
+	{
+		"id": 6,
+		"name": "Program does not work"
+		"probability": 1,
+		"impact": 5
+	}
+
+	{
+		"id": 7,
+		"name": "Have more than 3 bugs at completion"
+		"probability": 2,
+		"impact": 2
+	}
+
+	{
+		"id": 8,
+		"name": "Not understanding the requirements"
+		"probability": 2,
+		"impact": 5
+	}
+
+	{
+		"id": 9,
+		"name": "Equipment malfunctions"
+		"probability": 1,
+		"impact": 2
+	}
+
+	{
+		"id": 10,
+		"name": "Attrition"
+		"probability": 2,
+		"impact": 3
+	}
   }
