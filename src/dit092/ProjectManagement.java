@@ -72,11 +72,11 @@ public class ProjectManagement {
                 	break;
                 	
                 case TOTAL_SALARY:
-                	userInput = view.showTotalSalary(team.calculateTotalSalary(team.getMembers()));
+                	userInput = view.showTotalTeamSalary(team.calculateTotalTeamSalary(team.getMembers()));
                 	break;
                 	
                 case TOTAL_TIME:
-                	userInput = view.showTotalTime(team.calculateTotalTimeSpent(team.getMembers()));
+                	userInput = view.showTotalTeamTime(team.calculateTotalTeamTimeSpent(team.getMembers()));
                 	break;
                 	
                 case EXIT:
