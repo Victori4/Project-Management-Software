@@ -1,11 +1,16 @@
 package dit092;
 
+/*
+ *TODO toString()
+ *TODO comparable interface
+ *TODO fix estimated hours from attribute to calculation
+ */
+
 import java.util.ArrayList;
 
 public class Task {
     private String id;
     private String taskName;
-    private int weekSaved; //Stats for the week, do we need this?
     private int plannedStartWeek;
     private int actualStartWeek;
     private int plannedEndWeek;
@@ -14,11 +19,10 @@ public class Task {
     private double actualHours; //Actual work spent on this task
     private ArrayList<TeamMember> teamMembersWorked;
 
-    public Task(String id, String taskName, int weekSaved, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
+    public Task(String id, String taskName, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
                 int actualEndWeek, double estimatedHours, double actualHours, ArrayList<TeamMember> teamMembersWorked) {
         this.id = id;
         setTaskName(taskName);
-        setWeekSaved(weekSaved);
         setPlannedStartWeek(plannedStartWeek);
         setActualStartWeek(actualStartWeek);
         setPlannedEndWeek(plannedEndWeek);
@@ -28,11 +32,10 @@ public class Task {
         setTeamMembersWorked(teamMembersWorked); //Do we really need a setter for this one?
     }
 
-    public Task(String id, String taskName, int weekSaved, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
+    public Task(String id, String taskName, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
                 int actualEndWeek, double estimatedHours, double actualHours) {
         this.id = id;
         setTaskName(taskName);
-        setWeekSaved(weekSaved);
         setPlannedStartWeek(plannedStartWeek);
         setActualStartWeek(actualStartWeek);
         setPlannedEndWeek(plannedEndWeek);
@@ -52,14 +55,6 @@ public class Task {
 
     public void setTaskName(String taskName) {
         this.taskName = taskName;
-    }
-
-    public int getWeekSaved() {
-        return weekSaved;
-    }
-
-    public void setWeekSaved(int weekSaved) {
-        this.weekSaved = weekSaved;
     }
 
     public int getPlannedStartWeek() {
@@ -130,7 +125,7 @@ public class Task {
     
     public double calculatePlannedCost() {
     	int teamSize = teamMembersWorked.size();
-    	double plannedCost = teamSize * TeamMember.getHOURLY_RATE();
+    	double plannedCost = teamSize * TeamMember.HOURLY_RATE;
     	
     	return plannedCost;
     }
