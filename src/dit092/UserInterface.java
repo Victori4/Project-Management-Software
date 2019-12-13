@@ -51,9 +51,7 @@ public class UserInterface {
     	return scanner.nextInt();
     }
     
-    
-    //Added below in case we wanted to print total salary and total time? Can delete if we do not want
-      public int showTotalTeamSalary (double totalSal) {
+          public int showTotalTeamSalary (double totalSal) {
     	System.out.print("Total Salary: " + totalSal);
     	return scanner.nextInt();
     }
@@ -104,5 +102,10 @@ public class UserInterface {
   			System.out.println(member + ": " + member.getTimeSpent() + System.lineSeparator());
   			}
   		}
+  		
+  		//prints time spent by member on certain team, fix if needed!
+		public void showMemberTimeSpentById(Team team, int id) {
+			System.out.println(id + ": " + team.findMemberTimeSpentById(id));
+		}
   		
 }
