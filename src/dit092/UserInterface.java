@@ -100,7 +100,7 @@ public class UserInterface {
     
   //Weak attempt at calculating time spent on project per team member - iterate through array and print every member with 
   		//their corresponding time spent
-  		public void showTimeSpentPerMember (ArrayList<TeamMember> members) {
+  		public void showTimeSpentAllMembers (ArrayList<TeamMember> members) {
   			for (TeamMember member : members) {
   			System.out.println(member + ": " + member.getTimeSpent() + System.lineSeparator());
   			}
