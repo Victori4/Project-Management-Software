@@ -94,7 +94,7 @@ public class Project {
 	}
 	
 	public double calculateScheduleVariance (int week) {
-		double sv = calculateEarnedValue(week) - calculatePlannedValue();
+		double sv = calculateEarnedValue(week) - calculatePlannedValue(week);
 
 		return sv;
 	}
@@ -102,7 +102,7 @@ public class Project {
 	//I don't know if this is the right thing to but I put down what I have so far
 
 	public double calculateSchedulePerformanceIndex(int week) {
-		double sPI = calculateEarnedValue(week) / calculatePlannedValue();
+		double sPI = calculateEarnedValue(week) / calculatePlannedValue(week);
 		return sPI;
 	}
  
