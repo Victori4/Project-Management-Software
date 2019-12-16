@@ -1,1 +1,63 @@
-hello
+TEAM AND TEAM MEMBERS
+{
+	"id": 1,
+	"members": [
+		{
+			"name": "Batman", 
+			"id": 1,
+			"timeSpent": 9,
+			"HOURLY_RATE": 250 
+		},
+ 		{
+			"name": "Robin", 
+			"id": 2,
+			"timeSpent": 10,
+			"HOURLY_RATE": 250 
+		}
+	]
+}
+
+PROJECT AND TASKS
+{
+	"team": team,
+		{
+		"id": 1,
+		"members": [
+			{
+				"name": "Batman", 
+				"id": 1,
+				"timeSpent": 9,
+				"HOURLY_RATE": 250 
+			},
+	 		{
+				"name": "Robin", 
+				"id": 2,
+				"timeSpent": 10,
+				"HOURLY_RATE": 250 
+			}
+		]
+	}
+	"tasks": [
+		{
+	"id": "1.1",
+	"name": "Trello",
+	"plannedStartWeek": 1,
+	"actualStartWeek": 2,
+	"plannedEndWeek": 10,  
+	"actualEndWeek": 10,
+	"estimatedHours": 6,
+	"actualHours": 6,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	}
