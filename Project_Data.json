@@ -1,3 +1,5 @@
+TEAM WITH ITS TEAM MEMBERS
+
 {
 	"id": 1,
 	"members": [
@@ -40,6 +42,8 @@
   ]
 }
 }
+
+TASKS WITH TEAM MEMBERS WORKED
 
 {
 	"id": "1.1",
@@ -955,7 +959,7 @@
 	"plannedEndWeek": 4,
 	"actualEndWeek": 4,
 	"estimatedHours": 36,
-	"actualHours": 36,
+	"actualHours": 6.738,
 	"teamMembersWorked": [
 	
  	{
@@ -1005,7 +1009,7 @@
 	"plannedEndWeek": 6,
 	"actualEndWeek": 6,
 	"estimatedHours": 36,
-	"actualHours": 36,
+	"actualHours": 4.087,
 	"teamMembersWorked": [
 	
  	{
@@ -1196,6 +1200,7 @@
   	}
   	]
 
+RISKS
 	{
 		"id": 1,
 		"name": "Not being able to use GitLab successfully"
