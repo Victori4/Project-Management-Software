@@ -257,7 +257,7 @@ TASKS WITH TEAM MEMBERS WORKED
 	"plannedEndWeek": 2,
 	"actualEndWeek": 3,
 	"estimatedHours": 6,
-	"actualHours": 12,
+	"actualHours": 3.1,
 	"teamMembersWorked": [
 	
  	{
@@ -1199,6 +1199,56 @@ TASKS WITH TEAM MEMBERS WORKED
 		"HOURLY_RATE": 250 
   	}
   	]
+}
+{
+	"id": "5.6",
+	"name":"Final report collaborative parts",
+	"plannedStartWeek": 10,
+	"actualStartWeek": 10,
+	"plannedEndWeek": 10,
+	"actualEndWeek": 10,
+	"estimatedHours": 1,
+	"actualHours": 1,
+	"teamMembersWorked": [
+	
+ 	{
+		"name": "Negin Hashmati", 
+		"id": 1,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+	},
+ 	{
+		"name": "Dominique Deramat", 
+		"id": 2,
+		"timeSpent": 10,
+		"HOURLY_RATE": 250 
+ 	},
+ 	{
+		"name": "Fayona Cowperthwaite", 
+		"id": 3,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+ 	{
+		"name": "Victoria Vu", 
+		"id": 4,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250
+  	},
+	{
+		"name": "Ella Alklid", 
+		"id": 5,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	},
+	{
+		"name": "Jennifer Nord", 
+		"id": 6,
+		"timeSpent": 9,
+		"HOURLY_RATE": 250 
+  	}
+  	]
+}
 
 RISKS
 	{
