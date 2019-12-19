@@ -1,4 +1,3 @@
-TEAM AND TEAM MEMBERS
 {
 	"id": 1,
 	"members": [
@@ -17,7 +16,6 @@ TEAM AND TEAM MEMBERS
 	]
 }
 
-PROJECT AND TASKS
 {
 	"team": team,
 		{
