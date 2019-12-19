@@ -5,7 +5,7 @@ package dit092;
  *TODO comparable interface
  *TODO fix estimated hours from attribute to calculation
  */
-public class Task {
+public class Task implements Comparable<Task> {
     private String ID;
     private String taskName;
     private int plannedStartWeek;
@@ -145,6 +145,11 @@ public class Task {
 	public String toString() {
 		return "ID: " + getID() + " Task: " + getTaskName() + " Start week: "
 				+ getPlannedStartWeek() + " End week: " + getPlannedEndWeek();
+	}
+
+	@Override
+	public int compareTo(Task otherTask) {
+		return this.getID().compareTo(otherTask.getID());
 	}
     
     
