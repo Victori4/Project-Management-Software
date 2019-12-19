@@ -28,8 +28,8 @@ public class UserInterface {
     	System.out.println(" 11. ");
     	System.out.println(" 12. Search team member by ID to see time spent. ");
     	System.out.println(" 13. Search team member by ID to see which tasks the member has worked on. ");
-    	System.out.println(" 14. Calculate Total Salary. ");
-    	System.out.println(" 15. Calculate Total Time Spent. ");
+    	System.out.println(" 14. Show Total Team Salary. ");
+    	System.out.println(" 15. Show Total Time Spent by all members. ");
 
     	System.out.println(" 0. Quit this program. ");
         return scanner.nextInt();
@@ -71,10 +71,6 @@ public class UserInterface {
     	return scanner.nextInt();
     }
 
-    public int showTeamMemberHoursById(int id) {
-    	System.out.println("Team member " + toString()); //not sure if correct, uncertain about the toString in Team class
-    	return scanner.nextInt();
-    }
     
     public int showTeamMemberActivitiesById(int id) {
     	System.out.println("Team member " + toString()); //not sure if correct, uncertain about the toString in Team class
