@@ -1,53 +1,31 @@
 package dit092;
 
+import java.util.ArrayList;
+
 public class RiskMatrix {
-
-	private double impact;
-	private double probability;
-	private double risk;
-	private String riskName;
+	ArrayList<Risk> risks;
 	
-	public RiskMatrix (double impact, double probability, double risk, String riskName) {
-		this.impact = impact;
-		this.probability = probability;
-		this.risk = risk;
-		this.riskName = riskName;
+	public RiskMatrix() {
+		risks = new ArrayList<Risk>();
 	}
 	
-	public double calculateRisk() {
-		risk = impact * probability;
-		return risk;
+	public RiskMatrix(Risk risk) {
+		risks = new ArrayList<Risk>();
+		risks.add(risk);
 	}
 	
-	public double getImpact() {
-		return impact;
+	public RiskMatrix(ArrayList<Risk> risks) {
+		risks = new ArrayList<Risk>();
+		risks.addAll(risks);
 	}
 	
-	public double getProbability() {
-		return probability;
-	}
-	
-	public double getRisk() {
-		return risk;
-	}
-	
-	public String getRiskName() {
-		return riskName;
-	}
-	
-	public void setImpact(double impact) {
-		this.impact = impact;
-	}
-	
-	public void setProbability(double probability) {
-		this.probability = probability;
-	}
-	
-	public void setRisk(double risk) {
-		this.risk = risk;
+	public void addRisk(Risk risk) {
+		risks.add(risk);
 	}
 
-	public void setRiskName(String riskName) {
-		this.riskName = riskName;
+	//TODO RiskMatrix toString()
+	@Override
+	public String toString() {
+		return "RiskMatrix [risks=" + risks + "]";
 	}
 }
