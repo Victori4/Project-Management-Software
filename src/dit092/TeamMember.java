@@ -6,21 +6,18 @@ public class TeamMember {
 	
 	private int id;
 	private String name;
-	private double timeSpent;
 	public static final double HOURLY_RATE = 250;
 	private ArrayList<Task> tasks;
 	
-	public TeamMember(int id, String name, double timeSpent, ArrayList<Task> tasks) {
+	public TeamMember(int id, String name, ArrayList<Task> tasks) {
 		this.id = id;
 		this.name = name;
-		this.timeSpent = timeSpent;
 		this.tasks = tasks;
 	}
 
-	public TeamMember(int id, String name, double timeSpent) {
+	public TeamMember(int id, String name) {
 		this.id = id;
 		setName(name);
-		setTimeSpent(timeSpent);
 		tasks = new ArrayList<Task>();
 	}
 
@@ -43,13 +40,14 @@ public class TeamMember {
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	public double getTimeSpent() {
+	
+	public double retrieveTimeSpent() {
+		double timeSpent = 0.0;
+		
+		for (Task task : tasks) {
+			timeSpent = timeSpent + task.getActualHours();
+		}
 		return timeSpent;
-	}
-
-	public void setTimeSpent(double timeSpent) {
-		this.timeSpent = timeSpent;
 	}
 	
 	public String getTaskString() {
@@ -61,7 +59,7 @@ public class TeamMember {
 	}
 	
 	public String toString() {
-		return "ID: " + getId() + "\nName: " + getName() + "\nHours worked: " + getTimeSpent() + 
+		return "ID: " + getId() + "\nName: " + getName() + "\nHours worked: " + retrieveTimeSpent() + 
 				"\nActivities worked on:" + getTaskString();
 	}
 }
