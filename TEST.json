@@ -1,11 +1,9 @@
-
 {
-	"team": 
-		{
+	"team": {
 		"id": 1,
 		"members": [
 			{
-				"name": "Batman", 
+				"name": "Batman",
 				"id": 1,
 				"HOURLY_RATE": 250,
 				"tasks": [
@@ -32,7 +30,7 @@
 				]
 			},
 			{
-				"name": "Robin", 
+				"name": "Robin",
 				"id": 2,
 				"HOURLY_RATE": 250,
 				"tasks": [
@@ -58,8 +56,11 @@
 					}
 				]
 			}
+		]
+	}
+}
 				
-				}
+
 						
 	
  
