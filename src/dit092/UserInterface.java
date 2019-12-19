@@ -95,7 +95,7 @@ public class UserInterface {
   //prints time spent of all individual members in team 
   		public void showTimeSpentAllMembers (ArrayList<TeamMember> members) {
   			for (TeamMember member : members) {
-  			System.out.println(member + ": " + member.getTimeSpent() + System.lineSeparator());
+  			System.out.println(member + ": " + member.retrieveTimeSpent() + System.lineSeparator());
   			}
   		}
   		
