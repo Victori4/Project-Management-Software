@@ -103,5 +103,10 @@ public class UserInterface {
 		public void showMemberTimeSpentById(Team team, int id) {
 			System.out.println(id + ": " + team.findMemberTimeSpentById(id));
 		}
+
+	public int promptUserInputInt() {
+		System.out.print("Please input an ID: ");
+		return scanner.nextInt();
+	}
   		
 }
