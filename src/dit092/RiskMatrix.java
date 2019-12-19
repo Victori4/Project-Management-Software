@@ -52,6 +52,16 @@ public class RiskMatrix {
 	//TODO RiskMatrix toString()
 	@Override
 	public String toString() {
-		return "RiskMatrix [risks=" + risks + "]";
+		String string  = "";
+		
+		//Labels
+		string = string + "ID:     Name:     Impact:     Probability:     Risk: " + "\n";
+		
+		//Lines of risks
+		for(Risk risk : risks) {
+			string = string + risk.toString() + "\n";
+		}
+		
+		return string;
 	}
 }
