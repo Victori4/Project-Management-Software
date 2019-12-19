@@ -4,6 +4,7 @@ package dit092;
  * Represents a risk in a project. Has a name, impact, probability and a calculated risk-value.
  */
 public class Risk {
+	private String ID;
 	private String riskName;
 	private double impact;
 	private double probability;
@@ -12,6 +13,7 @@ public class Risk {
 	 * Creates an empty, default risk
 	 */
 	public Risk() {
+		this.setID("");
 		this.setRiskName("");
 		this.setImpact(0.0);
 		this.setProbability(0.0);
@@ -24,7 +26,8 @@ public class Risk {
 	 * @param impact the impact of the risk
 	 * @param probability the probability of the risk
 	 */
-	public Risk(String riskName, double impact, double probability) {
+	public Risk(String ID, String riskName, double impact, double probability) {
+		this.setID(ID);
 		this.setRiskName(riskName);
 		this.setImpact(impact);
 		this.setProbability(probability);
@@ -39,6 +42,20 @@ public class Risk {
 		double risk;
 		risk = this.getImpact()* this.getProbability();
 		return risk;
+	}
+	
+	/**
+	 * @return the ID of the risk
+	 */
+	public String getID() {
+		return ID;
+	}
+
+	/**
+	 * @param ID the ID of the risk
+	 */
+	public void setID(String ID) {
+		this.ID = ID;
 	}
 
 	/**
