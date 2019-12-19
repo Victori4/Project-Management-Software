@@ -1,62 +1,64 @@
 {
-	"team": {
-		"id": 1,
-		"members": [
-			{
-				"name": "Batman",
-				"id": 1,
-				"HOURLY_RATE": 250,
-				"tasks": [
-					{
-						"id": 1,
-						"taskName": "Buy guns",
-						"plannedStartWeek": 2,
-						"actualStartWeek": 2,
-						"plannedEndWeek": 3,
-						"actualEndWeek": 3,
-						"estimatedHours": 3.5,
-						"actualHours": 3.5
-					},
-					{
-						"id": 2,
-						"taskName": "Buy bullets",
-						"plannedStartWeek": 4,
-						"actualStartWeek": 4,
-						"plannedEndWeek": 5,
-						"actualEndWeek": 5,
-						"estimatedHours": 5.5,
-						"actualHours": 5.5
-					}
-				]
-			},
-			{
-				"name": "Robin",
-				"id": 2,
-				"HOURLY_RATE": 250,
-				"tasks": [
-					{
-						"id": 1,
-						"taskName": "Buy guns",
-						"plannedStartWeek": 2,
-						"actualStartWeek": 2,
-						"plannedEndWeek": 3,
-						"actualEndWeek": 3,
-						"estimatedHours": 3.5,
-						"actualHours": 3.5
-					},
-					{
-						"id": 2,
-						"taskName": "Buy bullets",
-						"plannedStartWeek": 4,
-						"actualStartWeek": 4,
-						"plannedEndWeek": 5,
-						"actualEndWeek": 5,
-						"estimatedHours": 5.5,
-						"actualHours": 5.5
-					}
-				]
-			}
-		]
+	"project": {
+		"team": {
+			"id": 1,
+			"members": [
+				{
+					"name": "Batman",
+					"id": 1,
+					"HOURLY_RATE": 250,
+					"tasks": [
+						{
+							"id": 1,
+							"taskName": "Buy guns",
+							"plannedStartWeek": 2,
+							"actualStartWeek": 2,
+							"plannedEndWeek": 3,
+							"actualEndWeek": 3,
+							"estimatedHours": 3.5,
+							"actualHours": 3.5
+						},
+						{
+							"id": 2,
+							"taskName": "Buy bullets",
+							"plannedStartWeek": 4,
+							"actualStartWeek": 4,
+							"plannedEndWeek": 5,
+							"actualEndWeek": 5,
+							"estimatedHours": 5.5,
+							"actualHours": 5.5
+						}
+					]
+				},
+				{
+					"name": "Robin",
+					"id": 2,
+					"HOURLY_RATE": 250,
+					"tasks": [
+						{
+							"id": 1,
+							"taskName": "Buy guns",
+							"plannedStartWeek": 2,
+							"actualStartWeek": 2,
+							"plannedEndWeek": 3,
+							"actualEndWeek": 3,
+							"estimatedHours": 3.5,
+							"actualHours": 3.5
+						},
+						{
+							"id": 2,
+							"taskName": "Buy bullets",
+							"plannedStartWeek": 4,
+							"actualStartWeek": 4,
+							"plannedEndWeek": 5,
+							"actualEndWeek": 5,
+							"estimatedHours": 5.5,
+							"actualHours": 5.5
+						}
+					]
+				}
+			]
+		}
 	}
 }
 				
