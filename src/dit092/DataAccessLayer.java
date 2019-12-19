@@ -23,8 +23,9 @@ private final String filepath = "././TEST.json";
 		try (FileReader reader = new FileReader(filepath)){
 			Object jsonObject = jsonParser.parse(reader);
 			JSONObject parser = (JSONObject) jsonObject;
-			loadTeam(parser);
-			return null;
+			Team team = loadTeam(parser);
+
+			return new Project(team);
 		} catch(FileNotFoundException e) {
 			e.printStackTrace();
 		} catch(IOException e) {

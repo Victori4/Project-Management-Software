@@ -90,7 +90,7 @@ public class ProjectManagement {
                     break;
                     
                 case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
-                    TeamMember member = project.getTeam().findTeamMember(1);
+                    TeamMember member = project.getTeam().findTeamMember(1); //ASK USER TO INPUT THE ID INSTEAD!
                 	userInput = view.showTeamMemberActivitiesById(member);
                     break;
                     

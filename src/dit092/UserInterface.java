@@ -71,11 +71,11 @@ public class UserInterface {
     	return scanner.nextInt();
     }
 
-    
-    public int showTeamMemberActivitiesById(int id) {
-    	System.out.println("Team member " + toString()); //not sure if correct, uncertain about the toString in Team class
-    	return scanner.nextInt();
-    }
+
+	public int showTeamMemberActivitiesById(TeamMember member) {
+		System.out.println("Team member " + member.toString()); //not sure if correct, uncertain about the toString in Team class
+		return scanner.nextInt();
+	}
 
     public int showActualCost(double ac) {
     	System.out.println("Actual cost: " + ac);
