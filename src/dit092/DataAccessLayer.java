@@ -20,7 +20,8 @@ private final String filepath = "././TEST.json";
 		JSONParser jsonParser = new JSONParser();
 		try (FileReader reader = new FileReader(filepath)){
 			Object jsonObject = jsonParser.parse(reader);
-			Project project = (Project) jsonObject;
+			JSONObject hello = (JSONObject) jsonObject;
+			Project project = new Project((Team) hello.get("team"));
 			return project;
 		} catch(FileNotFoundException e) {
 			e.printStackTrace();
