@@ -6,7 +6,6 @@ package dit092;
  *TODO fix estimated hours from attribute to calculation
  */
 
-import java.util.ArrayList;
 
 public class Task {
     private String id;
@@ -17,9 +16,9 @@ public class Task {
     private int actualEndWeek;
     private double estimatedHours; //Estimated/budgeted hours
     private double actualHours; //Actual work spent on this task
-    private ArrayList<TeamMember> teamMembersWorked;
+    //private ArrayList<TeamMember> teamMembersWorked 
 
-    public Task(String id, String taskName, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
+    /*public Task(String id, String taskName, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
                 int actualEndWeek, double estimatedHours, double actualHours, ArrayList<TeamMember> teamMembersWorked) {
         this.id = id;
         setTaskName(taskName);
@@ -30,7 +29,7 @@ public class Task {
         setEstimatedHours(estimatedHours);
         setActualHours(actualHours);
         setTeamMembersWorked(teamMembersWorked); //Do we really need a setter for this one?
-    }
+    }*/
 
     public Task(String id, String taskName, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
                 int actualEndWeek, double estimatedHours, double actualHours) {
@@ -42,7 +41,7 @@ public class Task {
         setActualEndWeek(actualEndWeek);
         setEstimatedHours(estimatedHours);
         setActualHours(actualHours);
-        setTeamMembersWorked(new ArrayList<TeamMember>()); //Empty array of team members, do we really need a setter?
+       // setTeamMembersWorked(new ArrayList<TeamMember>()); //Empty array of team members, do we really need a setter?
     }
 
     public String getId() {
@@ -105,13 +104,13 @@ public class Task {
         this.actualHours = actualHours;
     }
 
-    public ArrayList<TeamMember> getTeamMembersWorked() {
+   /* public ArrayList<TeamMember> getTeamMembersWorked() {
         return teamMembersWorked;
     }
 
     public void setTeamMembersWorked(ArrayList<TeamMember> teamMembersWorked) {
         this.teamMembersWorked = teamMembersWorked;
-    }
+    }*/
     
     public double calculateTotalPlannedHours() {
     	double totalHours = estimatedHours * this.calculateTotalPlannedWeeks();
@@ -123,10 +122,13 @@ public class Task {
     	return totalWeeks;
     }
     
-    public double calculatePlannedCost() {
+      public double calculatePlannedCost() {
+    	    /*TODO rewrite
+
     	int teamSize = teamMembersWorked.size();
     	double plannedCost = teamSize * TeamMember.HOURLY_RATE;
     	
-    	return plannedCost;
+    	return plannedCost;*/
+    	  return 0.0;
     }
 }

@@ -65,6 +65,12 @@ package dit092;
 		public void setMembers(ArrayList<TeamMember> members) {
 			this.members = members;
 		}
+
+
+		public ArrayList<Task> getTasks() {
+			// TODO Auto-generated method stub
+			return null;
+		}
 	
 	}
 

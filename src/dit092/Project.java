@@ -4,11 +4,9 @@ import java.util.ArrayList;
 
 public class Project {
 
-    private ArrayList<Task> tasks;
     private Team team;
 
-    public Project(ArrayList<Task> tasks, Team team) {
-        this.tasks = tasks;
+    public Project(Team team) {
         this.team = team;
     }
 
@@ -19,7 +17,8 @@ public class Project {
      */
     public double calculatePlannedValue(int week) {
     	double plannedValue = 0;
-    	
+        ArrayList<Task> tasks = team.getTasks();
+
     	/* ArrayList<Task> plannedTasks = new ArrayList<Task>();
     	ArrayList<Task> unfinishedTasks = new ArrayList<Task>();
     	ArrayList<Task> finishedTasks = new ArrayList<Task>();
@@ -50,7 +49,8 @@ public class Project {
      */
     public double calculateEarnedValue(int week) {
         double totalEstimatedHours = 0;
-
+        ArrayList<Task> tasks = team.getTasks();
+        
         for (Task task : tasks) {
         	//If statement needs testing to see if it includes the correct weeks.
 			//Should be all tasks started before the week and the actual week and all tasks completed before that week
@@ -67,7 +67,8 @@ public class Project {
     //Leaving it as this for now because I cannot figure out how to finish it...
     public double calculateActualCost () {
     	double actualCost = 0.0;
-    	
+        ArrayList<Task> tasks = team.getTasks();
+        
     	for (Task task : tasks) {
     		actualCost = task.getActualHours() * TeamMember.HOURLY_RATE;
     	}
@@ -75,8 +76,9 @@ public class Project {
     }
 
 	public double calculateBudgetAtCompletion() {
-
 		double budgetAtCompletion = 0.0;
+        ArrayList<Task> tasks = team.getTasks();
+
 		for (Task task : tasks) {
 			budgetAtCompletion = budgetAtCompletion + (task.getEstimatedHours() * TeamMember.HOURLY_RATE);
 		}
@@ -104,6 +106,10 @@ public class Project {
 	public double calculateSchedulePerformanceIndex(int week) {
 		double sPI = calculateEarnedValue(week) / calculatePlannedValue(week);
 		return sPI;
+	}
+
+	public Team getTeam() {
+		return team;
 	}
  
 }

@@ -8,7 +8,6 @@ public class ProjectManagement {
     private UserInterface view;
     private DataAccessLayer data;
     private Project project;
-    private Team team;
 
     //Menu option
     //Added Total Salary and total time spent as well as team variable to ensure it works. If we do not want, can remove all.
@@ -34,22 +33,6 @@ public class ProjectManagement {
         this.view = new UserInterface();
         this.data = new DataAccessLayer(); //Send file path in here?
 
-        ArrayList<Task> testTasks = new ArrayList<Task>();
-        ArrayList<TeamMember> testTeamMembers = new ArrayList<TeamMember>();
-        
-        this.team = new Team (1, testTeamMembers);
-        
-        Task task1 = new Task("1", "One", 1, 1, 2, 2, 10, 10, testTeamMembers);
-        Task task2 = new Task("2", "Two",1, 2,
-                2,2, 5, 5, testTeamMembers);
-        Task task3 = new Task("3", "Three",1, 3,
-                4, 4, 5, 5, testTeamMembers);
-        
-        testTasks.add(task1);
-        testTasks.add(task2);
-        testTasks.add(task3);
-        
-        this.project = new Project(testTasks, team);
         //this.project = data.loadProject(); ?
     }
 
@@ -112,11 +95,11 @@ public class ProjectManagement {
                     break;
                     
                 case TOTAL_SALARY:
-                	userInput = view.showTotalTeamSalary(team.calculateTotalTeamSalary(team.getMembers()));
+                	userInput = view.showTotalTeamSalary(project.getTeam().calculateTotalTeamSalary(project.getTeam().getMembers()));
                 	break;
                 	
                 case TOTAL_TIME:
-                	userInput = view.showTotalTeamTime(team.calculateTotalTeamTimeSpent(team.getMembers()));
+                	userInput = view.showTotalTeamTime(project.getTeam().calculateTotalTeamTimeSpent(project.getTeam().getMembers()));
                 	break;
                 	
                 case EXIT:
