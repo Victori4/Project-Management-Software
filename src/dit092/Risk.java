@@ -11,6 +11,12 @@ public class Risk {
 		this.impact = impact;
 		this.probability = probability;
 	}
+	
+	public double calculateRisk() {
+		double risk;
+		risk = this.impact * this.probability;
+		return risk;
+	}
 
 	public String getRiskName() {
 		return riskName;
