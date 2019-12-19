@@ -1,26 +1,19 @@
 package dit092;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-
 import org.json.simple.parser.*;
 
-
 public class DataAccessLayer {
-private final String filepath = "././TEST.json";
-	
-	public DataAccessLayer () {
-		
-	}
-	
+	private final String filepath = "././TEST.json";
 	
 	public Project loadProject() {
 		JSONParser jsonParser = new JSONParser();
-		try (FileReader reader = new FileReader(filepath)){
+
+		try (FileReader reader = new FileReader(filepath)) {
 			Object jsonObject = jsonParser.parse(reader);
 			JSONObject parser = (JSONObject) jsonObject;
 			Team team = loadTeam(parser);
@@ -29,12 +22,12 @@ private final String filepath = "././TEST.json";
 		} catch(FileNotFoundException e) {
 			e.printStackTrace();
 		} catch(IOException e) {
-		e.printStackTrace();	
+			e.printStackTrace();
 		} catch(ParseException e) {
-		e.printStackTrace();	
-		}  
+			e.printStackTrace();
+		}
+
 		return null;
-	
 	}
 	
 	private Team loadTeam(JSONObject obj) {
