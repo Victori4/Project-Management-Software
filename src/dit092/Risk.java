@@ -99,14 +99,13 @@ public class Risk {
 	public void setProbability(double probability) {
 		this.probability = probability;
 	}
-	
-	//TODO Risk toString()	
+		
 	/**
-	 *
+	 * Represents a risk as a string, to be used in conjunction with the risk matrix
 	 */
 	@Override
 	public String toString() {
-		return "Risk [calculateRisk()=" + calculateRisk() + ", getRiskName()=" + getRiskName() + ", getImpact()="
-				+ getImpact() + ", getProbability()=" + getProbability() + "]";
+		String string = getID() + "   " + getRiskName() + "   " + getImpact() + "   " + getProbability() + "   " + calculateRisk();
+		return string;
 	}
 }

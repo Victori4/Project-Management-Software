@@ -1,39 +1,34 @@
 package dit092;
 
 /*
- *TODO toString()
+ * A representation of a task with ID, name and both planned/actual start/end weeks
  *TODO comparable interface
  *TODO fix estimated hours from attribute to calculation
  */
-
-
-public class Task {
-    private String id;
+public class Task implements Comparable<Task> {
+    private String ID;
     private String taskName;
     private int plannedStartWeek;
     private int actualStartWeek;
     private int plannedEndWeek;
     private int actualEndWeek;
     private double estimatedHours; //Estimated/budgeted hours
-    private double actualHours; //Actual work spent on this task
-    //private ArrayList<TeamMember> teamMembersWorked 
+    private double actualHours; //Actual hours spent on this task
 
-    /*public Task(String id, String taskName, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
-                int actualEndWeek, double estimatedHours, double actualHours, ArrayList<TeamMember> teamMembersWorked) {
-        this.id = id;
-        setTaskName(taskName);
-        setPlannedStartWeek(plannedStartWeek);
-        setActualStartWeek(actualStartWeek);
-        setPlannedEndWeek(plannedEndWeek);
-        setActualEndWeek(actualEndWeek);
-        setEstimatedHours(estimatedHours);
-        setActualHours(actualHours);
-        setTeamMembersWorked(teamMembersWorked); //Do we really need a setter for this one?
-    }*/
-
-    public Task(String id, String taskName, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
+    /**
+     * Creates a task
+     * @param id
+     * @param taskName
+     * @param plannedStartWeek
+     * @param actualStartWeek
+     * @param plannedEndWeek
+     * @param actualEndWeek
+     * @param estimatedHours
+     * @param actualHours
+     */
+    public Task(String ID, String taskName, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
                 int actualEndWeek, double estimatedHours, double actualHours) {
-        this.id = id;
+        setID(ID);
         setTaskName(taskName);
         setPlannedStartWeek(plannedStartWeek);
         setActualStartWeek(actualStartWeek);
@@ -41,11 +36,50 @@ public class Task {
         setActualEndWeek(actualEndWeek);
         setEstimatedHours(estimatedHours);
         setActualHours(actualHours);
-       // setTeamMembersWorked(new ArrayList<TeamMember>()); //Empty array of team members, do we really need a setter?
+    }
+    
+    /**
+     * Creates an empty, default task
+     * Use setters to complete this task
+     */
+    public Task() {
+    	this.setID("");
+    	this.setTaskName("");
+    	this.setPlannedStartWeek(1);
+    	this.setPlannedEndWeek(1);
+    	this.setActualEndWeek(1);
+    	this.setEstimatedHours(1);
+    	this.setActualHours(1);
     }
 
-    public String getId() {
-        return id;
+    
+    public double calculateTotalPlannedHours() {
+    	double totalHours = estimatedHours * this.calculateTotalPlannedWeeks();
+    	return totalHours;
+    }
+
+    public int calculateTotalPlannedWeeks() {
+    	int totalWeeks = (plannedEndWeek + plannedStartWeek) + 1;
+    	return totalWeeks;
+    }
+    
+    //TODO Rewrite method
+    public double calculatePlannedCost() {
+    /*
+    	int teamSize = teamMembersWorked.size();
+    	double plannedCost = teamSize * TeamMember.HOURLY_RATE;
+    	
+    	return plannedCost;
+    */
+    return 0.0;
+    }
+    
+    public String getID() {
+        return ID;
+    }
+    
+    public void setID(String ID) {
+    	this.ID = ID;
     }
 
     public String getTaskName() {
@@ -104,31 +138,20 @@ public class Task {
         this.actualHours = actualHours;
     }
 
-   /* public ArrayList<TeamMember> getTeamMembersWorked() {
-        return teamMembersWorked;
-    }
+	/**
+	 *TODO toString()
+	 */
+	@Override
+	public String toString() {
+		return "ID: " + getID() + " Task: " + getTaskName() + " Start week: "
+				+ getPlannedStartWeek() + " End week: " + getPlannedEndWeek();
+	}
 
-    public void setTeamMembersWorked(ArrayList<TeamMember> teamMembersWorked) {
-        this.teamMembersWorked = teamMembersWorked;
-    }*/
+	@Override
+	public int compareTo(Task otherTask) {
+		return this.getID().compareTo(otherTask.getID());
+	}
     
-    public double calculateTotalPlannedHours() {
-    	double totalHours = estimatedHours * this.calculateTotalPlannedWeeks();
-    	return totalHours;
-    }
-
-    public int calculateTotalPlannedWeeks() {
-    	int totalWeeks = (plannedEndWeek + plannedStartWeek) + 1;
-    	return totalWeeks;
-    }
     
-      public double calculatePlannedCost() {
-    	    /*TODO rewrite
 
-    	int teamSize = teamMembersWorked.size();
-    	double plannedCost = teamSize * TeamMember.HOURLY_RATE;
-    	
-    	return plannedCost;*/
-    	  return 0.0;
-    }
 }
