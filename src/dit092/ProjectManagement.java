@@ -32,8 +32,7 @@ public class ProjectManagement {
     public ProjectManagement() {
         this.view = new UserInterface();
         this.data = new DataAccessLayer(); //Send file path in here?
-
-        //this.project = data.loadProject(); ?
+        this.project = data.loadProject(); 
     }
 
     public void run() {
