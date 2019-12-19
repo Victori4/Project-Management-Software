@@ -5,6 +5,8 @@ import org.json.simple.JSONObject;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+
 import org.json.simple.parser.*;
 
 
@@ -32,6 +34,10 @@ private final String filepath = "././TEST.json";
 		}  
 		return null;
 	
+	}
+	
+	private ArrayList<Task> loadTasks(JSONObject object) {
+		
 	}
 
 }

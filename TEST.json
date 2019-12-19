@@ -9,7 +9,7 @@
 					"HOURLY_RATE": 250,
 					"tasks": [
 						{
-							"id": 1,
+							"id": "1",
 							"taskName": "Buy guns",
 							"plannedStartWeek": 2,
 							"actualStartWeek": 2,
@@ -19,7 +19,7 @@
 							"actualHours": 3.5
 						},
 						{
-							"id": 2,
+							"id": "2",
 							"taskName": "Buy bullets",
 							"plannedStartWeek": 4,
 							"actualStartWeek": 4,
@@ -36,7 +36,7 @@
 					"HOURLY_RATE": 250,
 					"tasks": [
 						{
-							"id": 1,
+							"id": "1",
 							"taskName": "Buy guns",
 							"plannedStartWeek": 2,
 							"actualStartWeek": 2,
@@ -46,7 +46,7 @@
 							"actualHours": 3.5
 						},
 						{
-							"id": 2,
+							"id": "2",
 							"taskName": "Buy bullets",
 							"plannedStartWeek": 4,
 							"actualStartWeek": 4,
