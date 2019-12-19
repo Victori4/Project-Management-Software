@@ -1,5 +1,7 @@
+PROJECT AND ITS TEAMS
+{
+	"team": theTeam,
 TEAM WITH ITS TEAM MEMBERS
-
 {
 	"id": 1,
 	"members": [
@@ -7,7 +9,9 @@ TEAM WITH ITS TEAM MEMBERS
 		"name": "Negin Hashmati", 
 		"id": 1,
 		"timeSpent": 9,
-		"HOURLY_RATE": 250 
+		"HOURLY_RATE": 250,
+		"tasks": [
+		 
 	},
  	{
 		"name": "Dominique Deramat", 
@@ -47,1276 +51,484 @@ TASKS WITH TEAM MEMBERS WORKED
 
 {
 	"id": "1.1",
-	"name": "Trello",
+	"taskName": "Trello",
 	"plannedStartWeek": 1,
 	"actualStartWeek": 2,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
 	"estimatedHours": 6,
 	"actualHours": 6,
-	"teamMembersWorked": [
 	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
 
 {
 	"id": "1.2",
-	"name":"TA meetings",
+	"taskName":"TA meetings",
 	"plannedStartWeek": 1,
 	"actualStartWeek": 1,
 	"plannedEndWeek": 7,
 	"actualEndWeek": 7,
 	"estimatedHours": 12.6,
 	"actualHours": 12.6,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
 
 {
 	"id": "1.3",
-	"name":"Weekly meetings",
+	"taskName":"Weekly meetings",
 	"plannedStartWeek": 1,
 	"actualStartWeek": 2,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
 	"estimatedHours": 60,
 	"actualHours": 0,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
+
   }
   
 
 {
 	"id": "1.4",
-	"name":"Risk list",
+	"taskName":"Risk list",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 6,
 	"plannedEndWeek": 6,
 	"actualEndWeek": 6,
 	"estimatedHours": 12,
 	"actualHours": 6,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
 
 {
 	"id": "2.1",
-	"name":"Creating class diagram",
+	"taskName":"Creating class diagram",
 	"plannedStartWeek": 1,
 	"actualStartWeek": 2,
 	"plannedEndWeek": 2,
 	"actualEndWeek": 3,
 	"estimatedHours": 6,
 	"actualHours": 3.1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
   {
 	"id": "2.2",
-	"name":"Updating class diagram",
+	"taskName":"Updating class diagram",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 5,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
 	"estimatedHours": 5,
 	"actualHours": 5,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	}
-  	]
   }
   
   {
 	"id": "3.1",
-	"name":"Creating classes and project structure",
+	"taskName":"Creating classes and project structure",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 4,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 4,
 	"estimatedHours": 1,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	}
-  	]
   }
   
   {
 	"id": "3.2.1",
-	"name":"Calculate salary",
+	"taskName":"Calculate salary",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 4,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 4,
 	"estimatedHours": 1,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.3.1",
-	"name":"Find member by ID",
+	"taskName":"Find member by ID",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 4,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 4,
 	"estimatedHours": 2,
 	"actualHours": 2,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.3.2",
-	"name":"Calculate total time spent",
+	"taskName":"Calculate total time spent",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 4,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 4,
 	"estimatedHours": 1,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.3.3",
-	"name":"Calculate total salary",
+	"taskName":"Calculate total salary",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 4,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 4,
 	"estimatedHours": 1,
-	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.4",
-	"name":"Creating Task Class",
+	"taskName":"Creating Task Class",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 4,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 4,
 	"estimatedHours": 1,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.5.1",
-	"name":"Calculate budget at completion",
+	"taskName":"Calculate budget at completion",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 4,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 4,
 	"estimatedHours": 2,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
   {
 	"id": "3.5.2",
-	"name":"Calculate planned value",
+	"taskName":"Calculate planned value",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 4,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 6,
 	"estimatedHours": 2,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
   {
 	"id": "3.5.3",
-	"name":"Calculate earned value",
+	"taskName":"Calculate earned value",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 4,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 4,
 	"estimatedHours": 2,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
   {
 	"id": "3.5.4",
-	"name":"Calculate actual cost",
+	"taskName":"Calculate actual cost",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 4,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 5,
 	"estimatedHours": 2,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   } 
   
    {
 	"id": "3.5.5",
-	"name":"Calculate cost variance",
+	"taskName":"Calculate cost variance",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 5,
 	"plannedEndWeek": 5,
 	"actualEndWeek": 5,
 	"estimatedHours": 2,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.5.6",
-	"name":"Calculate schedule variance",
+	"taskName":"Calculate schedule variance",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 5,
 	"plannedEndWeek": 5,
 	"actualEndWeek": 5,
 	"estimatedHours": 2,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.5.7",
-	"name":"Calculate cost performance index",
+	"taskName":"Calculate cost performance index",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 5,
 	"plannedEndWeek": 5,
 	"actualEndWeek": 5,
 	"estimatedHours": 2,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
   {
 	"id": "3.5.8",
-	"name":"Calculate schedule performance index",
+	"taskName":"Calculate schedule performance index",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 5,
 	"plannedEndWeek": 5,
 	"actualEndWeek": 5,
 	"estimatedHours": 2,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.6.1",
-	"name":"Format JSON file and put in data",
+	"taskName":"Format JSON file and put in data",
 	"plannedStartWeek": 6,
 	"actualStartWeek": 6,
 	"plannedEndWeek": 7,
 	"actualEndWeek": 7,
 	"estimatedHours": 6,
 	"actualHours": 6,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-		},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.6.2",
-	"name":"Read from JSON file",
+	"taskName":"Read from JSON file",
 	"plannedStartWeek": 6,
 	"actualStartWeek": 6,
 	"plannedEndWeek": 7,
 	"actualEndWeek": 7,
 	"estimatedHours": 12,
 	"actualHours": 6,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-		},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.7.1",
-	"name":"Set up risk matrix",
+	"taskName":"Set up risk matrix",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 5,
 	"plannedEndWeek": 5,
 	"actualEndWeek": 5,
 	"estimatedHours": 1,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.7.2",
-	"name":"Risk matrix/planning",
+	"taskName":"Risk matrix/planning",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 6,
 	"plannedEndWeek": 5,
 	"actualEndWeek": 6,
 	"estimatedHours": 1,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	}
-  	]
   }
   
    {
 	"id": "3.8",
-	"name":"Project management controller",
+	"taskName":"Project management controller",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 6,
 	"plannedEndWeek": 5,
 	"actualEndWeek": 6,
 	"estimatedHours": 6,
 	"actualHours": 6,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.8",
-	"name":"Project management controller",
+	"taskName":"Project management controller",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 6,
 	"plannedEndWeek": 5,
 	"actualEndWeek": 6,
 	"estimatedHours": 6,
 	"actualHours": 6,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "3.9",
-	"name":"User interface",
+	"taskName":"User interface",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 5,
 	"plannedEndWeek": 7,
 	"actualEndWeek": 7,
 	"estimatedHours": 6,
 	"actualHours": 6,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "4.1",
-	"name":"Unit testing",
+	"taskName":"Unit testing",
 	"plannedStartWeek": 4,
 	"actualStartWeek": 6,
 	"plannedEndWeek": 7,
 	"actualEndWeek": 6,
 	"estimatedHours": 1,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	}
-  	]
   }
   
    {
 	"id": "4.2",
-	"name":"Integration testing",
+	"taskName":"Integration testing",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 6,
 	"plannedEndWeek": 7,
 	"actualEndWeek": 10,
 	"estimatedHours": 6,
 	"actualHours": 6,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
   {
 	"id": "4.3",
-	"name":"System testing",
+	"taskName":"System testing",
 	"plannedStartWeek": 7,
 	"actualStartWeek": 7,
 	"plannedEndWeek": 7,
 	"actualEndWeek": 7,
 	"estimatedHours": 12,
 	"actualHours": 12,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
   {
 	"id": "4.4",
-	"name":"Bug fixing",
+	"taskName":"Bug fixing",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 7,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
 	"estimatedHours": 6,
 	"actualHours": 6,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
   {
 	"id": "5.1",
-	"name":"Assignment 1",
+	"taskName":"Assignment 1",
 	"plannedStartWeek": 3,
 	"actualStartWeek": 3,
 	"plannedEndWeek": 4,
 	"actualEndWeek": 4,
 	"estimatedHours": 36,
 	"actualHours": 6.738,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "5.2",
-	"name":"Assignment 2",
+	"taskName":"Assignment 2",
 	"plannedStartWeek": 5,
 	"actualStartWeek": 6,
 	"plannedEndWeek": 6,
 	"actualEndWeek": 6,
 	"estimatedHours": 36,
 	"actualHours": 4.087,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "5.3",
-	"name":"User manual",
+	"taskName":"User manual",
 	"plannedStartWeek": 7,
 	"actualStartWeek": 7,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
 	"estimatedHours": 12,
 	"actualHours": 12,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "5.4",
-	"name":"Final acceptance test",
+	"taskName":"Final acceptance test",
 	"plannedStartWeek": 10,
 	"actualStartWeek": 10,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
 	"estimatedHours": 1.8,
 	"actualHours": 1.8,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
   }
   
    {
 	"id": "5.5",
-	"name":"Project demo/presentation",
+	"taskName":"Project demo/presentation",
 	"plannedStartWeek": 10,
 	"actualStartWeek": 10,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
 	"estimatedHours": 1.98,
 	"actualHours": 1.98,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
 }
+
 {
 	"id": "5.6",
-	"name":"Final report collaborative parts",
+	"taskName":"Final report collaborative parts",
 	"plannedStartWeek": 10,
 	"actualStartWeek": 10,
 	"plannedEndWeek": 10,
 	"actualEndWeek": 10,
 	"estimatedHours": 1,
 	"actualHours": 1,
-	"teamMembersWorked": [
-	
- 	{
-		"name": "Negin Hashmati", 
-		"id": 1,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-	},
- 	{
-		"name": "Dominique Deramat", 
-		"id": 2,
-		"timeSpent": 10,
-		"HOURLY_RATE": 250 
- 	},
- 	{
-		"name": "Fayona Cowperthwaite", 
-		"id": 3,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
- 	{
-		"name": "Victoria Vu", 
-		"id": 4,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250
-  	},
-	{
-		"name": "Ella Alklid", 
-		"id": 5,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	},
-	{
-		"name": "Jennifer Nord", 
-		"id": 6,
-		"timeSpent": 9,
-		"HOURLY_RATE": 250 
-  	}
-  	]
 }
 
 RISKS
 	{
 		"id": 1,
-		"name": "Not being able to use GitLab successfully"
+		"riskName": "Not being able to use GitLab successfully"
 		"probability": 2,
 		"impact": 5
 	}
 	{
 		"id": 2,
-		"name": "Not understanding how to use the JSON library"
+		"riskName": "Not understanding how to use the JSON library"
 		"probability": 3,
 		"impact": 4
 	}
  
 	{
 		"id": 3,
-		"name": "Wrong estimates"
+		"riskName": "Wrong estimates"
 		"probability": 4,
 		"impact": 1
 	}
 	
 	{
 		"id": 4,
-		"name": "Understanding the code design"
+		"riskName": "Understanding the code design"
 		"probability": 2,
 		"impact": 2
 	}
 
 	{
 		"id": 5,
-		"name": "Poor time management"
+		"riskName": "Poor time management"
 		"probability": 2,
 		"impact": 4
 	}
 
 	{
 		"id": 6,
-		"name": "Program does not work"
+		"riskName": "Program does not work"
 		"probability": 1,
 		"impact": 5
 	}
 
 	{
 		"id": 7,
-		"name": "Have more than 3 bugs at completion"
+		"riskName": "Have more than 3 bugs at completion"
 		"probability": 2,
 		"impact": 2
 	}
 
 	{
 		"id": 8,
-		"name": "Not understanding the requirements"
+		"riskName": "Not understanding the requirements"
 		"probability": 2,
 		"impact": 5
 	}
 
 	{
 		"id": 9,
-		"name": "Equipment malfunctions"
+		"riskName": "Equipment malfunctions"
 		"probability": 1,
 		"impact": 2
 	}
 
 	{
 		"id": 10,
-		"name": "Attrition"
+		"riskName": "Attrition"
 		"probability": 2,
 		"impact": 3
 	}
   }
+ }
