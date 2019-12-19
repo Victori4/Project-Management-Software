@@ -17,7 +17,7 @@ package dit092;
 		public double calculateTotalTeamSalary (ArrayList <TeamMember> members) {
 		double sum = 0;
 		for (TeamMember member : members) {
-		sum = sum + member.calculateSalary(member.getTimeSpent());
+		sum = sum + member.calculateSalary(member.retrieveTimeSpent());
 		}
 		return sum;
 		}
@@ -27,7 +27,7 @@ package dit092;
 		public double calculateTotalTeamTimeSpent(ArrayList <TeamMember> members) {
 			double totalTime = 0;
 			for (TeamMember member : members) {
-				totalTime = totalTime + member.getTimeSpent();
+				totalTime = totalTime + member.retrieveTimeSpent();
 			}
 			return totalTime;
 		}
@@ -47,7 +47,7 @@ package dit092;
 		public double findMemberTimeSpentById(int id) {
 			for (TeamMember oneMember : members) {
 				if (oneMember.getId() == id) {
-					return oneMember.getTimeSpent();
+					return oneMember.retrieveTimeSpent();
 				}
 			}
 			return 0;
