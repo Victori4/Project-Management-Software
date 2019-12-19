@@ -9,10 +9,6 @@ public class Project {
     public Project(Team team) {
         this.team = team;
     }
-    
-    public Project() {
-    	
-    }
 
     /**
      * Making sure it compiles! Please feel free to finish the method and edit this comment!

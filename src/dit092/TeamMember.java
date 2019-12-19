@@ -15,12 +15,6 @@ public class TeamMember {
 		this.tasks = tasks;
 	}
 
-	public TeamMember(int id, String name) {
-		this.id = id;
-		setName(name);
-		tasks = new ArrayList<Task>();
-	}
-
 	public double calculateSalary(double timeSpent) {
 		double salary = timeSpent * HOURLY_RATE;
 		return salary;

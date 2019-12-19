@@ -38,21 +38,6 @@ public class Task implements Comparable<Task> {
         setActualHours(actualHours);
     }
     
-    /**
-     * Creates an empty, default task
-     * Use setters to complete this task
-     */
-    public Task() {
-    	this.setID("");
-    	this.setTaskName("");
-    	this.setPlannedStartWeek(1);
-    	this.setPlannedEndWeek(1);
-    	this.setActualEndWeek(1);
-    	this.setEstimatedHours(1);
-    	this.setActualHours(1);
-    }
-
-    
     public double calculateTotalPlannedHours() {
     	double totalHours = estimatedHours * this.calculateTotalPlannedWeeks();
     	return totalHours;

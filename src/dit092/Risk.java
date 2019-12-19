@@ -10,16 +10,6 @@ public class Risk {
 	private double probability;
 	
 	/**
-	 * Creates an empty, default risk
-	 */
-	public Risk() {
-		this.setID("");
-		this.setRiskName("");
-		this.setImpact(0.0);
-		this.setProbability(0.0);
-	}
-	
-	/**
 	 * Creates a risk with a name, impact and probability
 	 * 
 	 * @param riskName the name of the risk
