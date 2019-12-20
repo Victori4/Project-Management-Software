@@ -29,10 +29,13 @@ public class ProjectManagement {
     private static final int TOTAL_SALARY = 14;
     private static final int TOTAL_TIME = 15;
 
+    /**
+     * TODO handle "null" from loadProject()
+     */
     public ProjectManagement() {
         this.view = new UserInterface();
-        this.data = new DataAccessLayer(); //Send file path in here?
-        this.project = data.loadProject(); 
+        this.data = new DataAccessLayer();
+        this.project = data.loadProject(); //Loads in the project data from JSON file
     }
 
     public void run() {

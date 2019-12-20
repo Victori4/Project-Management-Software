@@ -5,9 +5,11 @@ import java.util.ArrayList;
 public class Project {
 
     private Team team;
+    private RiskMatrix matrix;
 
-    public Project(Team team) {
+    public Project(Team team, RiskMatrix matrix) {
         this.team = team;
+        this.matrix = matrix;
     }
 
     /**
