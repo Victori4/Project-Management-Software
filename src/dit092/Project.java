@@ -12,6 +12,23 @@ public class Project {
         this.matrix = matrix;
     }
 
+	/**
+	 * Calculates the total amount of weeks for the project based on the actual end week of tasks.
+	 * @return int totalProjectWeeks
+	 */
+	public int getTotalProjectWeeks() {
+    	int totalProjectWeeks = 0;
+    	ArrayList<Task> tasks = team.getTasks();
+
+    	for(Task task : tasks) {
+    		if (task.getActualEndWeek() > totalProjectWeeks) {
+    			totalProjectWeeks = task.getActualEndWeek();
+			}
+		}
+
+    	return totalProjectWeeks;
+	}
+
     /**
      * Making sure it compiles! Please feel free to finish the method and edit this comment!
      * @return double Planned Value
