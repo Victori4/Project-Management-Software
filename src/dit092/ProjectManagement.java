@@ -1,8 +1,5 @@
 package dit092;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 public class ProjectManagement {
 
     private UserInterface view;
