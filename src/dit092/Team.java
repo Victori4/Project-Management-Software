@@ -43,8 +43,8 @@ package dit092;
 			return null;
 		}	
 		
-		//method to allow searching for specific member and displaying their time spent
-		public double findMemberTimeSpentById(int id) {
+//method for finding specific member and displaying their time spent
+		public double findMemberTimeById(int id) {
 			for (TeamMember oneMember : members) {
 				if (oneMember.getId() == id) {
 					return oneMember.retrieveTimeSpent();

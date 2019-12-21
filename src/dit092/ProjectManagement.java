@@ -1,5 +1,7 @@
 package dit092;
 
+import java.util.ArrayList;
+
 public class ProjectManagement {
 
     private UserInterface view;
@@ -25,6 +27,7 @@ public class ProjectManagement {
     private static final int SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID = 13;
     private static final int TOTAL_SALARY = 14;
     private static final int TOTAL_TIME = 15;
+    private static final int SHOW_TIME_SPENT_ALL_MEMBERS = 16;
 
     /**
      * TODO handle "null" from loadProject()
@@ -85,16 +88,23 @@ public class ProjectManagement {
                 	userInput = 0;
                     break;
                     
-                case SEARCH_TEAM_MEMBER_HOURS_BY_ID:
-                	userInput = 0;
-                    break;
-                    
                 case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
                     int memberId = view.promptUserInputInt();
                     TeamMember member = project.getTeam().findTeamMember(memberId);
                 	userInput = view.showTeamMemberActivitiesById(member);
                     break;
+                 
+                case SEARCH_TEAM_MEMBER_HOURS_BY_ID:
+                	int id = view.promptUserInputInt();
+                	userInput = view.showMemberTimeById(project.getTeam(),id);
+                    break; 
                     
+                case SHOW_TIME_SPENT_ALL_MEMBERS:
+                	ArrayList<TeamMember> members = project.getTeam().getMembers();
+                	userInput = view.showTimeSpentAllMembers(members);
+                	break;
+                	
+     
                 case TOTAL_SALARY:
                 	userInput = view.showTotalTeamSalary(project.getTeam().calculateTotalTeamSalary(project.getTeam().getMembers()));
                 	break;
