@@ -8,9 +8,7 @@ public class ProjectManagement {
     private DataAccessLayer data;
     private Project project;
 
-    //Menu option
-    //Added Total Salary and total time spent as well as team variable to ensure it works. If we do not want, can remove all.
-
+    //Menu options
     private static final int EXIT = 0;
     private static final int START = 1;
     private static final int EV = 2;
@@ -38,18 +36,30 @@ public class ProjectManagement {
         this.project = data.loadProject(); //Loads in the project data from JSON file
     }
 
+    private void showEarnedValue() {
+        view.showEarnedValueHeader();
+
+        for (int i = project.getStartWeek(); i < project.getEndWeek(); i++) {
+            view.showEarnedValue(i+1, project.calculateEarnedValue(i+1));
+            i++;
+        }
+    }
+
+    /**
+     * Decides which view to show the user based on their input and connects view with business logic/model.
+     */
     public void run() {
         int userInput = view.showStartMenu();
 
         do {
             switch (userInput) {
-            
                 case START:
                     userInput = view.showStartMenu();
                     break;
                     
                 case EV:
-                    userInput = view.showEarnedValue(project.calculateEarnedValue(2));
+                    showEarnedValue();
+                    userInput = 1; //Takes user back to main menu, not sure if needed..?
                     break;
                     
                 case SV:
@@ -75,50 +85,49 @@ public class ProjectManagement {
                 case CPI:
                 	userInput = view.showCostPerformanceIndex(project.calculateCostPerformanceIndex(2));
                 	break;
-                	
+
                 case SPI:
                 	userInput = 0;
                     break;
-                	
+
                 case RISK_MATRIX:
                 	userInput = 0;
                     break;
-                    
+
                 case PROJECT_SCHEDULE:
                 	userInput = 0;
                     break;
-                    
+
                 case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
                     int memberId = view.promptUserInputInt();
                     TeamMember member = project.getTeam().findTeamMember(memberId);
                 	userInput = view.showTeamMemberActivitiesById(member);
                     break;
-                 
+
                 case SEARCH_TEAM_MEMBER_HOURS_BY_ID:
                 	int id = view.promptUserInputInt();
                 	userInput = view.showMemberTimeById(project.getTeam(),id);
-                    break; 
-                    
+                    break;
+
                 case SHOW_TIME_SPENT_ALL_MEMBERS:
                 	ArrayList<TeamMember> members = project.getTeam().getMembers();
                 	userInput = view.showTimeSpentAllMembers(members);
                 	break;
-                	
-     
+
                 case TOTAL_SALARY:
                 	userInput = view.showTotalTeamSalary(project.getTeam().calculateTotalTeamSalary(project.getTeam().getMembers()));
                 	break;
-                	
+
                 case TOTAL_TIME:
                 	userInput = view.showTotalTeamTime(project.getTeam().calculateTotalTeamTimeSpent(project.getTeam().getMembers()));
                 	break;
-                	
+
                 case EXIT:
                     userInput = 0;
                     break;
-                    
+
                 default:
-                    view.showDefault();
+                    view.showDefault(); //Prompts user to input a valid menu option
                     break;
             }
         } while (userInput != EXIT);
@@ -126,7 +135,6 @@ public class ProjectManagement {
 
     public static void main(String[] args) {
         ProjectManagement controller = new ProjectManagement();
-
         controller.run();
     }
 }

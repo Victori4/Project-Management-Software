@@ -66,10 +66,18 @@ package dit092;
 			this.members = members;
 		}
 
-
+		/**
+		 * TODO TEST AND CLEANUP THIS ALLOWS DUPLICATE TASKS
+		 * @return ArrayList Tasks
+		 */
 		public ArrayList<Task> getTasks() {
-			// TODO Auto-generated method stub
-			return null;
+			ArrayList<Task> tasks = new ArrayList<Task>();
+
+			for (TeamMember member : members) {
+				tasks.addAll(member.getTasks());
+			}
+
+			return tasks;
 		}
 	
 	}

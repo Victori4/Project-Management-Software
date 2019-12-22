@@ -12,6 +12,7 @@ public class UserInterface {
     }
 
     public int showStartMenu() {
+		System.out.println();
         System.out.println(" === Welcome to The Project Management System === ");
     	System.out.println(" Choose an option below: ");
     	System.out.println(" ");
@@ -34,14 +35,16 @@ public class UserInterface {
     	
 
     	System.out.println(" 0. Quit this program. ");
+		System.out.println();
         return scanner.nextInt();
     }
-    
 
-    public int showEarnedValue(double ev) {
-        System.out.print("EV: " + ev + " SEK.");
+    public void showEarnedValueHeader() {
+		System.out.println(" === Earned Value === ");
+	}
 
-        return scanner.nextInt();
+    public void showEarnedValue(int week, double ev) {
+        System.out.println("Week: " + week + "        EV: " + ev + " SEK.");
     }
 
     public void showDefault() {
