@@ -13,20 +13,46 @@ public class Project {
     }
 
 	/**
-	 * Calculates the total amount of weeks for the project based on the actual end week of tasks.
-	 * @return int totalProjectWeeks
+	 * Gets the last week of the project tasks
+	 * @return int endWeek
 	 */
-	public int getTotalProjectWeeks() {
-    	int totalProjectWeeks = 0;
+	public int getEndWeek() {
+    	int endWeek = 0;
     	ArrayList<Task> tasks = team.getTasks();
 
     	for(Task task : tasks) {
-    		if (task.getActualEndWeek() > totalProjectWeeks) {
-    			totalProjectWeeks = task.getActualEndWeek();
+    		if (task.getActualEndWeek() > endWeek) {
+    			endWeek = task.getActualEndWeek();
 			}
 		}
 
-    	return totalProjectWeeks;
+    	return endWeek;
+	}
+
+	/**
+	 * Gets the first week of the project tasks
+	 * @return int startWeek
+	 */
+	public int getStartWeek() {
+		int startWeek = 0;
+		ArrayList<Task> tasks = team.getTasks();
+
+		for(Task task : tasks) {
+			if (task.getActualStartWeek() < startWeek || startWeek == 0) {
+				startWeek = task.getActualStartWeek();
+			}
+		}
+
+		return startWeek;
+	}
+
+	/**
+	 * Calculates the total amount of weeks for the project based on the actual end week of tasks and actual start week
+	 * @return int totalProjectWeeks
+	 */
+	public int getTotalProjectWeeks() {
+		int totalProjectWeeks = getEndWeek() - getStartWeek() +1; //e.g. 11 - 2 + 1 = 10 weeks of project
+		return totalProjectWeeks;
 	}
 
     /**
