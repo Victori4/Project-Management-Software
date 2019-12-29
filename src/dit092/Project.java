@@ -108,8 +108,10 @@ public class Project {
         return totalEstimatedHours * TeamMember.HOURLY_RATE;
     }
 
-    //According to a website, actual cost is just how much has been spent until that certain point.
-    //Leaving it as this for now because I cannot figure out how to finish it...
+    /**
+     * Calculates actual cost by finding all tasks, adding the actual hours spent for each task times each team member's hourly rate 
+     * @return
+     */
     public double calculateActualCost () {
     	double actualCost = 0.0;
         ArrayList<Task> tasks = team.getTasks();
