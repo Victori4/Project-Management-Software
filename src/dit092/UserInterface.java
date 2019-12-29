@@ -76,9 +76,14 @@ public class UserInterface {
     	return scanner.nextInt();
     }
 
-
-	public int showTeamMemberActivitiesById(TeamMember member) {
-		System.out.println("Team member " + member.toString()); //not sure if correct, uncertain about the toString in Team class
+    /**
+     * Prints which tasks a certain member has worked on
+     * @param team
+     * @param id
+     * @return
+     */
+	public int showTeamMemberActivitiesById(Team team, int id) {
+		System.out.println(id + ": " + team.getTasks()); 
 		return scanner.nextInt();
 	}
 	
