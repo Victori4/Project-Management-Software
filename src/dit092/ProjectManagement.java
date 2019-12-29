@@ -75,7 +75,7 @@ public class ProjectManagement {
                     break;
                     
                 case AC:
-                	userInput = 0;
+                	userInput = view.showActualCost(project.calculateActualCost());
                     break;
                     
                 case BAC:
