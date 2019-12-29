@@ -101,7 +101,7 @@ public class ProjectManagement {
                 case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
                     int memberId = view.promptUserInputInt();
                     TeamMember member = project.getTeam().findTeamMember(memberId);
-                	userInput = view.showTeamMemberActivitiesById(member);
+                	userInput = view.showTeamMemberActivitiesById(project.getTeam(), memberId);
                     break;
 
                 case SEARCH_TEAM_MEMBER_HOURS_BY_ID:
