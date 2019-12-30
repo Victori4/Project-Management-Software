@@ -14,25 +14,25 @@ public class UserInterface {
     public int showStartMenu() {
 		System.out.println();
         System.out.println(" === Welcome to The Project Management System === ");
-    	System.out.println(" Choose an option below: ");
+    	System.out.println(" Please choose from options 1-17 below: ");
     	System.out.println(" ");
     	System.out.println(" 1.  "); // this appears to be redundant. We need to do something with it/about it.
-    	System.out.println(" 2. Get Earned Value calculations");
-    	System.out.println(" 3. Calculate Schedule Variance. ");
-    	System.out.println(" 4. Calculate Cost Variance. ");
-    	System.out.println(" 5. Calculate Planned Value");
-     	System.out.println(" 6. Calculate actual cost. ");
-    	System.out.println(" 7. Calculate Budget At Completion. ");
-    	System.out.println(" 8. Calculate Cost Performance Index. ");
-    	System.out.println(" 9. Calculate Schedule Performance Index. ");
-    	System.out.println(" 10. Show the risk matrix. ");
-    	System.out.println(" 11. Show the project schedule.");
-    	System.out.println(" 12. Search team member by ID to see time spent. ");
-    	System.out.println(" 13. Search team member by ID to see which tasks the member has worked on. ");
-    	System.out.println(" 14. Show Total Team Salary. ");
-    	System.out.println(" 15. Show Total Time Spent on project. ");
-    	System.out.println(" 16. Show time spent by all members. ");
-    	System.out.println(" 17. Show the salaries of each team member. ");
+    	System.out.println(" 2. See earned value calculations");
+    	System.out.println(" 3. Calculate the schedule variance of the project ");
+    	System.out.println(" 4. Calculate the cost variance of the project ");
+    	System.out.println(" 5. Calculate the planned value for 2-week intervals");
+     	System.out.println(" 6. Calculate the actual cost of the project ");
+    	System.out.println(" 7. Calculate the budget at completion for the project ");
+    	System.out.println(" 8. Calculate the cost performance index ");
+    	System.out.println(" 9. Calculate the schedule performance index ");
+    	System.out.println(" 10. View the risk matrix for the project ");
+    	System.out.println(" 11. View the project schedule");
+    	System.out.println(" 12. Search for a team member by their ID to see their time spent on the project ");
+    	System.out.println(" 13. Search for team member by their ID to see which tasks they worked on ");
+    	System.out.println(" 14. View the total team salary ");
+    	System.out.println(" 15. View the total time spent on the project ");
+    	System.out.println(" 16. View the time spent on the project by all team members ");
+    	System.out.println(" 17. View all team members' salaries ");
     	
 
     	System.out.println(" 0. Quit this program. ");

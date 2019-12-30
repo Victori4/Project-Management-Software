@@ -26,7 +26,7 @@ public class ProjectManagement {
     private static final int TOTAL_SALARY = 14;
     private static final int TOTAL_TIME = 15;
     private static final int SHOW_TIME_SPENT_ALL_MEMBERS = 16;
-    private static final int SHOW_SALARY_ALL_MEMBERS = 17;
+    //private static final int SHOW_SALARY_ALL_MEMBERS = 17;
 
     /**
      * TODO handle "null" from loadProject()
