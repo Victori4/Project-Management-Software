@@ -15,6 +15,11 @@ public class TeamMember {
 		this.tasks = tasks;
 	}
 
+	/** 
+	 * method for calculating the team members' salaries
+	 *@param timeSpent
+	 *@return salary
+	 */
 	public double calculateSalary(double timeSpent) {
 		double salary = timeSpent * HOURLY_RATE;
 		return salary;
@@ -39,6 +44,10 @@ public class TeamMember {
 		return tasks;
 	}
 	
+	/**
+	 * method for retrieving the time spent to be used in calculateSalary
+	 *@return timeSpent
+	 */
 	public double retrieveTimeSpent() {
 		double timeSpent = 0.0;
 		
