@@ -16,22 +16,23 @@ public class UserInterface {
         System.out.println(" === Welcome to The Project Management System === ");
     	System.out.println(" Choose an option below: ");
     	System.out.println(" ");
-    	System.out.println(" 1.  ");
+    	System.out.println(" 1.  "); // this appears to be redundant. We need to do something with it/about it.
     	System.out.println(" 2. Get Earned Value calculations");
     	System.out.println(" 3. Calculate Schedule Variance. ");
     	System.out.println(" 4. Calculate Cost Variance. ");
-    	System.out.println(" 5. ");
+    	System.out.println(" 5. Calculate Planned Value");
      	System.out.println(" 6. Calculate actual cost. ");
     	System.out.println(" 7. Calculate Budget At Completion. ");
     	System.out.println(" 8. Calculate Cost Performance Index. ");
     	System.out.println(" 9. Calculate Schedule Performance Index. ");
-    	System.out.println(" 10.  ");
-    	System.out.println(" 11. ");
+    	System.out.println(" 10. Show the risk matrix. ");
+    	System.out.println(" 11. Show the project schedule.");
     	System.out.println(" 12. Search team member by ID to see time spent. ");
     	System.out.println(" 13. Search team member by ID to see which tasks the member has worked on. ");
     	System.out.println(" 14. Show Total Team Salary. ");
     	System.out.println(" 15. Show Total Time Spent on project. ");
     	System.out.println(" 16. Show time spent by all members. ");
+    	System.out.println(" 17. Show the salaries of each team member. ");
     	
 
     	System.out.println(" 0. Quit this program. ");
@@ -116,6 +117,14 @@ public class UserInterface {
   		}
   		return scanner.nextInt();
   	}
+  	
+  	//don't understand why this doesn't like timeSpent when it's the calculateSalary parameter...  
+  	//public double showSalaryAllMembers (ArrayList<TeamMember> teamMembers) {
+  		//for (TeamMember member: teamMembers) {
+  			//System.out.println(member + ": " + member.calculateSalary(timeSpent));
+  		//}
+  		//return scanner.nextInt();
+  	//}
   		
 
 	public int promptUserInputInt() {

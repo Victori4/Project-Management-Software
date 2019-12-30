@@ -26,6 +26,7 @@ public class ProjectManagement {
     private static final int TOTAL_SALARY = 14;
     private static final int TOTAL_TIME = 15;
     private static final int SHOW_TIME_SPENT_ALL_MEMBERS = 16;
+    private static final int SHOW_SALARY_ALL_MEMBERS = 17;
 
     /**
      * TODO handle "null" from loadProject()
@@ -121,6 +122,11 @@ public class ProjectManagement {
                 case TOTAL_TIME:
                 	userInput = view.showTotalTeamTime(project.getTeam().calculateTotalTeamTimeSpent(project.getTeam().getMembers()));
                 	break;
+                	
+                //case SHOW_SALARY_ALL_MEMBERS:
+                	//ArrayList<TeamMember> teamMembers = project.getTeam().getMembers();
+                	//userInput = (int) view.showSalaryAllMembers(teamMembers); //no idea why this needs to be cast but Eclipse seems happy
+                	//break;
 
                 case EXIT:
                     userInput = 0;
