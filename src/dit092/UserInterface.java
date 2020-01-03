@@ -118,13 +118,13 @@ public class UserInterface {
   		return scanner.nextInt();
   	}
   	
-  	//don't understand why this doesn't like timeSpent when it's the calculateSalary parameter...  
-  	//public double showSalaryAllMembers (ArrayList<TeamMember> teamMembers) {
-  		//for (TeamMember member: teamMembers) {
-  			//System.out.println(member + ": " + member.calculateSalary(timeSpent));
-  		//}
-  		//return scanner.nextInt();
-  	//}
+  	//supposed to print all members' salaries. Don't know if this works!! Please change if you can see it's wrong. 
+  	public int showSalaryAllMembers (ArrayList<TeamMember> teamMembers, double timeSpent) {
+  		for (TeamMember member: teamMembers) {
+  			System.out.println(member + ": " + member.calculateSalary(timeSpent) + System.lineSeparator());
+  		}
+  		return scanner.nextInt();
+  	}
   		
 
 	public int promptUserInputInt() {
