@@ -29,7 +29,7 @@ public class RiskMatrix {
 	 * @param risks
 	 */
 	public RiskMatrix(ArrayList<Risk> risks) {
-		risks = new ArrayList<Risk>();
+		this.risks = new ArrayList<Risk>();
 		addRisks(risks);
 	}
 	
