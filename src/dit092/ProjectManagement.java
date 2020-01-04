@@ -10,23 +10,23 @@ public class ProjectManagement {
 
     //Menu options
     private static final int EXIT = 0;
-    private static final int START = 1;
-    private static final int EV = 2;
-    private static final int SV = 3;
-    private static final int CV = 4;
-    private static final int PV = 5;
-    private static final int AC = 6;
-    private static final int BAC = 7;
-    private static final int CPI = 8;
-    private static final int SPI = 9;
-    private static final int RISK_MATRIX = 10;
-    private static final int PROJECT_SCHEDULE = 11;
-    private static final int SEARCH_TEAM_MEMBER_HOURS_BY_ID = 12;
-    private static final int SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID = 13;
-    private static final int TOTAL_SALARY = 14;
-    private static final int TOTAL_TIME = 15;
-    private static final int SHOW_TIME_SPENT_ALL_MEMBERS = 16;
-    private static final int SHOW_SALARY_ALL_MEMBERS = 17;
+    private static final int EV = 1;
+    private static final int SV = 2;
+    private static final int CV = 3;
+    private static final int PV = 4;
+    private static final int AC = 5;
+    private static final int BAC = 6;
+    private static final int CPI = 7;
+    private static final int SPI = 8;
+    private static final int RISK_MATRIX = 9;
+    private static final int PROJECT_SCHEDULE = 10;
+    private static final int SEARCH_TEAM_MEMBER_HOURS_BY_ID = 11;
+    private static final int SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID = 12;
+    private static final int TOTAL_SALARY = 13;
+    private static final int TOTAL_TIME = 14;
+    private static final int SHOW_TIME_SPENT_ALL_MEMBERS = 15;
+    private static final int SHOW_SALARY_ALL_MEMBERS = 16;
+    private static final int START = 17;
 
     /**
      * TODO handle "null" from loadProject()
@@ -60,7 +60,7 @@ public class ProjectManagement {
                     
                 case EV:
                     showEarnedValue();
-                    userInput = 1; //Takes user back to main menu, not sure if needed..?
+                    userInput = 17; //Takes user back to main menu, not sure if needed..?
                     break;
                     
                 case SV:
