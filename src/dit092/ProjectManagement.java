@@ -53,6 +53,51 @@ public class ProjectManagement {
     }
 
     /**
+     * Calls the UI to print the SV interval calculations for every 2 weeks.
+     * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
+     * TODO fix the +1?
+     */
+    private void showScheduleVariance() {
+        view.showScheduleVarianceHeader();
+        int startWeek = weekToStartIntervalFrom();
+
+        for (int i = startWeek; i < project.getEndWeek(); i++) {
+            view.showScheduleVariance(i+1, project.calculateScheduleVariance(i+1));
+            i++;
+        }
+    }
+
+    /**
+     * Calls the UI to print the CV interval calculations for every 2 weeks.
+     * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
+     * TODO fix the +1?
+     */
+    private void showCostVariance() {
+        view.showCostVarianceHeader();
+        int startWeek = weekToStartIntervalFrom();
+
+        for (int i = startWeek; i < project.getEndWeek(); i++) {
+            view.showCostVariance(i+1, project.calculateCostVariance(i+1));
+            i++;
+        }
+    }
+
+    /**
+     * Calls the UI to print the PV interval calculations for every 2 weeks.
+     * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
+     * TODO fix the +1?
+     */
+    private void showPlannedValue() {
+        view.showPlannedValueHeader();
+        int startWeek = weekToStartIntervalFrom();
+
+        for (int i = startWeek; i < project.getEndWeek(); i++) {
+            view.showPlannedValue(i+1, project.calculatePlannedValue(i+1));
+            i++;
+        }
+    }
+
+    /**
      * Checks if the total project weeks is even or odd and returns the number to start the interval calculations from.
      * Assumes there are tasks that start week 1.
      * @return int week to start interval from
@@ -83,19 +128,22 @@ public class ProjectManagement {
                     
                 case EV:
                     showEarnedValue();
-                    userInput = 17; //Takes user back to main menu, not sure if needed..?
+                    userInput = 17; //Prints main menu again
                     break;
                     
                 case SV:
-                	userInput = 0;
+                    showScheduleVariance();
+                    userInput = 17; //Prints main menu again
                     break;
                    
                 case CV:
-                	userInput = 0;
+                    showCostVariance();
+                    userInput = 17; //Prints main menu again
                     break;
                     
                 case PV:
-                	userInput = 0;
+                    showPlannedValue();
+                    userInput = 17; //Prints main menu again
                     break;
                     
                 case AC:

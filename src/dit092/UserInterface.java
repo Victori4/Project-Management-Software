@@ -39,10 +39,18 @@ public class UserInterface {
         return scanner.nextInt();
     }
 
-    public void showEarnedValueHeader() {
-		System.out.println(" === Earned Value === ");
+	/**
+	 * Prints EV header.
+	 */
+	public void showEarnedValueHeader() {
+		System.out.println(" === Earned Value for 2-week intervals === ");
 	}
 
+	/**
+	 * Prints EV for a specific week.
+	 * @param week int
+	 * @param ev double in SEK
+	 */
     public void showEarnedValue(int week, double ev) {
         System.out.println("Week: " + week + "        EV: " + ev + " SEK.");
     }
@@ -98,16 +106,51 @@ public class UserInterface {
     	System.out.println("Actual cost: " + ac);
     	return scanner.nextInt();
     }
-    
-    public int showScheduleVariance(double sv) {
-    	System.out.println("Schedule variance: " + sv);
-    	return scanner.nextInt();
+
+    /**
+	 * Prints SV header.
+     */
+	public void showScheduleVarianceHeader() {
+		System.out.println(" === Schedule Variance for 2-week intervals === ");
+	}
+
+	/**
+	 * Prints SV for a specific week.
+	 * @param sv double
+	 */
+    public void showScheduleVariance(int week, double sv) {
+		System.out.println("Week: " + week + "        SV: " + sv + " SEK.");
     }
-    
-    public int showCostVariance(double cv) {
-    	System.out.println("Cost variance: " + cv);
-    	return scanner.nextInt();
-    }
+
+	/**
+	 * Print CV header.
+	 */
+	public void showCostVarianceHeader() {
+		System.out.println(" === Cost Variance for 2-week intervals === ");
+	}
+
+	/**
+	 * Prints CV for a specific week.
+	 * @param cv double
+	 */
+	public void showCostVariance(int week, double cv) {
+		System.out.println("Week: " + week + "        CV: " + cv + " SEK.");
+	}
+
+	/**
+	 * Print PV header.
+	 */
+	public void showPlannedValueHeader() {
+		System.out.println(" === Planned Value for 2-week intervals === ");
+	}
+
+	/**
+	 * Prints PV for a specific week.
+	 * @param pv double
+	 */
+	public void showPlannedValue(int week, double pv) {
+		System.out.println("Week: " + week + "        PV: " + pv + " SEK.");
+	}
     
 //prints time spent on project per team member 
   	public int showTimeSpentAllMembers (ArrayList<TeamMember> members) {
