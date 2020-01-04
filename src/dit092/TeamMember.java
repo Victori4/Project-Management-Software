@@ -16,12 +16,12 @@ public class TeamMember {
 	}
 
 	/** 
-	 * method for calculating the team members' salaries
-	 *@param timeSpent
-	 *@return salary
+	 * Method for calculating the team members' salaries
+	 * @return salary
 	 */
-	public double calculateSalary(double timeSpent) {
-		double salary = timeSpent * HOURLY_RATE;
+	public double calculateSalary() {
+		//CHANGED: uses retrieveTimeSpent() instead of timeSpent.
+		double salary = retrieveTimeSpent() * HOURLY_RATE;
 		return salary;
 	}
 
@@ -45,8 +45,8 @@ public class TeamMember {
 	}
 	
 	/**
-	 * method for retrieving the time spent to be used in calculateSalary
-	 *@return timeSpent
+	 * Method for retrieving the time spent to be used in calculateSalary
+	 * @return timeSpent
 	 */
 	public double retrieveTimeSpent() {
 		double timeSpent = 0.0;

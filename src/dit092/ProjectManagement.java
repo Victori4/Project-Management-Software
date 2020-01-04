@@ -122,11 +122,12 @@ public class ProjectManagement {
                 case TOTAL_TIME:
                 	userInput = view.showTotalTeamTime(project.getTeam().calculateTotalTeamTimeSpent(project.getTeam().getMembers()));
                 	break;
-                	
-                //Don't know how to get this to work :( Please help!! The method might be wrong in the UI as well.
+
                 case SHOW_SALARY_ALL_MEMBERS:
                 	ArrayList<TeamMember> teamMembers = project.getTeam().getMembers();
-                	userInput = 0;
+                	view.showSalaryAllMembers(teamMembers); //Sends in the team to the UI
+                    userInput = 17; //Makes sure the menu prints again after printing the salaries. There's a better
+                                    //way of doing this but I won't fix this right now...
                 	break;
 
                 case EXIT:

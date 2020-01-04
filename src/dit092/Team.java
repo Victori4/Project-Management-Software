@@ -13,13 +13,15 @@ package dit092;
 		}
 		
 		
-//total salary of all members on this team using enhanced for loop
+		//total salary of all members on this team using enhanced for loop
+		//CHANGED: removed timeSpent from calculateSalary() in TeamMember
 		public double calculateTotalTeamSalary (ArrayList <TeamMember> members) {
-		double sum = 0;
-		for (TeamMember member : members) {
-		sum = sum + member.calculateSalary(member.retrieveTimeSpent());
-		}
-		return sum;
+			double sum = 0;
+
+			for (TeamMember member : members) {
+					sum = sum + member.calculateSalary();
+				}
+			return sum;
 		}
 		
 

@@ -116,13 +116,21 @@ public class UserInterface {
   		}
   		return scanner.nextInt();
   	}
-  	
-  	//supposed to print all members' salaries. Don't know if this works!! Please change if you can see it's wrong. 
-  	public int showSalaryAllMembers (ArrayList<TeamMember> teamMembers, double timeSpent) {
+
+	/**
+	 * Takes a list of TeamMembers and prints their salaries.
+	 * @param teamMembers ArrayList
+	 */
+	public void showSalaryAllMembers (ArrayList<TeamMember> teamMembers) {
+		//Added this so we have a header for the method, EV has the same
+		System.out.println(" === Team Members' Salaries === ");
+
   		for (TeamMember member: teamMembers) {
-  			System.out.println(member + ": " + member.calculateSalary(timeSpent) + System.lineSeparator());
+  			//CHANGES: member.getName() to get the name instead of the toString().
+			//Changed the calculateSalary() method in TeamMember so it doesn't take timeSpent anymore.
+			//Added SEK at the end for "style"..
+  			System.out.println(member.getName() + ": " + member.calculateSalary() + " SEK. " + System.lineSeparator());
   		}
-  		return scanner.nextInt();
   	}
   		
 
