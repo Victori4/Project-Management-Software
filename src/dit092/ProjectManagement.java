@@ -37,12 +37,35 @@ public class ProjectManagement {
         this.project = data.loadProject(); //Loads in the project data from JSON file
     }
 
+    /**
+     * Calls the UI to print the EV interval calculations for every 2 weeks.
+     * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
+     * TODO fix the +1?
+     */
     private void showEarnedValue() {
         view.showEarnedValueHeader();
+        int startWeek = weekToStartIntervalFrom();
 
-        for (int i = project.getStartWeek(); i < project.getEndWeek(); i++) {
+        for (int i = startWeek; i < project.getEndWeek(); i++) {
             view.showEarnedValue(i+1, project.calculateEarnedValue(i+1));
             i++;
+        }
+    }
+
+    /**
+     * Checks if the total project weeks is even or odd and returns the number to start the interval calculations from.
+     * Assumes there are tasks that start week 1.
+     * @return int week to start interval from
+     */
+    private int weekToStartIntervalFrom() {
+        int totalProjectWeeks = project.getTotalProjectWeeks();
+
+        if (totalProjectWeeks % 2 == 0) {
+            return project.getStartWeek();
+        } else {
+            //Adds another week if it's uneven so it starts counting from week 3 instead of 2.
+            //I.e. it "skips" the first week as discussed.
+            return project.getStartWeek() +1;
         }
     }
 

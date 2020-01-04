@@ -9,8 +9,8 @@
 					{
 						"id": "1",
 						"taskName": "Buy guns",
-						"plannedStartWeek": 2,
-						"actualStartWeek": 2,
+						"plannedStartWeek": 1,
+						"actualStartWeek": 1,
 						"plannedEndWeek": 3,
 						"actualEndWeek": 3,
 						"estimatedHours": 3.5,
