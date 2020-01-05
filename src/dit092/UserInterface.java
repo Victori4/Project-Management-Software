@@ -62,29 +62,24 @@ public class UserInterface {
         System.out.println("Please try again!");
     }
 //prints the Cost Performance Index    
-    public int showCostPerformanceIndex(double CPI) {
+    public void showCostPerformanceIndex(double CPI) {
     	System.out.print("Cost Performance Index: " + CPI);
-    	return scanner.nextInt();
     }
 //prints total team salary
-    public int showTotalTeamSalary (double totalSal) {
+    public void showTotalTeamSalary (double totalSal) {
     	System.out.print("Total Salary: " + totalSal);
-    	return scanner.nextInt();
     }
 //prints the total time spent on project
-    public int showTotalTeamTime (double totalTime) {
+    public void showTotalTeamTime (double totalTime) {
     	System.out.print("Total time spent: " + totalTime);
-    	return scanner.nextInt();
     }
     
-    public int showSchedulePerformanceIndex(double spi) {
+    public void showSchedulePerformanceIndex(double spi) {
     	System.out.print("Schedule Performance Index: " + spi);
-    	return scanner.nextInt();
     }
     
-    public int showBudgetAtCompletion(double bac) {
+    public void showBudgetAtCompletion(double bac) {
     	System.out.print("Budget at completion: " + bac);
-    	return scanner.nextInt();
     }
 
     /**
@@ -102,15 +97,13 @@ public class UserInterface {
 	}
 	
 //prints time spent on project by certain member
-	public int showMemberTimeById(Team team, int id) {
+	public void showMemberTimeById(Team team, int id) {
 		System.out.println(id + ": " + team.findMemberTimeById(id));
-	  	return scanner.nextInt();
 		}
 
 
-    public int showActualCost(double ac) {
+    public void showActualCost(double ac) {
     	System.out.println("Actual cost: " + ac);
-    	return scanner.nextInt();
     }
 
     /**
@@ -159,11 +152,10 @@ public class UserInterface {
 	}
     
 //prints time spent on project per team member 
-  	public int showTimeSpentAllMembers (ArrayList<TeamMember> members) {
+  	public void showTimeSpentAllMembers (ArrayList<TeamMember> members) {
   		for (TeamMember member : members) {
   		System.out.println(member + ": " + member.retrieveTimeSpent() + System.lineSeparator());
   		}
-  		return scanner.nextInt();
   	}
 
 	/**

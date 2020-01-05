@@ -147,7 +147,8 @@ public class ProjectManagement {
                     break;
                     
                 case AC:
-                	userInput = view.showActualCost(project.calculateActualCost());
+                	view.showActualCost(project.calculateActualCost());
+                    userInput = START; //Prints main menu again
                     break;
                     
                 case BAC:
@@ -155,7 +156,8 @@ public class ProjectManagement {
                     break;
                     
                 case CPI:
-                	userInput = view.showCostPerformanceIndex(project.calculateCostPerformanceIndex(2));
+                	view.showCostPerformanceIndex(project.calculateCostPerformanceIndex(2));
+                    userInput = START; //Prints main menu again
                 	break;
 
                 case SPI:
@@ -182,27 +184,31 @@ public class ProjectManagement {
 
                 case SEARCH_TEAM_MEMBER_HOURS_BY_ID:
                 	int id = view.promptUserInputInt();
-                	userInput = view.showMemberTimeById(project.getTeam(),id);
+                	view.showMemberTimeById(project.getTeam(),id);
+                    userInput = START; //Prints main menu again
                     break;
 
                 case SHOW_TIME_SPENT_ALL_MEMBERS:
                 	ArrayList<TeamMember> members = project.getTeam().getMembers();
-                	userInput = view.showTimeSpentAllMembers(members);
+                	view.showTimeSpentAllMembers(members);
+                    userInput = START; //Prints main menu again
                 	break;
 
                 case TOTAL_SALARY:
-                	userInput = view.showTotalTeamSalary(project.getTeam().calculateTotalTeamSalary(project.getTeam().getMembers()));
+                	view.showTotalTeamSalary(project.getTeam().calculateTotalTeamSalary(project.getTeam().getMembers()));
+                    userInput = START; //Prints main menu again
                 	break;
 
                 case TOTAL_TIME:
-                	userInput = view.showTotalTeamTime(project.getTeam().calculateTotalTeamTimeSpent(project.getTeam().getMembers()));
+                	view.showTotalTeamTime(project.getTeam().calculateTotalTeamTimeSpent(project.getTeam().getMembers()));
+                    userInput = START; //Prints main menu again
                 	break;
 
                 case SHOW_SALARY_ALL_MEMBERS:
                 	ArrayList<TeamMember> teamMembers = project.getTeam().getMembers();
                 	view.showSalaryAllMembers(teamMembers); //Sends in the team to the UI
-                    userInput = START; //Makes sure the menu prints again after printing the salaries. There's a better
-                                    //way of doing this but I won't fix this right now...
+                    userInput = START;  //Makes sure the menu prints again after printing the salaries. There's a better
+                                        //way of doing this but I won't fix this right now...
                 	break;
 
                 default:
