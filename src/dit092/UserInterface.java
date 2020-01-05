@@ -11,7 +11,11 @@ public class UserInterface {
         scanner = new Scanner(System.in);
     }
 
-    public int showStartMenu() {
+	/**
+	 * Prints all of the menu options and reads the users choice.
+	 * @return int
+	 */
+	public int showStartMenu() {
 		System.out.println();
         System.out.println(" === Welcome to The Project Management System === ");
     	System.out.println(" Please choose from options 1-17 below: ");
@@ -32,7 +36,6 @@ public class UserInterface {
     	System.out.println(" 14. View the total time spent on the project ");
     	System.out.println(" 15. View the time spent on the project by all team members ");
     	System.out.println(" 16. View all team members' salaries ");
-    	
 
     	System.out.println(" 0. Quit this program. ");
 		System.out.println();
@@ -175,10 +178,20 @@ public class UserInterface {
   			System.out.println(member.getName() + ": " + member.calculateSalary() + " SEK. " + System.lineSeparator());
   		}
   	}
-  		
 
+	/**
+	 * Prompts user to input an ID.
+	 * @return int
+	 */
 	public int promptUserInputInt() {
 		System.out.print("Please input an ID: ");
 		return scanner.nextInt();
-	}	
+	}
+
+	/**
+	 * Shows a goodbye message to be displayed when exiting the software.
+	 */
+	public void showExitMessage() {
+		System.out.println("Thank you for using the Project Management Software, bye!");
+	}
 }

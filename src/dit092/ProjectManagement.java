@@ -118,7 +118,7 @@ public class ProjectManagement {
      * Decides which view to show the user based on their input and connects view with business logic/model.
      */
     public void run() {
-        int userInput = view.showStartMenu();
+        int userInput = START;
 
         do {
             switch (userInput) {
@@ -128,22 +128,22 @@ public class ProjectManagement {
                     
                 case EV:
                     showEarnedValue();
-                    userInput = 17; //Prints main menu again
+                    userInput = START; //Prints main menu again
                     break;
                     
                 case SV:
                     showScheduleVariance();
-                    userInput = 17; //Prints main menu again
+                    userInput = START; //Prints main menu again
                     break;
                    
                 case CV:
                     showCostVariance();
-                    userInput = 17; //Prints main menu again
+                    userInput = START; //Prints main menu again
                     break;
                     
                 case PV:
                     showPlannedValue();
-                    userInput = 17; //Prints main menu again
+                    userInput = START; //Prints main menu again
                     break;
                     
                 case AC:
@@ -151,7 +151,7 @@ public class ProjectManagement {
                     break;
                     
                 case BAC:
-                	userInput = 0;
+                	userInput = EXIT;
                     break;
                     
                 case CPI:
@@ -159,15 +159,15 @@ public class ProjectManagement {
                 	break;
 
                 case SPI:
-                	userInput = 0;
+                	userInput = EXIT;
                     break;
 
                 case RISK_MATRIX:
-                	userInput = 0;
+                	userInput = EXIT;
                     break;
 
                 case PROJECT_SCHEDULE:
-                	userInput = 0;
+                	userInput = EXIT;
                     break;
 
                 case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
@@ -197,19 +197,17 @@ public class ProjectManagement {
                 case SHOW_SALARY_ALL_MEMBERS:
                 	ArrayList<TeamMember> teamMembers = project.getTeam().getMembers();
                 	view.showSalaryAllMembers(teamMembers); //Sends in the team to the UI
-                    userInput = 17; //Makes sure the menu prints again after printing the salaries. There's a better
+                    userInput = START; //Makes sure the menu prints again after printing the salaries. There's a better
                                     //way of doing this but I won't fix this right now...
                 	break;
-
-                case EXIT:
-                    userInput = 0;
-                    break;
 
                 default:
                     view.showDefault(); //Prompts user to input a valid menu option
                     break;
             }
         } while (userInput != EXIT);
+
+        view.showExitMessage();
     }
 
     public static void main(String[] args) {
