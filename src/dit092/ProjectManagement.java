@@ -152,7 +152,8 @@ public class ProjectManagement {
                     break;
                     
                 case BAC:
-                	userInput = EXIT;
+                    //ADD BAC CODE
+                    userInput = START; //Prints main menu again
                     break;
                     
                 case CPI:
@@ -161,15 +162,18 @@ public class ProjectManagement {
                 	break;
 
                 case SPI:
-                	userInput = EXIT;
+                    //ADD SPI CODE
+                    userInput = START; //Prints main menu again
                     break;
 
                 case RISK_MATRIX:
-                	userInput = EXIT;
+                    //ADD RISK MATRIX CODE
+                    userInput = START; //Prints main menu again
                     break;
 
                 case PROJECT_SCHEDULE:
-                	userInput = EXIT;
+                    //ADD PROJECT SCHEDULE CODE
+                    userInput = START; //Prints main menu again
                     break;
 
                 case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
