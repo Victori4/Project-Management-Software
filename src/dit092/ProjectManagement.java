@@ -172,8 +172,12 @@ public class ProjectManagement {
 
                 case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
                     int memberId = view.promptUserInputInt();
+                    //You get the member here but previously didn't use it
                     TeamMember member = project.getTeam().findTeamMember(memberId);
-                	userInput = view.showTeamMemberActivitiesById(project.getTeam(), memberId);
+                    //Changed the return type of the UI.
+                    //Sending in member in showTeamMemberActivitiesById()
+                	view.showTeamMemberActivitiesById(member);
+                	userInput = START; //Prints main menu again
                     break;
 
                 case SEARCH_TEAM_MEMBER_HOURS_BY_ID:

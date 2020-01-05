@@ -89,13 +89,16 @@ public class UserInterface {
 
     /**
      * Prints which tasks a certain member has worked on
-     * @param team
-     * @param id
-     * @return
+     * @param member TeamMember
      */
-	public int showTeamMemberActivitiesById(Team team, int id) {
-		System.out.println(id + ": " + team.getTasks()); 
-		return scanner.nextInt();
+	public void showTeamMemberActivitiesById(TeamMember member) {
+		//CHANGED: added a header
+		System.out.println(" === Activities worked on by " + member.getName() + " === ");
+
+		//CHANGED: added a loop which loops through members tasks to print them nicely
+		for (Task task : member.getTasks()) {
+			System.out.println(task); //Uses the toString() method in Task
+		}
 	}
 	
 //prints time spent on project by certain member
