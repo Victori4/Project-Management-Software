@@ -98,6 +98,36 @@ public class ProjectManagement {
     }
 
     /**
+     * Calls the UI to print the CPI interval calculations for every 2 weeks.
+     * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
+     * TODO fix the +1?
+     */
+    private void showCostPerformanceIndex() {
+        view.showCostPerformanceIndexHeader();
+        int startWeek = weekToStartIntervalFrom();
+
+        for (int i = startWeek; i < project.getEndWeek(); i++) {
+            view.showCostPerformanceIndex(i+1, project.calculateCostPerformanceIndex(i+1));
+            i++;
+        }
+    }
+
+    /**
+     * Calls the UI to print the SPI interval calculations for every 2 weeks.
+     * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
+     * TODO fix the +1?
+     */
+    private void showSchedulePerformanceIndex() {
+        view.showSchedulePerformanceIndexHeader();
+        int startWeek = weekToStartIntervalFrom();
+
+        for (int i = startWeek; i < project.getEndWeek(); i++) {
+            view.showSchedulePerformanceIndex(i+1, project.calculateSchedulePerformanceIndex(i+1));
+            i++;
+        }
+    }
+
+    /**
      * Checks if the total project weeks is even or odd and returns the number to start the interval calculations from.
      * Assumes there are tasks that start week 1.
      * @return int week to start interval from
@@ -157,12 +187,12 @@ public class ProjectManagement {
                     break;
                     
                 case CPI:
-                	view.showCostPerformanceIndex(project.calculateCostPerformanceIndex(2));
+                    showCostPerformanceIndex();
                     userInput = START; //Prints main menu again
                 	break;
 
                 case SPI:
-                    //ADD SPI CODE
+                    showSchedulePerformanceIndex();
                     userInput = START; //Prints main menu again
                     break;
 

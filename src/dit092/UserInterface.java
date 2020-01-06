@@ -61,10 +61,23 @@ public class UserInterface {
     public void showDefault() {
         System.out.println("Please try again!");
     }
-//prints the Cost Performance Index    
-    public void showCostPerformanceIndex(double CPI) {
-    	System.out.print("Cost Performance Index: " + CPI);
-    }
+
+	/**
+	 * Print CPI header.
+	 */
+	public void showCostPerformanceIndexHeader() {
+		System.out.println(" === Cost Performance Index for 2-week intervals === ");
+	}
+
+	/**
+	 * Prints CPI for a specific week.
+	 * @param cpi double
+	 * @param week int
+	 */
+	public void showCostPerformanceIndex(int week, double cpi) {
+		System.out.println("Week: " + week + "        CPI: " + cpi + " %.");
+	}
+
 //prints total team salary
     public void showTotalTeamSalary (double totalSal) {
     	System.out.print("Total Salary: " + totalSal);
@@ -73,10 +86,22 @@ public class UserInterface {
     public void showTotalTeamTime (double totalTime) {
     	System.out.print("Total time spent: " + totalTime);
     }
-    
-    public void showSchedulePerformanceIndex(double spi) {
-    	System.out.print("Schedule Performance Index: " + spi);
-    }
+
+	/**
+	 * Print SPI header.
+	 */
+	public void showSchedulePerformanceIndexHeader() {
+		System.out.println(" === Schedule Performance Index for 2-week intervals === ");
+	}
+
+	/**
+	 * Prints SPI for a specific week.
+	 * @param spi double
+	 * @param week int
+	 */
+	public void showSchedulePerformanceIndex(int week, double spi) {
+		System.out.println("Week: " + week + "        SPI: " + spi + " %.");
+	}
     
     public void showBudgetAtCompletion(double bac) {
     	System.out.print("Budget at completion: " + bac);
@@ -115,6 +140,7 @@ public class UserInterface {
 
 	/**
 	 * Prints SV for a specific week.
+	 * @param week int
 	 * @param sv double
 	 */
     public void showScheduleVariance(int week, double sv) {
@@ -130,6 +156,7 @@ public class UserInterface {
 
 	/**
 	 * Prints CV for a specific week.
+	 * @param week int
 	 * @param cv double
 	 */
 	public void showCostVariance(int week, double cv) {
@@ -145,6 +172,7 @@ public class UserInterface {
 
 	/**
 	 * Prints PV for a specific week.
+	 * @param week int
 	 * @param pv double
 	 */
 	public void showPlannedValue(int week, double pv) {
