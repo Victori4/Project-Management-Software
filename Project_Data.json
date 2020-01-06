@@ -6,7 +6,6 @@
 			{
 				"name": "Negin Hashmati",
 				"id": 1,
-				"HOURLY_RATE": 250,
 				"tasks": [
 					{
 						"id": "1.1",
@@ -213,7 +212,6 @@
 			{
 				"name": "Dominique Deramat",
 				"id": 2,
-				"HOURLY_RATE": 250,
 				"tasks": [
 					{
 						"id": "1.1",
@@ -430,7 +428,6 @@
 			{
 				"name": "Fayona Cowperthwaite",
 				"id": 3,
-				"HOURLY_RATE": 250,
 				"tasks": [
 					{
 						"id": "1.1",
@@ -647,7 +644,6 @@
 			{
 				"name": "Victoria Vu",
 				"id": 4,
-				"HOURLY_RATE": 250,
 				"tasks": [
 					{
 						"id": "1.1",
@@ -894,7 +890,6 @@
 			{
 				"name": "Ella Alklid",
 				"id": 5,
-				"HOURLY_RATE": 250,
 				"tasks": [
 					{
 						"id": "1.1",
