@@ -49,164 +49,164 @@
 					},
 					{
 						"id": "2.1",
-						"taskName":"Creating class diagram",
+						"taskName": "Creating class diagram",
 						"plannedStartWeek": 1,
 						"actualStartWeek": 2,
 						"plannedEndWeek": 2,
 						"actualEndWeek": 3,
 						"estimatedHours": 6.0,
 						"actualHours": 3.1
-					 },
-					 {
+					},
+					{
 						"id": "3.6.1",
-						"taskName":"Calculate the risks",
+						"taskName": "Calculate the risks",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 5,
 						"plannedEndWeek": 5,
 						"actualEndWeek": 5,
 						"estimatedHours": 2.0,
 						"actualHours": 1.0
-					 },
-				 	 {
+					},
+					{
 						"id": "3.9",
-						"taskName":"Functionality to find team member by ID",
+						"taskName": "Functionality to find team member by ID",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 4,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 2.0,
 						"actualHours": 0.583
-					  },
-					  {
+					},
+					{
 						"id": "3.11",
-						"taskName":"Print tasks worked on by team member found by ID from the UI",
+						"taskName": "Print tasks worked on by team member found by ID from the UI",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 6,
 						"estimatedHours": 2.0,
 						"actualHours": 0.233
-					  },  
-					  {
+					},
+					{
 						"id": "3.14.1",
-						"taskName":"Write and format JSON file",
+						"taskName": "Write and format JSON file",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 12.0,
 						"actualHours": 6.567
-					  },
-					  {
+					},
+					{
 						"id": "3.17.1",
-						"taskName":"Calculate actual cost",
+						"taskName": "Calculate actual cost",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 4,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 5,
 						"estimatedHours": 2.0,
 						"actualHours": 0.95
-					  },
-					  {
+					},
+					{
 						"id": "3.17.2",
-						"taskName":"Print actual cost from the UI",
+						"taskName": "Print actual cost from the UI",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 6,
 						"estimatedHours": 1.0,
 						"actualHours": 0.083
-					  },  
-					  {
+					},
+					{
 						"id": "4.2",
-						"taskName":"Integration testing",
+						"taskName": "Integration testing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					  },
-					  {
+					},
+					{
 						"id": "4.3",
-						"taskName":"System testing",
+						"taskName": "System testing",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 7,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					  },
-					  {
+					},
+					{
 						"id": "4.4",
-						"taskName":"Bug fixing",
+						"taskName": "Bug fixing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					  },
-					  {
+					},
+					{
 						"id": "5.1",
-						"taskName":"Assignment 1",
+						"taskName": "Assignment 1",
 						"plannedStartWeek": 3,
 						"actualStartWeek": 3,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 36.0,
 						"actualHours": 6.738
-					  },
-					   {
+					},
+					{
 						"id": "5.2",
-						"taskName":"Assignment 2",
+						"taskName": "Assignment 2",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 36.0,
 						"actualHours": 4.087
-					  },
-					  {
+					},
+					{
 						"id": "5.3",
-						"taskName":"User manual",
+						"taskName": "User manual",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					  },
-					  {
+					},
+					{
 						"id": "5.4",
-						"taskName":"Final acceptance test",
+						"taskName": "Final acceptance test",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.8,
 						"actualHours": 1.8
-					  },
-					  {
+					},
+					{
 						"id": "5.5",
-						"taskName":"Project demo/presentation",
+						"taskName": "Project demo/presentation",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.98,
 						"actualHours": 1.98
-					  },
-					  {
+					},
+					{
 						"id": "5.6",
-						"taskName":"Final report collaborative parts",
+						"taskName": "Final report collaborative parts",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					} 
+					}
 				]
 			},
 			{
@@ -255,167 +255,167 @@
 					},
 					{
 						"id": "2.1",
-						"taskName":"Creating class diagram",
+						"taskName": "Creating class diagram",
 						"plannedStartWeek": 1,
 						"actualStartWeek": 2,
 						"plannedEndWeek": 2,
 						"actualEndWeek": 3,
 						"estimatedHours": 6.0,
 						"actualHours": 3.1
-					  },
-					  {
+					},
+					{
 						"id": "2.2",
-						"taskName":"Updating class diagram",
+						"taskName": "Updating class diagram",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 5,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 5.0,
 						"actualHours": 5.0
-					  },
-					  {
+					},
+					{
 						"id": "3.1",
-						"taskName":"Creating classes and project structure",
+						"taskName": "Creating classes and project structure",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 4,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					  },
-					  {
+					},
+					{
 						"id": "3.13.1",
-						"taskName":"Calculate schedule performance index",
+						"taskName": "Calculate schedule performance index",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 5,
 						"plannedEndWeek": 5,
 						"actualEndWeek": 5,
 						"estimatedHours": 2.0,
 						"actualHours": 1.0
-					  },
-					  {
+					},
+					{
 						"id": "3.13.2",
-						"taskName":"Print schedule performance index from the UI",
+						"taskName": "Print schedule performance index from the UI",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					  },
-					  {
+					},
+					{
 						"id": "3.14.1",
-						"taskName":"Write and format JSON file",
+						"taskName": "Write and format JSON file",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 12.0,
 						"actualHours": 20.0
-					  },
-					  {
+					},
+					{
 						"id": "3.15.1",
-						"taskName":"Calculate budget at completion",
+						"taskName": "Calculate budget at completion",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 4,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 2.0,
 						"actualHours": 1.0
-					  },
-					  {
+					},
+					{
 						"id": "3.15.2",
-						"taskName":"Print budget at completion from the UI",
+						"taskName": "Print budget at completion from the UI",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					  },
-					  {
+					},
+					{
 						"id": "4.2",
-						"taskName":"Integration testing",
+						"taskName": "Integration testing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					  },
-					  {
+					},
+					{
 						"id": "4.3",
-						"taskName":"System testing",
+						"taskName": "System testing",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 7,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					 },
-					 {
+					},
+					{
 						"id": "4.4",
-						"taskName":"Bug fixing",
+						"taskName": "Bug fixing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					  },
-					  {
+					},
+					{
 						"id": "5.1",
-						"taskName":"Assignment 1",
+						"taskName": "Assignment 1",
 						"plannedStartWeek": 3,
 						"actualStartWeek": 3,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 36.0,
 						"actualHours": 6.738
-					  },
-					  {
+					},
+					{
 						"id": "5.2",
-						"taskName":"Assignment 2",
+						"taskName": "Assignment 2",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 36.0,
 						"actualHours": 4.087
-					  },
-					  {
+					},
+					{
 						"id": "5.3",
-						"taskName":"User manual",
+						"taskName": "User manual",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					  },
-					  {
+					},
+					{
 						"id": "5.4",
-						"taskName":"Final acceptance test",
+						"taskName": "Final acceptance test",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.8,
 						"actualHours": 1.8
-					  },
-					  {
+					},
+					{
 						"id": "5.5",
-						"taskName":"Project demo/presentation",
+						"taskName": "Project demo/presentation",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.98,
 						"actualHours": 1.98
-					  },
-					  {
+					},
+					{
 						"id": "5.6",
-						"taskName":"Final report collaborative parts",
+						"taskName": "Final report collaborative parts",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
@@ -471,167 +471,167 @@
 					},
 					{
 						"id": "2.1",
-						"taskName":"Creating class diagram",
+						"taskName": "Creating class diagram",
 						"plannedStartWeek": 1,
 						"actualStartWeek": 2,
 						"plannedEndWeek": 2,
 						"actualEndWeek": 3,
 						"estimatedHours": 6.0,
 						"actualHours": 3.1
-					 },
-					 {
+					},
+					{
 						"id": "3.3.1",
-						"taskName":"Calculate schedule variance",
+						"taskName": "Calculate schedule variance",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 5,
 						"plannedEndWeek": 5,
 						"actualEndWeek": 5,
 						"estimatedHours": 2,
 						"actualHours": 1
-					 },
-					 {
+					},
+					{
 						"id": "3.3.2",
-						"taskName":"Print schedule variance from the UI",
+						"taskName": "Print schedule variance from the UI",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					 },
-					 {
+					},
+					{
 						"id": "3.4.1",
-						"taskName":"Calculate cost variance",
+						"taskName": "Calculate cost variance",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 5,
 						"plannedEndWeek": 5,
 						"actualEndWeek": 5,
 						"estimatedHours": 2.0,
 						"actualHours": 1.0
-					 },
-					 {
+					},
+					{
 						"id": "3.4.2",
-						"taskName":"Print cost variance from the UI",
+						"taskName": "Print cost variance from the UI",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					 },
-					 {
+					},
+					{
 						"id": "3.14.2",
-						"taskName":"Write a functionality to read from a JSON file",
+						"taskName": "Write a functionality to read from a JSON file",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 24.0,
 						"actualHours": 12.0
-					 },
-					 {
+					},
+					{
 						"id": "3.18.1",
-						"taskName":"Calculate salary per team member",
+						"taskName": "Calculate salary per team member",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 4,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					 },
-					 {
+					},
+					{
 						"id": "3.18.2",
-						"taskName":"Print salary per team member from the UI",
+						"taskName": "Print salary per team member from the UI",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					 },
-					 {
+					},
+					{
 						"id": "4.2",
-						"taskName":"Integration testing",
+						"taskName": "Integration testing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					 },
-					 {
+					},
+					{
 						"id": "4.3",
-						"taskName":"System testing",
+						"taskName": "System testing",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 7,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					 },
-					 {
+					},
+					{
 						"id": "4.4",
-						"taskName":"Bug fixing",
+						"taskName": "Bug fixing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					 },
-					 {
+					},
+					{
 						"id": "5.1",
-						"taskName":"Assignment 1",
+						"taskName": "Assignment 1",
 						"plannedStartWeek": 3,
 						"actualStartWeek": 3,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 36.0,
 						"actualHours": 6.738
-					 },
-					 {
+					},
+					{
 						"id": "5.2",
-						"taskName":"Assignment 2",
+						"taskName": "Assignment 2",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 36.0,
 						"actualHours": 4.087
-					 },
-					 {
+					},
+					{
 						"id": "5.3",
-						"taskName":"User manual",
+						"taskName": "User manual",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					 },
-					 {
+					},
+					{
 						"id": "5.4",
-						"taskName":"Final acceptance test",
+						"taskName": "Final acceptance test",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.8,
 						"actualHours": 1.8
-					 },
-					 {
+					},
+					{
 						"id": "5.5",
-						"taskName":"Project demo/presentation",
+						"taskName": "Project demo/presentation",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.98,
 						"actualHours": 1.98
-					 },
-					 {
+					},
+					{
 						"id": "5.6",
-						"taskName":"Final report collaborative parts",
+						"taskName": "Final report collaborative parts",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
@@ -687,7 +687,7 @@
 					},
 					{
 						"id": "2.1",
-						"taskName":"Creating class diagram",
+						"taskName": "Creating class diagram",
 						"plannedStartWeek": 1,
 						"actualStartWeek": 2,
 						"plannedEndWeek": 2,
@@ -697,177 +697,177 @@
 					},
 					{
 						"id": "3.8.1",
-						"taskName":"Calculate time spent on the project per team member",
+						"taskName": "Calculate time spent on the project per team member",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 1.0,
 						"actualHours": 1.10
-					 },
-					 {
+					},
+					{
 						"id": "3.8.2",
-						"taskName":"Print time spent on the project per team member from the UI",
+						"taskName": "Print time spent on the project per team member from the UI",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 1.0,
 						"actualHours": 0.18
-					  },
-					  {
+					},
+					{
 						"id": "3.10",
-						"taskName":"Print time spent by chosen team member found by ID from the UI",
+						"taskName": "Print time spent by chosen team member found by ID from the UI",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 6,
 						"estimatedHours": 2.0,
 						"actualHours": 0.47
-					  },
-					  {
+					},
+					{
 						"id": "3.12.1",
-						"taskName":"Calculate cost performance index",
+						"taskName": "Calculate cost performance index",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 5,
 						"plannedEndWeek": 5,
 						"actualEndWeek": 5,
 						"estimatedHours": 2.0,
 						"actualHours": 0.10
-					  },
-					  {
+					},
+					{
 						"id": "3.12.2",
-						"taskName":"Print cost performance index from the UI",
+						"taskName": "Print cost performance index from the UI",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 5,
 						"plannedEndWeek": 5,
 						"actualEndWeek": 5,
 						"estimatedHours": 1.0,
 						"actualHours": 0.15
-					  },
-					  {
+					},
+					{
 						"id": "3.14.2",
-						"taskName":"Write a functionality to read from a JSON file",
+						"taskName": "Write a functionality to read from a JSON file",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 24.0,
 						"actualHours": 4.15
-					  },
-					  {
+					},
+					{
 						"id": "3.19.1",
-						"taskName":"Calculate total time spent on project",
+						"taskName": "Calculate total time spent on project",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 4,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 1.0,
 						"actualHours": 0.25
-					  },
-					  {
+					},
+					{
 						"id": "3.19.2",
-						"taskName":"Print total time spent on project from the UI",
+						"taskName": "Print total time spent on project from the UI",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 1.0,
 						"actualHours": 0.15
-					  },
-					  {
+					},
+					{
 						"id": "3.20.1",
-						"taskName":"Calculate team salary cost",
+						"taskName": "Calculate team salary cost",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 4,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 1.0,
 						"actualHours": 0.30
-					  },
-					  {
+					},
+					{
 						"id": "3.20.2",
-						"taskName":"Print team salary cost from the UI",
+						"taskName": "Print team salary cost from the UI",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 1.0,
 						"actualHours": 0.15
-					  },
-					  {
+					},
+					{
 						"id": "4.2",
-						"taskName":"Integration testing",
+						"taskName": "Integration testing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					  },
-					  {
+					},
+					{
 						"id": "4.3",
-						"taskName":"System testing",
+						"taskName": "System testing",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 7,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					  },
-					  {
+					},
+					{
 						"id": "4.4",
-						"taskName":"Bug fixing",
+						"taskName": "Bug fixing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					  },
-					  {
+					},
+					{
 						"id": "5.1",
-						"taskName":"Assignment 1",
+						"taskName": "Assignment 1",
 						"plannedStartWeek": 3,
 						"actualStartWeek": 3,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 36.0,
 						"actualHours": 6.738
-					  },
-					  {
+					},
+					{
 						"id": "5.2",
-						"taskName":"Assignment 2",
+						"taskName": "Assignment 2",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 36.0,
 						"actualHours": 4.087
-					  },
-					  {
+					},
+					{
 						"id": "5.3",
-						"taskName":"User manual",
+						"taskName": "User manual",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					  },
-					  {
+					},
+					{
 						"id": "5.4",
-						"taskName":"Final acceptance test",
+						"taskName": "Final acceptance test",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.8,
 						"actualHours": 1.8
-					  },
-					  {
+					},
+					{
 						"id": "5.5",
-						"taskName":"Project demo/presentation",
+						"taskName": "Project demo/presentation",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
@@ -877,7 +877,7 @@
 					},
 					{
 						"id": "5.6",
-						"taskName":"Final report collaborative parts",
+						"taskName": "Final report collaborative parts",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
@@ -933,157 +933,157 @@
 					},
 					{
 						"id": "2.1",
-						"taskName":"Creating class diagram",
+						"taskName": "Creating class diagram",
 						"plannedStartWeek": 1,
 						"actualStartWeek": 2,
 						"plannedEndWeek": 2,
 						"actualEndWeek": 3,
 						"estimatedHours": 6.0,
 						"actualHours": 3.1
-					 },
-					 {
+					},
+					{
 						"id": "3.6.1",
-						"taskName":"Calculate the risks",
+						"taskName": "Calculate the risks",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 5,
 						"plannedEndWeek": 5,
 						"actualEndWeek": 5,
 						"estimatedHours": 2.0,
 						"actualHours": 1.0
-					  },
-					  {
+					},
+					{
 						"id": "3.6.2",
-						"taskName":"Print risk matrix from the UI",
+						"taskName": "Print risk matrix from the UI",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 5,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					  },
-					  {
+					},
+					{
 						"id": "3.7",
-						"taskName":"Print project schedule from the UI",
+						"taskName": "Print project schedule from the UI",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 8,
 						"actualEndWeek": 10,
 						"estimatedHours": 3.0,
 						"actualHours": 1.0
-					  },
-					  {
+					},
+					{
 						"id": "3.14.2",
-						"taskName":"Write a functionality to read from a JSON file",
+						"taskName": "Write a functionality to read from a JSON file",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 24.0,
 						"actualHours": 12.0
-					  },
-					  {
+					},
+					{
 						"id": "3.16.1",
-						"taskName":"Calculate planned value",
+						"taskName": "Calculate planned value",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 4,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 7,
 						"estimatedHours": 2.0,
 						"actualHours": 8.0
-					  },
-					  {
+					},
+					{
 						"id": "3.16.2",
-						"taskName":"Print planned value from the UI",
+						"taskName": "Print planned value from the UI",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					  },					  
-					  {
+					},
+					{
 						"id": "4.1",
-						"taskName":"Unit testing",
+						"taskName": "Unit testing",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 6,
 						"estimatedHours": 4.0,
 						"actualHours": 1.0
-					  },
-					  {
+					},
+					{
 						"id": "4.2",
-						"taskName":"Integration testing",
+						"taskName": "Integration testing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					  },
-					  {
+					},
+					{
 						"id": "4.3",
-						"taskName":"System testing",
+						"taskName": "System testing",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 7,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					  },
-					  {
+					},
+					{
 						"id": "4.4",
-						"taskName":"Bug fixing",
+						"taskName": "Bug fixing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					  },
-					  {
+					},
+					{
 						"id": "5.1",
-						"taskName":"Assignment 1",
+						"taskName": "Assignment 1",
 						"plannedStartWeek": 3,
 						"actualStartWeek": 3,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 36.0,
 						"actualHours": 6.738
-					  },
-					  {
+					},
+					{
 						"id": "5.2",
-						"taskName":"Assignment 2",
+						"taskName": "Assignment 2",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 36.0,
 						"actualHours": 4.087
-					  },
-					  {
+					},
+					{
 						"id": "5.3",
-						"taskName":"User manual",
+						"taskName": "User manual",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					  },
-					  {
+					},
+					{
 						"id": "5.4",
-						"taskName":"Final acceptance test",
+						"taskName": "Final acceptance test",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.8,
 						"actualHours": 1.8
-					  },
-					  {
+					},
+					{
 						"id": "5.5",
-						"taskName":"Project demo/presentation",
+						"taskName": "Project demo/presentation",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
@@ -1093,7 +1093,7 @@
 					},
 					{
 						"id": "5.6",
-						"taskName":"Final report collaborative parts",
+						"taskName": "Final report collaborative parts",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
@@ -1169,127 +1169,127 @@
 					},
 					{
 						"id": "2.1",
-						"taskName":"Creating class diagram",
+						"taskName": "Creating class diagram",
 						"plannedStartWeek": 1,
 						"actualStartWeek": 2,
 						"plannedEndWeek": 2,
 						"actualEndWeek": 3,
 						"estimatedHours": 6.0,
 						"actualHours": 3.1
-					 },
-					 {
+					},
+					{
 						"id": "3.2.1",
-						"taskName":"Calculate earned value",
+						"taskName": "Calculate earned value",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 4,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 2.0,
 						"actualHours": 2.4
-					  },
-					  {
+					},
+					{
 						"id": "3.2.2",
-						"taskName":"Print earned value from the UI",
+						"taskName": "Print earned value from the UI",
 						"plannedStartWeek": 4,
 						"actualStartWeek": 5,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 5,
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
-					 },
-					 {
+					},
+					{
 						"id": "3.5",
-						"taskName":"Print values calculated at 2 week intervals from the UI",
+						"taskName": "Print values calculated at 2 week intervals from the UI",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 8,
 						"actualEndWeek": 9,
 						"estimatedHours": 9.0,
 						"actualHours": 1.58
-					  },
-					  {
+					},
+					{
 						"id": "3.14.2",
-						"taskName":"Write a functionality to read from a JSON file",
+						"taskName": "Write a functionality to read from a JSON file",
 						"plannedStartWeek": 6,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 24.0,
 						"actualHours": 12.0
-					 },
-					 {
+					},
+					{
 						"id": "4.2",
-						"taskName":"Integration testing",
+						"taskName": "Integration testing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					  },
-					  {
+					},
+					{
 						"id": "4.3",
-						"taskName":"System testing",
+						"taskName": "System testing",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
 						"actualEndWeek": 7,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					  },
-					  {
+					},
+					{
 						"id": "4.4",
-						"taskName":"Bug fixing",
+						"taskName": "Bug fixing",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
 						"actualHours": 6.0
-					  },
-					  {
+					},
+					{
 						"id": "5.1",
-						"taskName":"Assignment 1",
+						"taskName": "Assignment 1",
 						"plannedStartWeek": 3,
 						"actualStartWeek": 3,
 						"plannedEndWeek": 4,
 						"actualEndWeek": 4,
 						"estimatedHours": 36.0,
 						"actualHours": 6.738
-					  },
-					  {
+					},
+					{
 						"id": "5.2",
-						"taskName":"Assignment 2",
+						"taskName": "Assignment 2",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
 						"actualEndWeek": 6,
 						"estimatedHours": 36.0,
 						"actualHours": 4.087
-					  },
-					  {
+					},
+					{
 						"id": "5.3",
-						"taskName":"User manual",
+						"taskName": "User manual",
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 12.0,
 						"actualHours": 12.0
-					 },
-					 {
+					},
+					{
 						"id": "5.4",
-						"taskName":"Final acceptance test",
+						"taskName": "Final acceptance test",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.8,
 						"actualHours": 1.8
-					  },
-					  {
+					},
+					{
 						"id": "5.5",
-						"taskName":"Project demo/presentation",
+						"taskName": "Project demo/presentation",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
@@ -1299,7 +1299,7 @@
 					},
 					{
 						"id": "5.6",
-						"taskName":"Final report collaborative parts",
+						"taskName": "Final report collaborative parts",
 						"plannedStartWeek": 10,
 						"actualStartWeek": 10,
 						"plannedEndWeek": 10,
@@ -1307,87 +1307,72 @@
 						"estimatedHours": 1.0,
 						"actualHours": 1.0
 					}
-					  
 				]
 			}
 		]
+	},
+	"riskMatrix": {
+		"risks": [
+			{
+				"id": 1,
+				"riskName": "Not being able to use GitLab successfully",
+				"probability": 2.0,
+				"impact": 5.0
+			},
+			{
+				"id": 2,
+				"riskName": "Not understanding how to use the JSON library",
+				"probability": 3.0,
+				"impact": 4.0
+			},
+			{
+				"id": 3,
+				"riskName": "Wrong estimates",
+				"probability": 4.0,
+				"impact": 1.0
+			},
+			{
+				"id": 4,
+				"riskName": "Not understanding the code design",
+				"probability": 2.0,
+				"impact": 2.0
+			},
+			{
+				"id": 5,
+				"riskName": "Poor time management",
+				"probability": 2.0,
+				"impact": 4
+			},
+			{
+				"id": 6,
+				"riskName": "Program does not work",
+				"probability": 1.0,
+				"impact": 5.0
+			},
+			{
+				"id": 7,
+				"riskName": "Have more than 3 bugs at completion",
+				"probability": 2.0,
+				"impact": 2.0
+			},
+			{
+				"id": 8,
+				"riskName": "Not understanding the requirements",
+				"probability": 2.0,
+				"impact": 5.0
+			},
+			{
+				"id": 9,
+				"riskName": "Equipment malfunctions",
+				"probability": 1.0,
+				"impact": 2.0
+			},
+			{
+				"id": 10,
+				"riskName": "Attrition",
+				"probability": 2.0,
+				"impact": 3.0
+			}
+		]
 	}
-}
-
-
-
-
-
-
-	{
-		"id": 1,
-		"riskName": "Not being able to use GitLab successfully"
-		"probability": 2,
-		"impact": 5
-	}
-	{
-		"id": 2,
-		"riskName": "Not understanding how to use the JSON library"
-		"probability": 3,
-		"impact": 4
-	}
- 
-	{
-		"id": 3,
-		"riskName": "Wrong estimates"
-		"probability": 4,
-		"impact": 1
-	}
-	
-	{
-		"id": 4,
-		"riskName": "Understanding the code design"
-		"probability": 2,
-		"impact": 2
-	}
-
-	{
-		"id": 5,
-		"riskName": "Poor time management"
-		"probability": 2,
-		"impact": 4
-	}
-
-	{
-		"id": 6,
-		"riskName": "Program does not work"
-		"probability": 1,
-		"impact": 5
-	}
-
-	{
-		"id": 7,
-		"riskName": "Have more than 3 bugs at completion"
-		"probability": 2,
-		"impact": 2
-	}
-
-	{
-		"id": 8,
-		"riskName": "Not understanding the requirements"
-		"probability": 2,
-		"impact": 5
-	}
-
-	{
-		"id": 9,
-		"riskName": "Equipment malfunctions"
-		"probability": 1,
-		"impact": 2
-	}
-
-	{
-		"id": 10,
-		"riskName": "Attrition"
-		"probability": 2,
-		"impact": 3
-	}
-  }
- }
-}
 }
