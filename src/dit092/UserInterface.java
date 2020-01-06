@@ -24,21 +24,21 @@ public class UserInterface {
     	System.out.println(" 2. Calculate the schedule variance for 2-week intervals");
     	System.out.println(" 3. Calculate the cost variance for 2-week intervals");
     	System.out.println(" 4. Calculate the planned value for 2-week intervals");
-     	System.out.println(" 5. Calculate the actual cost of the project ");
-    	System.out.println(" 6. Calculate the budget at completion for the project ");
-    	System.out.println(" 7. Calculate the cost performance index ");
-    	System.out.println(" 8. Calculate the schedule performance index ");
-    	System.out.println(" 9. View the risk matrix for the project ");
+     	System.out.println(" 5. Calculate the actual cost of the project");
+    	System.out.println(" 6. Calculate the budget at completion for the project");
+    	System.out.println(" 7. Calculate the cost performance index");
+    	System.out.println(" 8. Calculate the schedule performance index");
+    	System.out.println(" 9. View the risk matrix for the project");
     	System.out.println(" 10. View the project schedule");
-    	System.out.println(" 11. Search for a team member by their ID to see their time spent on the project ");
-    	System.out.println(" 12. Search for team member by their ID to see which tasks they worked on ");
-    	System.out.println(" 13. View the total team salary ");
-    	System.out.println(" 14. View the total time spent on the project ");
-    	System.out.println(" 15. View the time spent on the project by all team members ");
-    	System.out.println(" 16. View all team members' salaries ");
+    	System.out.println(" 11. Search for a team member by their ID to see their time spent on the project");
+    	System.out.println(" 12. Search for a team member by their ID to see which tasks they worked on");
+    	System.out.println(" 13. View the total team salary");
+    	System.out.println(" 14. View the total time spent on the project");
+    	System.out.println(" 15. View each team members' time spent on the project");
+    	System.out.println(" 16. View all team members' salaries");
 
     	System.out.println(" 0. Quit this program. ");
-		System.out.println();
+		System.out.println("\nOption number: ");
         return scanner.nextInt();
     }
 
