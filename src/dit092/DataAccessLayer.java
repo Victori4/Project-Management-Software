@@ -11,7 +11,7 @@ public class DataAccessLayer {
 	/**
 	 * Change the filepath variable if you what to load a different JSON file.
 	 */
-	private final String filepath = "././TEST.json";
+	private final String filepath = "././Project_Data.json";
 
 	/**
 	 * Loads a project from a JSON file.
