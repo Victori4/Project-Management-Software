@@ -182,7 +182,7 @@ public class ProjectManagement {
                     break;
                     
                 case BAC:
-                    //ADD BAC CODE
+                    view.showBudgetAtCompletion(project.calculateBudgetAtCompletion());
                     userInput = START; //Prints main menu again
                     break;
                     
