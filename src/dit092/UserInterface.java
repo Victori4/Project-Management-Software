@@ -18,7 +18,7 @@ public class UserInterface {
 	public int showStartMenu() {
 		System.out.println();
         System.out.println(" === Welcome to The Project Management System === ");
-    	System.out.println(" Please choose from options 1-17 below: ");
+    	System.out.println(" Please choose from options 0-16 below: ");
     	System.out.println(" ");
     	System.out.println(" 1. Calculate the earned value for 2-week intervals");
     	System.out.println(" 2. Calculate the schedule variance for 2-week intervals");
