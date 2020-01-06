@@ -2,14 +2,14 @@
 # Project Management Software by project-group-12
 ## Downloading the repository  
 To get the repository on your computer:  
-1. Start Git Bash in the folder on your computer where you want to download the repository.  
+1. Start Git Bash in the folder on your computer where you want to download the repository  
 2. Clone the repo with the following command  
 	`git clone https://git.ita.chalmers.se/courses/dit092/project-group-12.git`  
 3. You will be prompted for your username and password, fill those in as requested.
 4. Now type `cd project-group-12/`
 5. If we are working in a branch, use `git checkout name-of-branch` 
     For now, we are using the workshop branch
-6. Done! You should now have the repository downloaded and the correct branch ckecked out  
+6. Done! You should now have the repository downloaded and the correct branch checked out  
   
 ## Creating an Eclipse-project  
 To create an Eclipse-project in the repository go through the following steps:  
