@@ -69,7 +69,7 @@ public class DataAccessLayer {
 			JSONObject riskObj = (JSONObject) risk;
 
 			String id = (String) riskObj.get("id");
-			String riskName = (String) riskObj.get("name");
+			String riskName = (String) riskObj.get("riskName");
 			double impact = (Double) riskObj.get("impact");
 			double probability = (Double) riskObj.get("probability");
 
