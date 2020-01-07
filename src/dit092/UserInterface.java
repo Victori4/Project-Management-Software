@@ -80,7 +80,7 @@ public class UserInterface {
 
 //prints total team salary
     public void showTotalTeamSalary (double totalSal) {
-    	System.out.print("Total Salary: " + totalSal);
+    	System.out.print("Total Salary: " + totalSal + " SEK");
     }
 //prints the total time spent on project
     public void showTotalTeamTime (double totalTime) {
@@ -104,7 +104,7 @@ public class UserInterface {
 	}
     
     public void showBudgetAtCompletion(double bac) {
-    	System.out.print("Budget at completion: " + bac);
+    	System.out.print("Budget at completion: " + bac + " SEK");
     }
 
     /**
@@ -212,9 +212,9 @@ public class UserInterface {
 	}
 
 	/**
-	 * Shows a goodbye message to be displayed when exiting the software.
+	 * Shows a message to be displayed when exiting the software.
 	 */
 	public void showExitMessage() {
-		System.out.println("Thank you for using the Project Management Software, bye!");
+		System.out.println("Thank you for using The Project Management System.");
 	}
 }
