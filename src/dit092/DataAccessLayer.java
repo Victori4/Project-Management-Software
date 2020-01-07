@@ -47,7 +47,7 @@ public class DataAccessLayer {
 
 	/**
 	 * Creates a risk matrix object from JSONObject
-	 * @param JSONObject obj
+	 * @param obj JSONObject
 	 * @return RiskMatrix
 	 */
 	private RiskMatrix loadRiskMatrix(JSONObject obj) {
@@ -59,7 +59,7 @@ public class DataAccessLayer {
 
 	/**
 	 * Creates an ArrayList with Risks from JSONArray
-	 * @param JSONArray arr
+	 * @param arr JSONArray
 	 * @return ArrayList with risks
 	 */
 	private ArrayList<Risk> loadRisks(JSONArray arr) {
@@ -81,7 +81,7 @@ public class DataAccessLayer {
 
 	/**
 	 * Creates a team object from JSONObject
-	 * @param JSONObject obj
+	 * @param obj JSONObject
 	 * @return Team
 	 */
 	private Team loadTeam(JSONObject obj) {
@@ -94,7 +94,7 @@ public class DataAccessLayer {
 
 	/**
 	 * Creates an ArrayList with TeamMembers for the Team
-	 * @param JSONArray arr
+	 * @param  arr JSONArray
 	 * @return ArrayList with TeamMembers
 	 */
 	private ArrayList<TeamMember> loadMembers(JSONArray arr) {
@@ -116,7 +116,7 @@ public class DataAccessLayer {
 
 	/**
 	 * Creates an ArrayList of Tasks for a TeamMember
-	 * @param JSONArray arr
+	 * @param  arr JSONArray
 	 * @return ArrayList with Tasks
 	 */
 	private ArrayList<Task> loadTasks(JSONArray arr) {
