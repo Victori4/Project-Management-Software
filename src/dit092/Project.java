@@ -117,7 +117,7 @@ public class Project {
         ArrayList<Task> tasks = team.getTasks();
         
     	for (Task task : tasks) {
-    		actualCost = task.getActualHours() * TeamMember.HOURLY_RATE;
+    		actualCost = actualCost + (task.getActualHours() * TeamMember.HOURLY_RATE);
     	}
     	return actualCost;
     }
