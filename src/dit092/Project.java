@@ -158,5 +158,9 @@ public class Project {
 	public Team getTeam() {
 		return team;
 	}
+
+	public RiskMatrix getRiskMatrix() {
+    	return matrix;
+	}
  
 }
