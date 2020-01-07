@@ -83,9 +83,10 @@ public class UserInterface {
     public void showTotalTeamSalary (double totalSal) {
     	System.out.print("Total Salary: " + totalSal + " SEK");
     }
+    
 //prints the total time spent on project
     public void showTotalTeamTime (double totalTime) {
-    	System.out.print("Total time spent: " + totalTime);
+    	System.out.print("Total time spent: " + totalTime + " hrs");
     }
 
 	/**
@@ -124,7 +125,7 @@ public class UserInterface {
 	
 //prints time spent on project by certain member
 	public void showMemberTimeById(Team team, int id) {
-		System.out.println(id + ": " + team.findMemberTimeById(id));
+		System.out.println(id + ": " + team.findMemberTimeById(id) + " hrs");
 		}
 
 
@@ -183,7 +184,7 @@ public class UserInterface {
 //prints time spent on project per team member 
   	public void showTimeSpentAllMembers (ArrayList<TeamMember> members) {
   		for (TeamMember member : members) {
-  		System.out.println(member + ": " + member.retrieveTimeSpent() + System.lineSeparator());
+  		System.out.println(member + ": " + member.retrieveTimeSpent() + " hrs" + System.lineSeparator());
   		}
   	}
 
