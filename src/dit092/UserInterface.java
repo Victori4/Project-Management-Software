@@ -128,7 +128,7 @@ public class UserInterface {
 
 
     public void showActualCost(double ac) {
-    	System.out.println("Actual cost: " + ac);
+    	System.out.println("Actual cost: " + ac + " SEK");
     }
 
     /**
