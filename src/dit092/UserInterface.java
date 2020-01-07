@@ -139,6 +139,11 @@ public class UserInterface {
 		}
 	}
 	
+	//attempt at printing Risk Matrix 
+	public void showRiskMatrix(RiskMatrix RiskMatrix) {
+		System.out.println(RiskMatrix.toString());
+		}
+	
 //prints time spent on project by certain member
 	public void showMemberTimeById(Team team, int id) {
 		System.out.println(id + ": " + team.findMemberTimeById(id) + " hrs");

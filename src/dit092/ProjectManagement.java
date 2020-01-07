@@ -197,7 +197,7 @@ public class ProjectManagement {
                     break;
 
                 case RISK_MATRIX:
-                    //ADD RISK MATRIX CODE
+                    view.showRiskMatrix(RiskMatrix); // Don't know how to insert Risk Matrix obj here
                     userInput = START; //Prints main menu again
                     break;
 
