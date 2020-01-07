@@ -44,7 +44,7 @@ public class Task implements Comparable<Task> {
     }
 
     public int calculateTotalPlannedWeeks() {
-    	int totalWeeks = (plannedEndWeek + plannedStartWeek) + 1;
+    	int totalWeeks = (plannedEndWeek - plannedStartWeek) + 1;
     	return totalWeeks;
     }
     
