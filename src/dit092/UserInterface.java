@@ -55,7 +55,12 @@ public class UserInterface {
 	 * @param ev double in SEK
 	 */
     public void showEarnedValue(int week, double ev) {
-        System.out.println("Week: " + week + "        EV: " + ev + " SEK.");
+        if (week > 9) {
+        	System.out.println("Week: " + week + "       EV: " + ev + " SEK.");
+        }
+        else {
+        	System.out.println("Week: " + week + "        EV: " + ev + " SEK.");
+        }
     }
 
     public void showDefault() {
@@ -76,7 +81,12 @@ public class UserInterface {
 	 */
 	//Go rid of % since CPI and SPI are ratios, not percentages.
 	public void showCostPerformanceIndex(int week, double cpi) {
-		System.out.println("Week: " + week + "        CPI: " + cpi);
+		if (week > 9) {
+			System.out.println("Week: " + week + "       CPI: " + cpi);
+		}
+		else {
+			System.out.println("Week: " + week + "        CPI: " + cpi);
+		}
 	}
 
 //prints total team salary
@@ -102,7 +112,12 @@ public class UserInterface {
 	 * @param week int
 	 */
 	public void showSchedulePerformanceIndex(int week, double spi) {
-		System.out.println("Week: " + week + "        SPI: " + spi);
+		if (week > 9) {
+			System.out.println("Week: " + week + "       SPI: " + spi);
+		}
+		else {
+			System.out.println("Week: " + week + "        SPI: " + spi);
+		}
 	}
     
     public void showBudgetAtCompletion(double bac) {
@@ -146,7 +161,12 @@ public class UserInterface {
 	 * @param sv double
 	 */
     public void showScheduleVariance(int week, double sv) {
-		System.out.println("Week: " + week + "        SV: " + sv + " SEK.");
+		if (week > 9) {
+			System.out.println("Week: " + week + "       SV: " + sv + " SEK.");
+		}
+		else {
+			System.out.println("Week: " + week + "        SV: " + sv + " SEK.");
+		}
     }
 
 	/**
@@ -162,7 +182,12 @@ public class UserInterface {
 	 * @param cv double
 	 */
 	public void showCostVariance(int week, double cv) {
-		System.out.println("Week: " + week + "        CV: " + cv + " SEK.");
+		if (week > 9) {
+			System.out.println("Week: " + week + "       CV: " + cv + " SEK.");
+		}
+		else {
+			System.out.println("Week: " + week + "        CV: " + cv + " SEK.");
+		}
 	}
 
 	/**
@@ -178,7 +203,12 @@ public class UserInterface {
 	 * @param pv double
 	 */
 	public void showPlannedValue(int week, double pv) {
-		System.out.println("Week: " + week + "        PV: " + pv + " SEK.");
+		if (week > 9) {
+			System.out.println("Week: " + week + "       PV: " + pv + " SEK.");
+		}
+		else {
+			System.out.println("Week: " + week + "        PV: " + pv + " SEK.");
+		}
 	}
     
 //prints time spent on project per team member 
