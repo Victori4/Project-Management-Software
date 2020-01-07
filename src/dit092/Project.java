@@ -133,7 +133,7 @@ public class Project {
 	}
 
 	public double calculateCostPerformanceIndex (int week) {
-		double cPI = calculateEarnedValue(week)/calculateActualCost();
+		double cPI = (calculateEarnedValue(week)/calculateActualCost());
 		return cPI;
 	}
 	
@@ -151,7 +151,7 @@ public class Project {
 	//I don't know if this is the right thing to but I put down what I have so far
 
 	public double calculateSchedulePerformanceIndex(int week) {
-		double sPI = calculateEarnedValue(week) / calculatePlannedValue(week);
+		double sPI = (calculateEarnedValue(week) / calculatePlannedValue(week));
 		return sPI;
 	}
 

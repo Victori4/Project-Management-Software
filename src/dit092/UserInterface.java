@@ -74,8 +74,9 @@ public class UserInterface {
 	 * @param cpi double
 	 * @param week int
 	 */
+	//Go rid of % since CPI and SPI are ratios, not percentages.
 	public void showCostPerformanceIndex(int week, double cpi) {
-		System.out.println("Week: " + week + "        CPI: " + cpi + " %.");
+		System.out.println("Week: " + week + "        CPI: " + cpi);
 	}
 
 //prints total team salary
@@ -100,7 +101,7 @@ public class UserInterface {
 	 * @param week int
 	 */
 	public void showSchedulePerformanceIndex(int week, double spi) {
-		System.out.println("Week: " + week + "        SPI: " + spi + " %.");
+		System.out.println("Week: " + week + "        SPI: " + spi);
 	}
     
     public void showBudgetAtCompletion(double bac) {
