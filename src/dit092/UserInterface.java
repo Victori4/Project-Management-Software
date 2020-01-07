@@ -140,8 +140,8 @@ public class UserInterface {
 	}
 	
 	//attempt at printing Risk Matrix, not sure if right! 
-	public void showRiskMatrix(RiskMatrix RiskMatrix) {
-		System.out.println(RiskMatrix.toString());
+	public void showRiskMatrix(RiskMatrix riskMatrix) {
+		System.out.println(riskMatrix.toString());
 		}
 	
 //prints time spent on project by certain member
