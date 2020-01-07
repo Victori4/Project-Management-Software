@@ -139,7 +139,7 @@ public class UserInterface {
 		}
 	}
 	
-	//attempt at printing Risk Matrix 
+	//attempt at printing Risk Matrix, not sure if right! 
 	public void showRiskMatrix(RiskMatrix RiskMatrix) {
 		System.out.println(RiskMatrix.toString());
 		}
