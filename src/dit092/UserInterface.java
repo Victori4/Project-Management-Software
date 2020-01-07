@@ -1,6 +1,7 @@
 package dit092;
 
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class UserInterface {
@@ -56,10 +57,10 @@ public class UserInterface {
 	 */
     public void showEarnedValue(int week, double ev) {
         if (week > 9) {
-        	System.out.println("Week: " + week + "       EV: " + ev + " SEK.");
+        	System.out.println("Week: " + week + "       EV: " + String.format(Locale.ROOT, "%.2f", ev) + " SEK.");
         }
         else {
-        	System.out.println("Week: " + week + "        EV: " + ev + " SEK.");
+        	System.out.println("Week: " + week + "        EV: " + String.format(Locale.ROOT, "%.2f", ev) + " SEK.");
         }
     }
 
@@ -91,7 +92,7 @@ public class UserInterface {
 
 //prints total team salary
     public void showTotalTeamSalary (double totalSal) {
-    	System.out.print("Total Salary: " + totalSal + " SEK");
+    	System.out.print("Total Salary: " + String.format(Locale.ROOT, "%.2f", totalSal) + " SEK");
     }
     
 //prints the total time spent on project
@@ -121,7 +122,7 @@ public class UserInterface {
 	}
     
     public void showBudgetAtCompletion(double bac) {
-    	System.out.print("Budget at completion: " + bac + " SEK");
+    	System.out.print("Budget at completion: " + String.format(Locale.ROOT, "%.2f", bac) + " SEK");
     }
 
     /**
@@ -145,7 +146,7 @@ public class UserInterface {
 
 
     public void showActualCost(double ac) {
-    	System.out.println("Actual cost: " + ac + " SEK");
+    	System.out.println("Actual cost: " + String.format(Locale.ROOT, "%.2f", ac) + " SEK");
     }
 
     /**
@@ -162,10 +163,10 @@ public class UserInterface {
 	 */
     public void showScheduleVariance(int week, double sv) {
 		if (week > 9) {
-			System.out.println("Week: " + week + "       SV: " + sv + " SEK.");
+			System.out.println("Week: " + week + "       SV: " + String.format(Locale.ROOT, "%.2f", sv) + " SEK.");
 		}
 		else {
-			System.out.println("Week: " + week + "        SV: " + sv + " SEK.");
+			System.out.println("Week: " + week + "        SV: " + String.format(Locale.ROOT, "%.2f", sv) + " SEK.");
 		}
     }
 
@@ -183,10 +184,10 @@ public class UserInterface {
 	 */
 	public void showCostVariance(int week, double cv) {
 		if (week > 9) {
-			System.out.println("Week: " + week + "       CV: " + cv + " SEK.");
+			System.out.println("Week: " + week + "       CV: " + String.format(Locale.ROOT, "%.2f", cv) + " SEK.");
 		}
 		else {
-			System.out.println("Week: " + week + "        CV: " + cv + " SEK.");
+			System.out.println("Week: " + week + "        CV: " + String.format(Locale.ROOT, "%.2f", cv) + " SEK.");
 		}
 	}
 
@@ -204,10 +205,10 @@ public class UserInterface {
 	 */
 	public void showPlannedValue(int week, double pv) {
 		if (week > 9) {
-			System.out.println("Week: " + week + "       PV: " + pv + " SEK.");
+			System.out.println("Week: " + week + "       PV: " + String.format(Locale.ROOT, "%.2f", pv) + " SEK.");
 		}
 		else {
-			System.out.println("Week: " + week + "        PV: " + pv + " SEK.");
+			System.out.println("Week: " + week + "        PV: " + String.format(Locale.ROOT, "%.2f", pv) + " SEK.");
 		}
 	}
     
@@ -230,7 +231,7 @@ public class UserInterface {
   			//CHANGES: member.getName() to get the name instead of the toString().
 			//Changed the calculateSalary() method in TeamMember so it doesn't take timeSpent anymore.
 			//Added SEK at the end for "style"..
-  			System.out.println(member.getName() + ": " + member.calculateSalary() + " SEK. " + System.lineSeparator());
+  			System.out.println(member.getName() + ": " + String.format(Locale.ROOT, "%.2f", member.calculateSalary()) + " SEK. " + System.lineSeparator());
   		}
   	}
 
