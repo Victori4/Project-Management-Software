@@ -38,22 +38,9 @@ public class Task implements Comparable<Task> {
         setActualHours(actualHours);
     }
 
-    public int calculateTotalPlannedWeeks() {
-    	int totalWeeks = (plannedEndWeek - plannedStartWeek) + 1;
-    	return totalWeeks;
-    }
-    
-    //TODO Rewrite method, estimated hrs x hrly rate
     public double calculatePlannedCost() {
     	double plannedCost = estimatedHours* TeamMember.HOURLY_RATE;
     	return plannedCost;
-    	/*
-     
-    	int teamSize = teamMembersWorked.size();
-    	double plannedCost = teamSize * TeamMember.HOURLY_RATE;
-    	
-    	return plannedCost;
-    */
     }
     
     public String getID() {
