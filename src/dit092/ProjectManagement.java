@@ -166,6 +166,16 @@ public class ProjectManagement {
     }
 
     /**
+     * Show all hours for a specific team member found by ID.
+     */
+    private void showSearchTeamMemberHoursById() {
+        int id = view.promptUserInputInt();
+//                	Team team = project.getTeam();
+//                	TeamMember member = team.findMemberTimeById(memberId);
+        view.showMemberTimeById(project.getTeam(),id);
+    }
+
+    /**
      * Show total team time.
      */
     private void showTotalTeamTime() {
@@ -185,16 +195,6 @@ public class ProjectManagement {
     private void showTimeSpentAllMembers() {
         ArrayList<TeamMember> members = project.getTeam().getMembers();
         view.showTimeSpentAllMembers(members);
-    }
-
-    /**
-     * Show all hours for a specific team member found by ID.
-     */
-    private void showSearchTeamMemberHoursById() {
-        int id = view.promptUserInputInt();
-//                	Team team = project.getTeam();
-//                	TeamMember member = team.findMemberTimeById(memberId);
-        view.showMemberTimeById(project.getTeam(),id);
     }
 
     /**
