@@ -121,7 +121,7 @@ public class Project {
 	}
 
 /**
- * returns cost performance index
+ * returns cost performance index by multiplying the earned value with actual cost
  * @param week
  * @return ratio Cost Performance Index
  */
