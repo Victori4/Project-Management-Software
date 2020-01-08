@@ -281,6 +281,7 @@ public class ProjectManagement {
                     break;
                 default:
                     view.showDefault(); //Prompts user to input a valid menu option
+                    userInput = START;
                     break;
             }
         } while (userInput != EXIT);
