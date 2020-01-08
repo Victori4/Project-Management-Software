@@ -48,15 +48,17 @@ public class Task implements Comparable<Task> {
     	return totalWeeks;
     }
     
-    //TODO Rewrite method
+    //TODO Rewrite method, estimated hrs x hrly rate
     public double calculatePlannedCost() {
-    /*
+    	double plannedCost = estimatedHours* TeamMember.HOURLY_RATE;
+    	return plannedCost;
+    	/*
+     
     	int teamSize = teamMembersWorked.size();
     	double plannedCost = teamSize * TeamMember.HOURLY_RATE;
     	
     	return plannedCost;
     */
-    return 0.0;
     }
     
     public String getID() {
