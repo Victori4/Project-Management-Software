@@ -15,7 +15,7 @@ public class Task implements Comparable<Task> {
 
     /**
      * Creates a task
-     * @param id
+     * @param ID
      * @param taskName
      * @param plannedStartWeek
      * @param actualStartWeek
@@ -36,8 +36,11 @@ public class Task implements Comparable<Task> {
         setActualHours(actualHours);
     }
 
+    /*
+     * Calculates the planned cost of the task, based on a Team Members salary
+     */
     public double calculatePlannedCost() {
-    	double plannedCost = estimatedHours* TeamMember.HOURLY_RATE;
+    	double plannedCost = estimatedHours * TeamMember.HOURLY_RATE;
     	return plannedCost;
     }
     
@@ -115,7 +118,4 @@ public class Task implements Comparable<Task> {
 	public int compareTo(Task otherTask) {
 		return this.getID().compareTo(otherTask.getID());
 	}
-    
-    
-
 }
