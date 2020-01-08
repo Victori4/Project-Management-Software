@@ -43,6 +43,7 @@ public class Task implements Comparable<Task> {
     	double plannedCost = estimatedHours * TeamMember.HOURLY_RATE;
     	return plannedCost;
     }
+
     /*
      * Calculates the actual cost of the task, based on a Team Members salary
      */
