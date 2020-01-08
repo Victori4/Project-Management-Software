@@ -213,7 +213,7 @@ public class ProjectManagement {
                     userInput = START; //Prints main menu again
                     break;
                 case AC:
-                    view.showActualCost(project.calculateActualCost()); //send in project.getEndWeek()
+                    view.showActualCost(project.calculateActualCost(project.getEndWeek()));
                     userInput = START; //Prints main menu again
                     break;
                 case SHOW_SALARY_ALL_MEMBERS:

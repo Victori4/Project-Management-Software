@@ -94,15 +94,17 @@ public class Project {
     }
 
     /**
-     * Calculates actual cost by finding all tasks, adding the actual hours spent for each task times each team member's hourly rate 
-     * @return
+     * Calculates actual cost of project at a specified week
+     * @return the actual cost of the work performed up until @param week
      */
-    public double calculateActualCost () {
+    public double calculateActualCost(int week) {
     	double actualCost = 0.0;
         ArrayList<Task> tasks = team.getTasks();
         
     	for (Task task : tasks) {
-    		actualCost = actualCost + (task.getActualHours() * TeamMember.HOURLY_RATE);
+    		if(task.getActualEndWeek() <= week) {
+				actualCost = actualCost + task.calculateActualCost();
+			}
     	}
     	return actualCost;
     }
@@ -126,7 +128,7 @@ public class Project {
  * @return ratio Cost Performance Index
  */
 	public double calculateCostPerformanceIndex (int week) {
-		double cPI = (calculateEarnedValue(week)/calculateActualCost());
+		double cPI = (calculateEarnedValue(week)/calculateActualCost(week));
 		return cPI;
 	}
 /**
@@ -135,7 +137,7 @@ public class Project {
  * @return SEK Cost Variance
  */
 	public double calculateCostVariance(int week) {
-		double cv = calculateEarnedValue(week) - calculateActualCost();
+		double cv = calculateEarnedValue(week) - calculateActualCost(week);
 		return cv;		
 	}
 /**
