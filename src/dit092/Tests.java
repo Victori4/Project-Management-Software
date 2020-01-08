@@ -20,6 +20,9 @@ public class Tests {
 	@BeforeAll
 	public static void init() {
 
+		testMembers = new ArrayList<TeamMember>();
+		testTasks = new ArrayList<Task>();
+
 		//Set up tasks
 		testTasks.add(new Task("1", "Test Task 1", 1, 1, 1, 1, 1.0, 1.0));
 		testTasks.add(new Task("2", "Test Task 2", 2, 2, 3, 4, 10.0, 10.0));
