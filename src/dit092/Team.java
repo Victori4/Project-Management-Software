@@ -36,13 +36,13 @@ package dit092;
 		
 		
 		//Finding a team member by iterating through the arraylist with an enhanced for-loop to find the one with the correct ID. 
-		public TeamMember findTeamMember(int id) {
+		public TeamMember findTeamMember(int id) throws Exception {
 			for (TeamMember oneMember : members) {
 				if (oneMember.getId() == id) {
 					return oneMember;
 				}
 			}
-			return null;
+			throw new Exception("Couldn't find team member of ID" + id);
 		}	
 		
 		public int getId() {

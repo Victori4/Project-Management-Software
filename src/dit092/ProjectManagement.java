@@ -157,12 +157,14 @@ public class ProjectManagement {
      */
     private void showSearchTeamMemberActivitiesById() {
         int memberId = view.promptUserInputInt();
-        //You get the member here but previously didn't use it
         Team team = project.getTeam();
-        TeamMember member = team.findTeamMember(memberId);
-        //Changed the return type of the UI.
-        //Sending in member in showTeamMemberActivitiesById()
-        view.showTeamMemberActivitiesById(member);
+        TeamMember member;
+		try {
+			member = team.findTeamMember(memberId);
+			view.showTeamMemberActivitiesById(member);	
+		} catch (Exception e) {
+			view.showErrorMessageCouldNotFindMember();
+		}
     }
 
     /**
@@ -171,8 +173,13 @@ public class ProjectManagement {
     private void showSearchTeamMemberHoursById() {
         int id = view.promptUserInputInt();
         Team team = project.getTeam();
-        TeamMember member = team.findTeamMember(id);
+        TeamMember member; 
+        try {
+        member = team.findTeamMember(id);
         view.showMemberTimeById(member);
+        } catch (Exception e) {
+        	view.showErrorMessageCouldNotFindMember();
+        }
     }
 
     /**

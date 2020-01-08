@@ -255,4 +255,8 @@ public class UserInterface {
 	public void showExitMessage() {
 		System.out.println("Thank you for using The Project Management System.");
 	}
+	
+	public void showErrorMessageCouldNotFindMember() {
+		System.out.println("There is no member with that ID registered.");
+	}
 }
