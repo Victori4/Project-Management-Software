@@ -55,27 +55,12 @@ public class Project {
 		return totalProjectWeeks;
 	}
 
-    /**
-     * Making sure it compiles! Please feel free to finish the method and edit this comment!
+    /**Calculates the planned value
      * @return double Planned Value
-     * TODO Ella
      */
     public double calculatePlannedValue(int week) {
     	double plannedValue = 0;
         ArrayList<Task> tasks = team.getTasks();
-
-    	/* ArrayList<Task> plannedTasks = new ArrayList<Task>();
-    	ArrayList<Task> unfinishedTasks = new ArrayList<Task>();
-    	ArrayList<Task> finishedTasks = new ArrayList<Task>();
-        
-    	//Collects all the tasks that are planned to be started at  param week
-    	for (Task task : tasks) {
-        	if (task.getPlannedStartWeek() <= week) {
-        		plannedTasks.add(task);
-        	}
-        }
-    	*/
-    	
     	//Collects all the tasks that are planned to be finished by param week
     	for (Task task : tasks) {
     		if (task.getPlannedEndWeek() <= week) {
@@ -122,6 +107,9 @@ public class Project {
     	return actualCost;
     }
 
+    /**calculates the Budget at Completion
+    * @return SEK Budget at Completion
+    */
 	public double calculateBudgetAtCompletion() {
 		double budgetAtCompletion = 0.0;
         ArrayList<Task> tasks = team.getTasks();
@@ -132,24 +120,32 @@ public class Project {
 		return budgetAtCompletion;
 	}
 
+	/**
+	 * @return ratio Cost Performance Index
+	 */
 	public double calculateCostPerformanceIndex (int week) {
 		double cPI = (calculateEarnedValue(week)/calculateActualCost());
 		return cPI;
 	}
-	
+	 /**
+	    * @return SEK Cost Variance
+	    */
 	public double calculateCostVariance(int week) {
 		double cv = calculateEarnedValue(week) - calculateActualCost();
 		return cv;		
 	}
-	
+	/**
+	    * @return SEK Schedule Variance
+	    */
 	public double calculateScheduleVariance (int week) {
 		double sv = calculateEarnedValue(week) - calculatePlannedValue(week);
 
 		return sv;
 	}
 	
-	//I don't know if this is the right thing to but I put down what I have so far
-
+	/**
+	 * @return ratio Cost Performance Index
+	 */
 	public double calculateSchedulePerformanceIndex(int week) {
 		double sPI = (calculateEarnedValue(week) / calculatePlannedValue(week));
 		return sPI;
