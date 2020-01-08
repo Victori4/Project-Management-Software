@@ -2,8 +2,6 @@ package dit092;
 
 /*
  * A representation of a task with ID, name and both planned/actual start/end weeks
- *TODO comparable interface
- *TODO fix estimated hours from attribute to calculation
  */
 public class Task implements Comparable<Task> {
     private String ID;
@@ -107,9 +105,6 @@ public class Task implements Comparable<Task> {
         this.actualHours = actualHours;
     }
 
-	/**
-	 *TODO toString()
-	 */
 	@Override
 	public String toString() {
 		return "ID: " + getID() + " Task: " + getTaskName() + " Start week: "
