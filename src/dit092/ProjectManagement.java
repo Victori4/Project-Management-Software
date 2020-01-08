@@ -145,6 +145,59 @@ public class ProjectManagement {
     }
 
     /**
+     * Shows salaries for all members.
+     */
+    private void showSalaryAllMembers() {
+        ArrayList<TeamMember> teamMembers = project.getTeam().getMembers();
+        view.showSalaryAllMembers(teamMembers);
+    }
+
+    /**
+     * Show all activities for all team members by a specific ID.
+     */
+    private void showSearchTeamMemberActivitiesById() {
+        int memberId = view.promptUserInputInt();
+        //You get the member here but previously didn't use it
+        Team team = project.getTeam();
+        TeamMember member = team.findTeamMember(memberId);
+        //Changed the return type of the UI.
+        //Sending in member in showTeamMemberActivitiesById()
+        view.showTeamMemberActivitiesById(member);
+    }
+
+    /**
+     * Show total team time.
+     */
+    private void showTotalTeamTime() {
+        view.showTotalTeamTime(project.getTeam().calculateTotalTeamTimeSpent(project.getTeam().getMembers()));
+    }
+
+    /**
+     * Show total salary for the whole team.
+     */
+    private void showTotalSalary() {
+        view.showTotalTeamSalary(project.getTeam().calculateTotalTeamSalary(project.getTeam().getMembers()));
+    }
+
+    /**
+     * Show time spent for all members.
+     */
+    private void showTimeSpentAllMembers() {
+        ArrayList<TeamMember> members = project.getTeam().getMembers();
+        view.showTimeSpentAllMembers(members);
+    }
+
+    /**
+     * Show all hours for a specific team member found by ID.
+     */
+    private void showSearchTeamMemberHoursById() {
+        int id = view.promptUserInputInt();
+//                	Team team = project.getTeam();
+//                	TeamMember member = team.findMemberTimeById(memberId);
+        view.showMemberTimeById(project.getTeam(),id);
+    }
+
+    /**
      * Decides which view to show the user based on their input and connects view with business logic/model.
      */
     public void run() {
@@ -155,99 +208,70 @@ public class ProjectManagement {
                 case START:
                     userInput = view.showStartMenu();
                     break;
-                    
                 case EV:
                     showEarnedValue();
                     userInput = START; //Prints main menu again
                     break;
-                    
                 case SV:
                     showScheduleVariance();
                     userInput = START; //Prints main menu again
                     break;
-                   
                 case CV:
                     showCostVariance();
                     userInput = START; //Prints main menu again
                     break;
-                    
                 case PV:
                     showPlannedValue();
                     userInput = START; //Prints main menu again
                     break;
-                    
                 case AC:
-                	view.showActualCost(project.calculateActualCost());
+                	view.showActualCost(project.calculateActualCost()); //send in project.getEndWeek()
                     userInput = START; //Prints main menu again
                     break;
-                    
                 case BAC:
                     view.showBudgetAtCompletion(project.calculateBudgetAtCompletion());
                     userInput = START; //Prints main menu again
                     break;
-                    
                 case CPI:
                     showCostPerformanceIndex();
                     userInput = START; //Prints main menu again
                 	break;
-
                 case SPI:
                     showSchedulePerformanceIndex();
                     userInput = START; //Prints main menu again
                     break;
-
                 case RISK_MATRIX:
                     view.showRiskMatrix(project.getRiskMatrix());
                     userInput = START; //Prints main menu again
                     break;
-
                 case PROJECT_SCHEDULE:
                     //ADD PROJECT SCHEDULE CODE
                     userInput = START; //Prints main menu again
                     break;
-
                 case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
-                    int memberId = view.promptUserInputInt();
-                    //You get the member here but previously didn't use it
-                    Team team = project.getTeam();
-                    TeamMember member = team.findTeamMember(memberId);
-                    //Changed the return type of the UI.
-                    //Sending in member in showTeamMemberActivitiesById()
-                	view.showTeamMemberActivitiesById(member);
+                	showSearchTeamMemberActivitiesById();
                 	userInput = START; //Prints main menu again
                     break;
-
                 case SEARCH_TEAM_MEMBER_HOURS_BY_ID:
-                	int id = view.promptUserInputInt();
-//                	Team team = project.getTeam();
-//                	TeamMember member = team.findMemberTimeById(memberId);
-                	view.showMemberTimeById(project.getTeam(),id);
+                	showSearchTeamMemberHoursById();
                     userInput = START; //Prints main menu again
                     break;
-
                 case SHOW_TIME_SPENT_ALL_MEMBERS:
-                	ArrayList<TeamMember> members = project.getTeam().getMembers();
-                	view.showTimeSpentAllMembers(members);
+                	showTimeSpentAllMembers();
                     userInput = START; //Prints main menu again
                 	break;
-
                 case TOTAL_SALARY:
-                	view.showTotalTeamSalary(project.getTeam().calculateTotalTeamSalary(project.getTeam().getMembers()));
+                	showTotalSalary();
                     userInput = START; //Prints main menu again
                 	break;
-
                 case TOTAL_TIME:
-                	view.showTotalTeamTime(project.getTeam().calculateTotalTeamTimeSpent(project.getTeam().getMembers()));
+                	showTotalTeamTime();
                     userInput = START; //Prints main menu again
                 	break;
-
                 case SHOW_SALARY_ALL_MEMBERS:
-                	ArrayList<TeamMember> teamMembers = project.getTeam().getMembers();
-                	view.showSalaryAllMembers(teamMembers); //Sends in the team to the UI
-                    userInput = START;  //Makes sure the menu prints again after printing the salaries. There's a better
-                                        //way of doing this but I won't fix this right now...
+                    showSalaryAllMembers();
+                    userInput = START; //Prints main menu again
                 	break;
-
                 default:
                     view.showDefault(); //Prompts user to input a valid menu option
                     break;
