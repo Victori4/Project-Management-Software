@@ -145,8 +145,8 @@ public class UserInterface {
 		}
 	
 //prints time spent on project by certain member
-	public void showMemberTimeById(Team team, int id) {
-		System.out.println(id + ": " + team.findMemberTimeById(id) + " hrs");
+	public void showMemberTimeById(TeamMember member) {
+		System.out.println(member.getName() + ": " + member.retrieveTimeSpent() + " hrs");
 		}
 
 

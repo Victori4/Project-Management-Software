@@ -170,9 +170,9 @@ public class ProjectManagement {
      */
     private void showSearchTeamMemberHoursById() {
         int id = view.promptUserInputInt();
-//                	Team team = project.getTeam();
-//                	TeamMember member = team.findMemberTimeById(memberId);
-        view.showMemberTimeById(project.getTeam(),id);
+        Team team = project.getTeam();
+        TeamMember member = team.findTeamMember(id);
+        view.showMemberTimeById(member);
     }
 
     /**
