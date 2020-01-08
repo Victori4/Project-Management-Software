@@ -255,7 +255,16 @@ public class UserInterface {
 	public void showExitMessage() {
 		System.out.println("Thank you for using The Project Management System.");
 	}
-	
+
+	/**
+	 * Shows the projects schedule
+	 */
+	public void showProjectSchedule(ArrayList<Task> tasks) {
+		for (Task task : tasks) {
+			System.out.println(task.toString() + "\n");
+		}
+	}
+
 	public void showErrorMessageCouldNotFindMember() {
 		System.out.println("There is no member with that ID registered.");
 	}

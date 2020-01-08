@@ -272,7 +272,7 @@ public class ProjectManagement {
                     userInput = START; //Prints main menu again
                 	break;
                 case PROJECT_SCHEDULE:
-                    //ADD PROJECT SCHEDULE CODE
+                    showProjectSchedule();
                     userInput = START; //Prints main menu again
                     break;
                 case RISK_MATRIX:
@@ -287,6 +287,19 @@ public class ProjectManagement {
         } while (userInput != EXIT);
 
         view.showExitMessage();
+    }
+
+    private void showProjectSchedule() {
+        Team team = project.getTeam();
+        ArrayList<TeamMember> members = team.getMembers();
+        ArrayList<Task> tasks = new ArrayList<Task>();
+
+        for(TeamMember member : members) {
+            tasks.addAll(member.getTasks());
+        }
+
+        //Remove duplicate
+        view.showProjectSchedule(tasks);
     }
 
     public static void main(String[] args) {

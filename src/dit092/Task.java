@@ -1,6 +1,6 @@
 package dit092;
 
-/*
+/**
  * A representation of a task with ID, name and both planned/actual start/end weeks
  */
 public class Task implements Comparable<Task> {
@@ -36,7 +36,7 @@ public class Task implements Comparable<Task> {
         setActualHours(actualHours);
     }
 
-    /*
+    /**
      * Calculates the planned cost of the task, based on a Team Members salary
      */
     public double calculatePlannedCost() {
@@ -44,7 +44,7 @@ public class Task implements Comparable<Task> {
     	return plannedCost;
     }
 
-    /*
+    /**
      * Calculates the actual cost of the task, based on a Team Members salary
      */
     public double calculateActualCost() {
