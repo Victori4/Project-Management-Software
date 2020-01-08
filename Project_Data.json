@@ -696,6 +696,16 @@
 						"actualHours": 3.1
 					},
 					{
+						"id": "3.6.2",
+						"taskName": "Print risk matrix from the UI",
+						"plannedStartWeek": 5,
+						"actualStartWeek": 10,
+						"plannedEndWeek": 5,
+						"actualEndWeek": 10,
+						"estimatedHours": 0.0,
+						"actualHours": 1.5
+					},
+					{
 						"id": "3.8.1",
 						"taskName": "Calculate time spent on the project per team member",
 						"plannedStartWeek": 6,
@@ -764,6 +774,16 @@
 						"actualEndWeek": 10,
 						"estimatedHours": 12.0,
 						"actualHours": 3.0
+					},
+					{
+						"id": "3.16.2",
+						"taskName": "Print planned value from the UI",
+						"plannedStartWeek": 7,
+						"actualStartWeek": 10,
+						"plannedEndWeek": 7,
+						"actualEndWeek": 10,
+						"estimatedHours": 0.0,
+						"actualHours": 0.5
 					},
 					{
 						"id": "3.19.1",
