@@ -2,8 +2,6 @@ package dit092;
 
 /*
  * A representation of a task with ID, name and both planned/actual start/end weeks
- *TODO comparable interface
- *TODO fix estimated hours from attribute to calculation
  */
 public class Task implements Comparable<Task> {
     private String ID;
@@ -17,7 +15,7 @@ public class Task implements Comparable<Task> {
 
     /**
      * Creates a task
-     * @param id
+     * @param ID
      * @param taskName
      * @param plannedStartWeek
      * @param actualStartWeek
@@ -38,22 +36,12 @@ public class Task implements Comparable<Task> {
         setActualHours(actualHours);
     }
 
-    public int calculateTotalPlannedWeeks() {
-    	int totalWeeks = (plannedEndWeek - plannedStartWeek) + 1;
-    	return totalWeeks;
-    }
-    
-    //TODO Rewrite method, estimated hrs x hrly rate
+    /*
+     * Calculates the planned cost of the task, based on a Team Members salary
+     */
     public double calculatePlannedCost() {
-    	double plannedCost = estimatedHours* TeamMember.HOURLY_RATE;
+    	double plannedCost = estimatedHours * TeamMember.HOURLY_RATE;
     	return plannedCost;
-    	/*
-     
-    	int teamSize = teamMembersWorked.size();
-    	double plannedCost = teamSize * TeamMember.HOURLY_RATE;
-    	
-    	return plannedCost;
-    */
     }
     
     public String getID() {
@@ -120,9 +108,6 @@ public class Task implements Comparable<Task> {
         this.actualHours = actualHours;
     }
 
-	/**
-	 *TODO toString()
-	 */
 	@Override
 	public String toString() {
 		return "ID: " + getID() + " Task: " + getTaskName() + " Start week: "
@@ -133,7 +118,4 @@ public class Task implements Comparable<Task> {
 	public int compareTo(Task otherTask) {
 		return this.getID().compareTo(otherTask.getID());
 	}
-    
-    
-
 }
