@@ -37,11 +37,6 @@ public class Task implements Comparable<Task> {
         setEstimatedHours(estimatedHours);
         setActualHours(actualHours);
     }
-    
-    public double calculateTotalPlannedHours() {
-    	double totalHours = estimatedHours * this.calculateTotalPlannedWeeks();
-    	return totalHours;
-    }
 
     public int calculateTotalPlannedWeeks() {
     	int totalWeeks = (plannedEndWeek - plannedStartWeek) + 1;
