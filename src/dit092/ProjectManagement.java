@@ -10,22 +10,22 @@ public class ProjectManagement {
 
     //Menu options
     private static final int EXIT = 0;
-    private static final int EV = 1;
-    private static final int SV = 2;
-    private static final int CV = 3;
-    private static final int PV = 4;
-    private static final int AC = 5;
-    private static final int BAC = 6;
-    private static final int CPI = 7;
-    private static final int SPI = 8;
-    private static final int RISK_MATRIX = 9;
-    private static final int PROJECT_SCHEDULE = 10;
-    private static final int SEARCH_TEAM_MEMBER_HOURS_BY_ID = 11;
-    private static final int SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID = 12;
-    private static final int TOTAL_SALARY = 13;
-    private static final int TOTAL_TIME = 14;
-    private static final int SHOW_TIME_SPENT_ALL_MEMBERS = 15;
-    private static final int SHOW_SALARY_ALL_MEMBERS = 16;
+    private static final int BAC = 1;
+    private static final int AC = 2;
+    private static final int SHOW_SALARY_ALL_MEMBERS = 3;
+    private static final int TOTAL_SALARY = 4;
+    private static final int SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID = 5;
+    private static final int SEARCH_TEAM_MEMBER_HOURS_BY_ID = 6;
+    private static final int SHOW_TIME_SPENT_ALL_MEMBERS = 7;
+    private static final int TOTAL_TIME = 8;
+    private static final int PV = 9;
+    private static final int EV = 10;
+    private static final int SV = 11;
+    private static final int CV = 12;
+    private static final int SPI = 13;
+    private static final int CPI = 14;
+    private static final int PROJECT_SCHEDULE = 15;
+    private static final int RISK_MATRIX = 16;
     private static final int START = 17;
 
     /**
@@ -208,6 +208,42 @@ public class ProjectManagement {
                 case START:
                     userInput = view.showStartMenu();
                     break;
+                case BAC:
+                    view.showBudgetAtCompletion(project.calculateBudgetAtCompletion());
+                    userInput = START; //Prints main menu again
+                    break;
+                case AC:
+                    view.showActualCost(project.calculateActualCost()); //send in project.getEndWeek()
+                    userInput = START; //Prints main menu again
+                    break;
+                case SHOW_SALARY_ALL_MEMBERS:
+                    showSalaryAllMembers();
+                    userInput = START; //Prints main menu again
+                    break;
+                case TOTAL_SALARY:
+                    showTotalSalary();
+                    userInput = START; //Prints main menu again
+                    break;
+                case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
+                    showSearchTeamMemberActivitiesById();
+                    userInput = START; //Prints main menu again
+                    break;
+                case SEARCH_TEAM_MEMBER_HOURS_BY_ID:
+                    showSearchTeamMemberHoursById();
+                    userInput = START; //Prints main menu again
+                    break;
+                case SHOW_TIME_SPENT_ALL_MEMBERS:
+                    showTimeSpentAllMembers();
+                    userInput = START; //Prints main menu again
+                    break;
+                case TOTAL_TIME:
+                    showTotalTeamTime();
+                    userInput = START; //Prints main menu again
+                    break;
+                case PV:
+                    showPlannedValue();
+                    userInput = START; //Prints main menu again
+                    break;
                 case EV:
                     showEarnedValue();
                     userInput = START; //Prints main menu again
@@ -220,58 +256,22 @@ public class ProjectManagement {
                     showCostVariance();
                     userInput = START; //Prints main menu again
                     break;
-                case PV:
-                    showPlannedValue();
-                    userInput = START; //Prints main menu again
-                    break;
-                case AC:
-                	view.showActualCost(project.calculateActualCost()); //send in project.getEndWeek()
-                    userInput = START; //Prints main menu again
-                    break;
-                case BAC:
-                    view.showBudgetAtCompletion(project.calculateBudgetAtCompletion());
+                case SPI:
+                    showSchedulePerformanceIndex();
                     userInput = START; //Prints main menu again
                     break;
                 case CPI:
                     showCostPerformanceIndex();
                     userInput = START; //Prints main menu again
                 	break;
-                case SPI:
-                    showSchedulePerformanceIndex();
+                case PROJECT_SCHEDULE:
+                    //ADD PROJECT SCHEDULE CODE
                     userInput = START; //Prints main menu again
                     break;
                 case RISK_MATRIX:
                     view.showRiskMatrix(project.getRiskMatrix());
                     userInput = START; //Prints main menu again
                     break;
-                case PROJECT_SCHEDULE:
-                    //ADD PROJECT SCHEDULE CODE
-                    userInput = START; //Prints main menu again
-                    break;
-                case SEARCH_TEAM_MEMBER_ACTIVITIES_BY_ID:
-                	showSearchTeamMemberActivitiesById();
-                	userInput = START; //Prints main menu again
-                    break;
-                case SEARCH_TEAM_MEMBER_HOURS_BY_ID:
-                	showSearchTeamMemberHoursById();
-                    userInput = START; //Prints main menu again
-                    break;
-                case SHOW_TIME_SPENT_ALL_MEMBERS:
-                	showTimeSpentAllMembers();
-                    userInput = START; //Prints main menu again
-                	break;
-                case TOTAL_SALARY:
-                	showTotalSalary();
-                    userInput = START; //Prints main menu again
-                	break;
-                case TOTAL_TIME:
-                	showTotalTeamTime();
-                    userInput = START; //Prints main menu again
-                	break;
-                case SHOW_SALARY_ALL_MEMBERS:
-                    showSalaryAllMembers();
-                    userInput = START; //Prints main menu again
-                	break;
                 default:
                     view.showDefault(); //Prompts user to input a valid menu option
                     break;
