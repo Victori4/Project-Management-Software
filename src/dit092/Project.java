@@ -120,32 +120,40 @@ public class Project {
 		return budgetAtCompletion;
 	}
 
-	/**
-	 * @return ratio Cost Performance Index
-	 */
+/**
+ * returns cost performance index
+ * @param week
+ * @return ratio Cost Performance Index
+ */
 	public double calculateCostPerformanceIndex (int week) {
 		double cPI = (calculateEarnedValue(week)/calculateActualCost());
 		return cPI;
 	}
-	 /**
-	    * @return SEK Cost Variance
-	    */
+/**
+ * returns 
+ * @param week
+ * @return SEK Cost Variance
+ */
 	public double calculateCostVariance(int week) {
 		double cv = calculateEarnedValue(week) - calculateActualCost();
 		return cv;		
 	}
-	/**
-	    * @return SEK Schedule Variance
-	    */
+/**
+ * 
+ * @param week
+ * @return SEK Schedule variance
+ */
 	public double calculateScheduleVariance (int week) {
 		double sv = calculateEarnedValue(week) - calculatePlannedValue(week);
 
 		return sv;
 	}
 	
-	/**
-	 * @return ratio Cost Performance Index
-	 */
+/**
+ * 
+ * @param week
+ * @return ratio
+ */
 	public double calculateSchedulePerformanceIndex(int week) {
 		double sPI = (calculateEarnedValue(week) / calculatePlannedValue(week));
 		return sPI;
