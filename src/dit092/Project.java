@@ -94,7 +94,7 @@ public class Project {
     }
 
     /**
-     * Calculates actual cost of project at a specified week
+     * returns actual cost of project at a specified week
      * @return the actual cost of the work performed up until @param week
      */
     public double calculateActualCost(int week) {
@@ -132,7 +132,7 @@ public class Project {
 		return cPI;
 	}
 /**
- * returns 
+ * returns cost variance by subtracting actual cost from earned value 
  * @param week
  * @return SEK Cost Variance
  */
@@ -140,7 +140,7 @@ public class Project {
 		double cv = calculateEarnedValue(week) - calculateActualCost(week);
 		return cv;		
 	}
-/**
+/**returns schedule variance by subtracting planned value from earned value
  * 
  * @param week
  * @return SEK Schedule variance
@@ -152,7 +152,7 @@ public class Project {
 	}
 	
 /**
- * 
+ * returns schedule performance index by dividing earned value by planned value
  * @param week
  * @return ratio
  */
