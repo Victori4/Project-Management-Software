@@ -24,25 +24,6 @@ public class TeamMember {
 		double salary = retrieveTimeSpent() * HOURLY_RATE;
 		return salary;
 	}
-
-	/**
-	 * Validate parameters for the set methods & throw exceptions where needed
-	 */
-	public int getId() {
-		return id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public ArrayList<Task> getTasks() {
-		return tasks;
-	}
 	
 	/**
 	 * Method for retrieving the time spent to be used in calculateSalary
@@ -63,6 +44,24 @@ public class TeamMember {
 			allTasks = allTasks + task.getTaskName() + "\n";
 		}
 		return allTasks;
+	}
+	/**
+	 * Validate parameters for the set methods & throw exceptions where needed
+	 */
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public ArrayList<Task> getTasks() {
+		return tasks;
 	}
 	
 	public String toString() {
