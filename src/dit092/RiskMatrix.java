@@ -49,13 +49,12 @@ public class RiskMatrix {
 		this.risks.addAll(risks);
 	}
 
-	//TODO RiskMatrix toString()
 	@Override
 	public String toString() {
 		String string  = "";
 		
 		//Labels
-		string = string + "ID:     Name:     Impact:     Probability:     Risk: " + "\n";
+		string = string + "Impact:  Probability:  Risk:      ID:     Name:     " + "\n";
 		
 		//Lines of risks
 		for(Risk risk : risks) {

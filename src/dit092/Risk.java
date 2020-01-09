@@ -95,7 +95,7 @@ public class Risk {
 	 */
 	@Override
 	public String toString() {
-		String string = getID() + "   " + getRiskName() + "   " + getImpact() + "   " + getProbability() + "   " + calculateRisk();
+		String string = getImpact() + "        " + getProbability() + "        " + calculateRisk() + "        " + getID() + "     " + getRiskName() + "   ";
 		return string;
 	}
 }
