@@ -65,6 +65,6 @@ public class TeamMember {
 	
 	public String toString() {
 		return "ID: " + getId() + "\nName: " + getName() + "\nHours worked: " + retrieveTimeSpent() + 
-				"\nActivities worked on:" + getTaskString();
+				"\nActivities worked on: \n" + getTaskString();
 	}
 }
