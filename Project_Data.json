@@ -982,6 +982,16 @@
 						"actualHours": 1.0
 					},
 					{
+						"id": "1.7",
+						"taskName": "Creating and updating README",
+						"plannedStartWeek": 3,
+						"actualStartWeek": 3,
+						"plannedEndWeek": 3,
+						"actualEndWeek": 3,
+						"estimatedHours": 1.0,
+						"actualHours": 1.5
+					},
+					{
 						"id": "2.1",
 						"taskName": "Creating class diagram",
 						"plannedStartWeek": 1,
@@ -1050,6 +1060,16 @@
 						"actualEndWeek": 10,
 						"estimatedHours": 1.0,
 						"actualHours": 0.5
+					},
+					{
+						"id": "3.22",
+						"taskName": "Further development of Task-class",
+						"plannedStartWeek": 6,
+						"actualStartWeek": 8,
+						"plannedEndWeek": 7,
+						"actualEndWeek": 10,
+						"estimatedHours": 2.0,
+						"actualHours": 1.42
 					},
 					{
 						"id": "4.1",
@@ -1139,7 +1159,7 @@
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 0.33,
-						"actualHours": 0.33
+						"actualHours": 1.0
 					},
 					{
 						"id": "5.6",
