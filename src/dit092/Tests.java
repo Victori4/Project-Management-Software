@@ -56,7 +56,6 @@ public class Tests {
 	@Test
 	public void testActualCostAtCompletion() {
 		double expected = 7500.0;
-		//TODO change actual cost to take week into account
 		double actual = testProject.calculateActualCost(5);
 		assertEquals(expected, actual, "Actual Cost of Project should be 7500 SEK.");
 	}
