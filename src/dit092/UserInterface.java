@@ -220,7 +220,7 @@ public class UserInterface {
 //prints time spent on project per team member 
   	public void showTimeSpentAllMembers (ArrayList<TeamMember> members) {
   		for (TeamMember member : members) {
-  		System.out.println(member + ": " + member.retrieveTimeSpent() + " hrs" + System.lineSeparator());
+  		System.out.println(member + System.lineSeparator());
   		}
   	}
 
