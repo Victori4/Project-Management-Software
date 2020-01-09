@@ -1009,7 +1009,7 @@
 						"plannedEndWeek": 5,
 						"actualEndWeek": 5,
 						"estimatedHours": 1.0,
-						"actualHours": 1.0
+						"actualHours": 0.33
 					},
 					{
 						"id": "3.6.2",
@@ -1019,7 +1019,7 @@
 						"plannedEndWeek": 5,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.0,
-						"actualHours": 2.5
+						"actualHours": 2.2
 					},
 					{
 						"id": "3.7",
@@ -1049,7 +1049,7 @@
 						"plannedEndWeek": 4,
 						"actualEndWeek": 7,
 						"estimatedHours": 2.0,
-						"actualHours": 3.0
+						"actualHours": 0.5
 					},
 					{
 						"id": "3.16.2",
@@ -1079,7 +1079,7 @@
 						"plannedEndWeek": 7,
 						"actualEndWeek": 6,
 						"estimatedHours": 4.0,
-						"actualHours": 7.0
+						"actualHours": 6.0
 					},
 					{
 						"id": "4.2",
@@ -1089,7 +1089,7 @@
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 3.0,
-						"actualHours": 6.0
+						"actualHours": 1.0
 					},
 					{
 						"id": "4.3",
@@ -1099,7 +1099,7 @@
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
-						"actualHours": 2.0
+						"actualHours": 0.0
 					},
 					{
 						"id": "4.4",
@@ -1109,7 +1109,7 @@
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
-						"actualHours": 8.0
+						"actualHours": 4.0
 					},
 					{
 						"id": "5.1",
@@ -1139,7 +1139,7 @@
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
-						"actualHours": 1.2
+						"actualHours": 0.0
 					},
 					{
 						"id": "5.4",
@@ -1149,7 +1149,7 @@
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 0.3,
-						"actualHours": 1.8
+						"actualHours": 0.3
 					},
 					{
 						"id": "5.5",
