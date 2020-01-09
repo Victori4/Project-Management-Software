@@ -20,7 +20,6 @@ public class TeamMember {
 	 * @return salary
 	 */
 	public double calculateSalary() {
-		//CHANGED: uses retrieveTimeSpent() instead of timeSpent.
 		double salary = retrieveTimeSpent() * HOURLY_RATE;
 		return salary;
 	}
