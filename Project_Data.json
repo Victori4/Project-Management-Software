@@ -1255,7 +1255,7 @@
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 1.0,
-						"actualHours": 3.0
+						"actualHours": 3.5
 					},
 					{
 						"id": "3.2.1",
@@ -1325,7 +1325,7 @@
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
-						"actualHours": 2.0
+						"actualHours": 2.3
 					},
 					{
 						"id": "5.1",
