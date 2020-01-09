@@ -123,9 +123,17 @@ public class Task implements Comparable<Task> {
 		return  "Start week: " + getPlannedStartWeek() + " End week: " + getPlannedEndWeek() + "    ID: " + getID() + " Task: " + getTaskName();
 	}
 
+	/**
+     * The order of tasks is based on their start week when compared to other tasks
+     * If the have the same start week, they are ordered by their ID
+	 */
 	@Override
 	public int compareTo(Task otherTask) {
-		return this.getID().compareTo(otherTask.getID());
+		int comparison = ((Integer)this.getPlannedStartWeek()).compareTo(otherTask.getPlannedStartWeek());
+		if(comparison == 0) {
+		    comparison = this.getID().compareTo(otherTask.getID());
+        }
+	    return comparison;
 	}
 
     /**
