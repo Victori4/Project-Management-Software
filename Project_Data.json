@@ -529,6 +529,16 @@
 						"estimatedHours": 0.0,
 						"actualHours": 3.0
 					},
+						{
+						"id": "3.16.2",
+						"taskName": "Print planned value from the UI",
+						"plannedStartWeek": 7,
+						"actualStartWeek": 10,
+						"plannedEndWeek": 7,
+						"actualEndWeek": 10,
+						"estimatedHours": 0.0,
+						"actualHours": 0.5
+					},
 					{
 						"id": "3.18.1",
 						"taskName": "Calculate salary per team member",
