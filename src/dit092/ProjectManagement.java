@@ -1,6 +1,7 @@
 package dit092;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ProjectManagement {
 
@@ -205,6 +206,34 @@ public class ProjectManagement {
     }
 
     /**
+     * Prints the projects schedule
+     */
+    private void showProjectSchedule() {
+        Team team = project.getTeam();
+        ArrayList<TeamMember> members = team.getMembers();
+        ArrayList<Task> tasks = new ArrayList<Task>();
+
+        //Collects all the tasks of all the members
+        for(TeamMember member : members) {
+            tasks.addAll(member.getTasks());
+        }
+
+        //Removes "duplicate" tasks
+        ArrayList<Task> sortedTasks = new ArrayList<Task>();
+        for(Task task: tasks){
+            //If the new list does not contain the task, add it to the sorted list
+            if(!sortedTasks.contains(task)){
+                sortedTasks.add(task);
+            }
+        }
+        //Sort the tasks
+        Collections.sort(sortedTasks);
+
+        //Show the schedule
+        view.showProjectSchedule(sortedTasks);
+    }
+
+    /**
      * Decides which view to show the user based on their input and connects view with business logic/model.
      */
     public void run() {
@@ -287,21 +316,6 @@ public class ProjectManagement {
         } while (userInput != EXIT);
 
         view.showExitMessage();
-    }
-
-    private void showProjectSchedule() {
-        Team team = project.getTeam();
-        ArrayList<TeamMember> members = team.getMembers();
-        ArrayList<Task> tasks = new ArrayList<Task>();
-
-        for(TeamMember member : members) {
-            tasks.addAll(member.getTasks());
-        }
-
-        //Remove duplicate tasks
-
-
-        view.showProjectSchedule(tasks);
     }
 
     public static void main(String[] args) {
