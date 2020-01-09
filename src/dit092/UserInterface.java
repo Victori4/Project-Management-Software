@@ -95,6 +95,7 @@ public class UserInterface {
 	 */
     public void showTotalTeamSalary (double totalSal) {
     	System.out.print("Total Salary: " + String.format(Locale.ROOT, "%.2f", totalSal) + " SEK");
+		System.out.println();
     }
 
 	/**
@@ -103,6 +104,7 @@ public class UserInterface {
 	 */
     public void showTotalTeamTime (double totalTime) {
     	System.out.print("Total time spent: " + totalTime + " hrs");
+		System.out.println();
     }
 
 	/**
@@ -128,6 +130,7 @@ public class UserInterface {
     
     public void showBudgetAtCompletion(double bac) {
     	System.out.print("Budget at completion: " + String.format(Locale.ROOT, "%.2f", bac) + " SEK");
+		System.out.println();
     }
 
     /**
