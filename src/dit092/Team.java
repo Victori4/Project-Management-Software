@@ -67,7 +67,8 @@ public class Team {
 	}
 
 	/**
-	 * TODO TEST AND CLEANUP THIS ALLOWS DUPLICATE TASKS
+	 * Returns all members' tasks.
+	 * Allows duplicate tasks.
 	 * @return ArrayList Tasks
 	 */
 	public ArrayList<Task> getTasks() {
