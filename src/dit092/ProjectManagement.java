@@ -298,7 +298,9 @@ public class ProjectManagement {
             tasks.addAll(member.getTasks());
         }
 
-        //Remove duplicate
+        //Remove duplicate tasks
+
+
         view.showProjectSchedule(tasks);
     }
 

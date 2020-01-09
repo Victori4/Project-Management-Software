@@ -15,14 +15,14 @@ public class Task implements Comparable<Task> {
 
     /**
      * Creates a task
-     * @param ID
-     * @param taskName
-     * @param plannedStartWeek
-     * @param actualStartWeek
-     * @param plannedEndWeek
-     * @param actualEndWeek
-     * @param estimatedHours
-     * @param actualHours
+     * @param ID The ID of the task
+     * @param taskName A name/short descriptor of the task
+     * @param plannedStartWeek The week the task was planned to start
+     * @param actualStartWeek The actual week the task was started
+     * @param plannedEndWeek The week the task was planned to be done
+     * @param actualEndWeek The actual week the task was completed
+     * @param estimatedHours The total amount of estimated/scheduled hours for the task
+     * @param actualHours The actual amount of hours the task took to complete
      */
     public Task(String ID, String taskName, int plannedStartWeek, int actualStartWeek, int plannedEndWeek,
                 int actualEndWeek, double estimatedHours, double actualHours) {
