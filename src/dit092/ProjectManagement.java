@@ -41,7 +41,6 @@ public class ProjectManagement {
     /**
      * Calls the UI to print the EV interval calculations for every 2 weeks.
      * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
-     * TODO fix the +1?
      */
     private void showEarnedValue() {
         view.showEarnedValueHeader();
@@ -56,7 +55,6 @@ public class ProjectManagement {
     /**
      * Calls the UI to print the SV interval calculations for every 2 weeks.
      * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
-     * TODO fix the +1?
      */
     private void showScheduleVariance() {
         view.showScheduleVarianceHeader();
@@ -71,7 +69,6 @@ public class ProjectManagement {
     /**
      * Calls the UI to print the CV interval calculations for every 2 weeks.
      * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
-     * TODO fix the +1?
      */
     private void showCostVariance() {
         view.showCostVarianceHeader();
@@ -86,7 +83,6 @@ public class ProjectManagement {
     /**
      * Calls the UI to print the PV interval calculations for every 2 weeks.
      * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
-     * TODO fix the +1?
      */
     private void showPlannedValue() {
         view.showPlannedValueHeader();
@@ -101,7 +97,6 @@ public class ProjectManagement {
     /**
      * Calls the UI to print the CPI interval calculations for every 2 weeks.
      * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
-     * TODO fix the +1?
      */
     private void showCostPerformanceIndex() {
         view.showCostPerformanceIndexHeader();
@@ -116,7 +111,6 @@ public class ProjectManagement {
     /**
      * Calls the UI to print the SPI interval calculations for every 2 weeks.
      * Uses weekToStartIntervalFrom to handle even/odd weeks differently.
-     * TODO fix the +1?
      */
     private void showSchedulePerformanceIndex() {
         view.showSchedulePerformanceIndexHeader();
