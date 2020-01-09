@@ -89,12 +89,18 @@ public class UserInterface {
 		}
 	}
 
-//prints total team salary
+	/**
+	 * prints total team salary
+	 * @param totalSal double
+	 */
     public void showTotalTeamSalary (double totalSal) {
     	System.out.print("Total Salary: " + String.format(Locale.ROOT, "%.2f", totalSal) + " SEK");
     }
-    
-//prints the total time spent on project
+
+	/**
+	 * prints the total time spent on project
+	 * @param totalTime double
+	 */
     public void showTotalTeamTime (double totalTime) {
     	System.out.print("Total time spent: " + totalTime + " hrs");
     }
@@ -138,12 +144,14 @@ public class UserInterface {
 	public void showRiskMatrix(RiskMatrix riskMatrix) {
 		System.out.println(riskMatrix.toString());
 		}
-	
-//prints time spent on project by certain member
+
+	/**
+	 * prints time spent on project by certain member
+	 * @param member TeamMember
+	 */
 	public void showMemberTimeById(TeamMember member) {
 		System.out.println(member.getName() + ": " + member.retrieveTimeSpent() + " hrs");
 		}
-
 
     public void showActualCost(double ac) {
     	System.out.println("Actual cost: " + String.format(Locale.ROOT, "%.2f", ac) + " SEK");
@@ -211,8 +219,11 @@ public class UserInterface {
 			System.out.println("Week: " + week + "        PV: " + String.format(Locale.ROOT, "%.2f", pv) + " SEK.");
 		}
 	}
-    
-//prints time spent on project per team member 
+
+	/**
+	 * prints time spent on project per team member
+	 * @param members ArrayList<TeamMember>
+	 */
   	public void showTimeSpentAllMembers (ArrayList<TeamMember> members) {
   		for (TeamMember member : members) {
   		System.out.println(member + System.lineSeparator());
