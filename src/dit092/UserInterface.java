@@ -80,7 +80,6 @@ public class UserInterface {
 	 * @param cpi double
 	 * @param week int
 	 */
-	//Go rid of % since CPI and SPI are ratios, not percentages.
 	public void showCostPerformanceIndex(int week, double cpi) {
 		if (week > 9) {
 			System.out.println("Week: " + week + "       CPI: " + cpi);
@@ -130,16 +129,12 @@ public class UserInterface {
      * @param member TeamMember
      */
 	public void showTeamMemberActivitiesById(TeamMember member) {
-		//CHANGED: added a header
 		System.out.println(" === Activities worked on by " + member.getName() + " === ");
-
-		//CHANGED: added a loop which loops through members tasks to print them nicely
 		for (Task task : member.getTasks()) {
 			System.out.println(task); //Uses the toString() method in Task
 		}
 	}
 	
-	//attempt at printing Risk Matrix, not sure if right! 
 	public void showRiskMatrix(RiskMatrix riskMatrix) {
 		System.out.println(riskMatrix.toString());
 		}
@@ -233,9 +228,6 @@ public class UserInterface {
 		System.out.println(" === Team Members' Salaries === ");
 
   		for (TeamMember member: teamMembers) {
-  			//CHANGES: member.getName() to get the name instead of the toString().
-			//Changed the calculateSalary() method in TeamMember so it doesn't take timeSpent anymore.
-			//Added SEK at the end for "style"..
   			System.out.println(member.getName() + ": " + String.format(Locale.ROOT, "%.2f", member.calculateSalary()) + " SEK. " + System.lineSeparator());
   		}
   	}
