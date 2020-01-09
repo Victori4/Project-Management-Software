@@ -268,7 +268,9 @@ public class UserInterface {
 			System.out.println(task.toString() + "\n");
 		}
 	}
-
+	/**
+	 * Shows error message when user tries to search for a team member with an ID that is not registered. 
+	 */
 	public void showErrorMessageCouldNotFindMember() {
 		System.out.println("There is no member with that ID registered.");
 	}
