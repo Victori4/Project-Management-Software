@@ -122,40 +122,41 @@ public class Project {
 		return budgetAtCompletion;
 	}
 
-/**
- * returns cost performance index by multiplying the earned value with actual cost
- * @param week
- * @return ratio Cost Performance Index
- */
+	/**
+	 * returns cost performance index by multiplying the earned value with actual cost
+	 * @param week
+	 * @return ratio Cost Performance Index
+	 */
 	public double calculateCostPerformanceIndex (int week) {
 		double cPI = (calculateEarnedValue(week)/calculateActualCost(week));
 		return cPI;
 	}
-/**
- * returns cost variance by subtracting actual cost from earned value 
- * @param week
- * @return SEK Cost Variance
- */
+	/**
+	 * returns cost variance by subtracting actual cost from earned value
+	 * @param week
+	 * @return SEK Cost Variance
+	 */
 	public double calculateCostVariance(int week) {
 		double cv = calculateEarnedValue(week) - calculateActualCost(week);
 		return cv;		
 	}
-/**returns schedule variance by subtracting planned value from earned value
- * 
- * @param week
- * @return SEK Schedule variance
- */
+
+	/**returns schedule variance by subtracting planned value from earned value
+	 *
+	 * @param week
+	 * @return SEK Schedule variance
+	 */
 	public double calculateScheduleVariance (int week) {
 		double sv = calculateEarnedValue(week) - calculatePlannedValue(week);
 
 		return sv;
 	}
 	
-/**
- * returns schedule performance index by dividing earned value by planned value
- * @param week
- * @return ratio
- */
+	/**
+	 * returns schedule performance index by dividing earned value by planned value
+	 * @param week
+	 * @return ratio
+	 */
 	public double calculateSchedulePerformanceIndex(int week) {
 		double sPI = (calculateEarnedValue(week) / calculatePlannedValue(week));
 		return sPI;
@@ -168,5 +169,4 @@ public class Project {
 	public RiskMatrix getRiskMatrix() {
     	return matrix;
 	}
- 
 }
