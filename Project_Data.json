@@ -133,7 +133,7 @@
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
-						"actualEndWeek": 7,
+						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
 						"actualHours": 1.0
 					},
@@ -171,8 +171,8 @@
 						"id": "5.3",
 						"taskName": "User manual",
 						"plannedStartWeek": 7,
-						"actualStartWeek": 7,
-						"plannedEndWeek": 10,
+						"actualStartWeek": 10,
+						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
 						"actualHours": 0.0
@@ -185,7 +185,7 @@
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 0.3,
-						"actualHours": 1.8
+						"actualHours": 0.3
 					},
 					{
 						"id": "5.5",
@@ -268,8 +268,8 @@
 						"taskName": "Updating class diagram",
 						"plannedStartWeek": 5,
 						"actualStartWeek": 5,
-						"plannedEndWeek": 10,
-						"actualEndWeek": 10,
+						"plannedEndWeek": 5,
+						"actualEndWeek": 5,
 						"estimatedHours": 1.0,
 						"actualHours": 1.5
 					},
@@ -311,15 +311,15 @@
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
-						"actualHours": 20.0
+						"actualHours": 7.867
 					},
 					{
 						"id": "3.15.1",
 						"taskName": "Calculate budget at completion",
 						"plannedStartWeek": 4,
-						"actualStartWeek": 5,
+						"actualStartWeek": 4,
 						"plannedEndWeek": 4,
-						"actualEndWeek": 5,
+						"actualEndWeek": 4,
 						"estimatedHours": 2.0,
 						"actualHours": 1.0
 					},
@@ -327,9 +327,9 @@
 						"id": "3.15.2",
 						"taskName": "Print budget at completion from the UI",
 						"plannedStartWeek": 6,
-						"actualStartWeek": 9,
+						"actualStartWeek": 6,
 						"plannedEndWeek": 6,
-						"actualEndWeek": 9,
+						"actualEndWeek": 6,
 						"estimatedHours": 1.0,
 						"actualHours": 0.5
 					},
@@ -349,7 +349,7 @@
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
-						"actualEndWeek": 7,
+						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
 						"actualHours": 0.0
 					},
@@ -387,8 +387,8 @@
 						"id": "5.3",
 						"taskName": "User manual",
 						"plannedStartWeek": 7,
-						"actualStartWeek": 7,
-						"plannedEndWeek": 10,
+						"actualStartWeek": 10,
+						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
 						"actualHours": 0.0
@@ -861,7 +861,7 @@
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
-						"actualEndWeek": 7,
+						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
 						"actualHours": 2.33
 					},
@@ -1097,7 +1097,7 @@
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
-						"actualEndWeek": 7,
+						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
 						"actualHours": 2.0
 					},
@@ -1135,8 +1135,8 @@
 						"id": "5.3",
 						"taskName": "User manual",
 						"plannedStartWeek": 7,
-						"actualStartWeek": 7,
-						"plannedEndWeek": 10,
+						"actualStartWeek": 10,
+						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
 						"actualHours": 1.2
@@ -1313,7 +1313,7 @@
 						"plannedStartWeek": 7,
 						"actualStartWeek": 7,
 						"plannedEndWeek": 7,
-						"actualEndWeek": 7,
+						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
 						"actualHours": 2.0
 					},
@@ -1351,8 +1351,8 @@
 						"id": "5.3",
 						"taskName": "User manual",
 						"plannedStartWeek": 7,
-						"actualStartWeek": 7,
-						"plannedEndWeek": 10,
+						"actualStartWeek": 10,
+						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
 						"actualHours": 0.17
