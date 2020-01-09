@@ -14,10 +14,9 @@ public class Team {
 
 	/**
 	* returns the total salary of all members on the team using an enhanced for loop
-	* @param members
 	* @return SEK total team salary
 	*/
-	public double calculateTotalTeamSalary (ArrayList <TeamMember> members) {
+	public double calculateTotalTeamSalary () {
 		double sum = 0;
 
 		for (TeamMember member : members) {
@@ -28,10 +27,9 @@ public class Team {
 
 	/**
 	* returns the total time spent on the project for every member of the team
-	* @param members
 	* @return hours total team time spent
 	*/
-	public double calculateTotalTeamTimeSpent(ArrayList <TeamMember> members) {
+	public double calculateTotalTeamTimeSpent() {
 		double totalTime = 0;
 		for (TeamMember member : members) {
 			totalTime = totalTime + member.retrieveTimeSpent();
