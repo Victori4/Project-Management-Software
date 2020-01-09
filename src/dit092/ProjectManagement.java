@@ -204,13 +204,7 @@ public class ProjectManagement {
      */
     private void showProjectSchedule() {
         Team team = project.getTeam();
-        ArrayList<TeamMember> members = team.getMembers();
-        ArrayList<Task> tasks = new ArrayList<Task>();
-
-        //Collects all the tasks of all the members
-        for(TeamMember member : members) {
-            tasks.addAll(member.getTasks());
-        }
+        ArrayList<Task> tasks = team.getTasks();
 
         //Removes "duplicate" tasks
         ArrayList<Task> sortedTasks = new ArrayList<Task>();
