@@ -1218,6 +1218,16 @@
 						"actualHours": 3.1
 					},
 					{
+						"id": "2.3",
+						"taskName": "Final class diagram",
+						"plannedStartWeek": 10,
+						"actualStartWeek": 10,
+						"plannedEndWeek": 10,
+						"actualEndWeek": 10,
+						"estimatedHours": 1.0,
+						"actualHours": 2.733
+					},
+					{
 						"id": "3.2.1",
 						"taskName": "Calculate earned value",
 						"plannedStartWeek": 4,
@@ -1245,7 +1255,7 @@
 						"plannedEndWeek": 8,
 						"actualEndWeek": 9,
 						"estimatedHours": 9.0,
-						"actualHours": 0.667
+						"actualHours": 2.0
 					},
 					{
 						"id": "3.14.2",
@@ -1265,7 +1275,7 @@
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 3.0,
-						"actualHours": 0.25
+						"actualHours": 2.0
 					},
 					{
 						"id": "4.3",
@@ -1275,7 +1285,7 @@
 						"plannedEndWeek": 7,
 						"actualEndWeek": 7,
 						"estimatedHours": 2.0,
-						"actualHours": 1.0
+						"actualHours": 2.0
 					},
 					{
 						"id": "4.4",
@@ -1315,7 +1325,7 @@
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 2.0,
-						"actualHours": 0.0
+						"actualHours": 0.17
 					},
 					{
 						"id": "5.4",
@@ -1325,7 +1335,7 @@
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 0.3,
-						"actualHours": 0.0
+						"actualHours": 0.3
 					},
 					{
 						"id": "5.5",
