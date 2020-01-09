@@ -258,6 +258,7 @@ public class UserInterface {
 
 	/**
 	 * Shows the projects schedule
+	 * @param tasks The schedule, in the form of a list of tasks, to be printed
 	 */
 	public void showProjectSchedule(ArrayList<Task> tasks) {
 		for (Task task : tasks) {
