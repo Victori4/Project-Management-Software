@@ -120,7 +120,7 @@ public class Task implements Comparable<Task> {
 
 	@Override
 	public String toString() {
-		return  "Start week: " + getPlannedStartWeek() + " End week: " + getPlannedEndWeek() + "    ID: " + getID() + " Task: " + getTaskName();
+		return  "Start week: " + getPlannedStartWeek() + " End week: " + getPlannedEndWeek() + "    ID: " + getID() + "   Task: " + getTaskName();
 	}
 
 	/**
