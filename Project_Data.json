@@ -65,7 +65,7 @@
 						"plannedEndWeek": 5,
 						"actualEndWeek": 5,
 						"estimatedHours": 1.0,
-						"actualHours": 1.0
+						"actualHours": 0.767
 					},
 					{
 						"id": "3.9",
@@ -95,7 +95,7 @@
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
-						"actualHours": 6.567
+						"actualHours": 7.567
 					},
 					{
 						"id": "3.17.1",
@@ -105,7 +105,7 @@
 						"plannedEndWeek": 4,
 						"actualEndWeek": 5,
 						"estimatedHours": 2.0,
-						"actualHours": 0.95
+						"actualHours": 1.033
 					},
 					{
 						"id": "3.17.2",
@@ -125,7 +125,7 @@
 						"plannedEndWeek": 7,
 						"actualEndWeek": 10,
 						"estimatedHours": 3.0,
-						"actualHours": 6.0
+						"actualHours": 1.0
 					},
 					{
 						"id": "4.3",
@@ -135,7 +135,7 @@
 						"plannedEndWeek": 7,
 						"actualEndWeek": 7,
 						"estimatedHours": 2.0,
-						"actualHours": 12.0
+						"actualHours": 1.0
 					},
 					{
 						"id": "4.4",
@@ -145,7 +145,7 @@
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
 						"estimatedHours": 6.0,
-						"actualHours": 6.0
+						"actualHours": 1.5
 					},
 					{
 						"id": "5.1",
@@ -558,6 +558,16 @@
 						"actualEndWeek": 9,
 						"estimatedHours": 1.0,
 						"actualHours": 0.58
+					},
+					{
+						"id": "3.21",
+						"taskName": "Make UI user-friendly",
+						"plannedStartWeek": 8,
+						"actualStartWeek": 9,
+						"plannedEndWeek": 8,
+						"actualEndWeek": 9,
+						"estimatedHours": 1.0,
+						"actualHours": 0.5
 					},
 					{
 						"id": "4.2",
