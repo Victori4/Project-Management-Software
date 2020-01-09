@@ -12,9 +12,11 @@ package dit092;
 			this.members = members;
 		}
 		
-		
-		//total salary of all members on this team using enhanced for loop
-		//CHANGED: removed timeSpent from calculateSalary() in TeamMember
+/**
+ * returns the total salary of all members on the team using an enhanced for loop
+ * @param members
+ * @return SEK total team salary
+ */
 		public double calculateTotalTeamSalary (ArrayList <TeamMember> members) {
 			double sum = 0;
 
@@ -24,8 +26,11 @@ package dit092;
 			return sum;
 		}
 		
-
-//total time spent of all members using enhanced for loop
+/**
+ * returns the total time spent on the project for every member of the team
+ * @param members
+ * @return hours total team time spent
+ */
 		public double calculateTotalTeamTimeSpent(ArrayList <TeamMember> members) {
 			double totalTime = 0;
 			for (TeamMember member : members) {
@@ -35,7 +40,14 @@ package dit092;
 		}
 		
 		
-		//Finding a team member by iterating through the arraylist with an enhanced for-loop to find the one with the correct ID. 
+		//Finding 
+		
+/**
+ * returns team member by iterating through the arraylist with an enhanced for-loop to find the one with the correct ID.
+ * @param id
+ * @return id
+ * @throws Exception if ID does not exist
+ */
 		public TeamMember findTeamMember(int id) throws Exception {
 			for (TeamMember oneMember : members) {
 				if (oneMember.getId() == id) {
