@@ -317,9 +317,9 @@
 						"id": "3.15.1",
 						"taskName": "Calculate budget at completion",
 						"plannedStartWeek": 4,
-						"actualStartWeek": 4,
+						"actualStartWeek": 5,
 						"plannedEndWeek": 4,
-						"actualEndWeek": 4,
+						"actualEndWeek": 5,
 						"estimatedHours": 2.0,
 						"actualHours": 1.0
 					},
@@ -327,11 +327,11 @@
 						"id": "3.15.2",
 						"taskName": "Print budget at completion from the UI",
 						"plannedStartWeek": 6,
-						"actualStartWeek": 6,
+						"actualStartWeek": 9,
 						"plannedEndWeek": 6,
-						"actualEndWeek": 6,
+						"actualEndWeek": 9,
 						"estimatedHours": 1.0,
-						"actualHours": 1.0
+						"actualHours": 0.5
 					},
 					{
 						"id": "4.2",
