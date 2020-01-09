@@ -181,14 +181,14 @@ public class ProjectManagement {
      * Show total team time.
      */
     private void showTotalTeamTime() {
-        view.showTotalTeamTime(project.getTeam().calculateTotalTeamTimeSpent(project.getTeam().getMembers()));
+        view.showTotalTeamTime(project.getTeam().calculateTotalTeamTimeSpent());
     }
 
     /**
      * Show total salary for the whole team.
      */
     private void showTotalSalary() {
-        view.showTotalTeamSalary(project.getTeam().calculateTotalTeamSalary(project.getTeam().getMembers()));
+        view.showTotalTeamSalary(project.getTeam().calculateTotalTeamSalary());
     }
 
     /**
