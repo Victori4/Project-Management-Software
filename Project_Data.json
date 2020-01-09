@@ -270,7 +270,7 @@
 						"actualStartWeek": 5,
 						"plannedEndWeek": 10,
 						"actualEndWeek": 10,
-						"estimatedHours": 5.0,
+						"estimatedHours": 1.0,
 						"actualHours": 5.0
 					},
 					{
