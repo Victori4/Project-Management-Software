@@ -1,5 +1,7 @@
 package dit092;
 
+import java.util.Objects;
+
 /**
  * A representation of a task with ID, name and both planned/actual start/end weeks
  */
@@ -126,4 +128,21 @@ public class Task implements Comparable<Task> {
 	public int compareTo(Task otherTask) {
 		return this.getID().compareTo(otherTask.getID());
 	}
+
+    /**
+     * A task is considered equal to another task when they have the same ID
+     * @param o The object to compare to
+     */
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Task task = (Task) o;
+        return ID.equals(task.ID);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(ID);
+    }
 }
