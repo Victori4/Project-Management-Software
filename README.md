@@ -1,5 +1,9 @@
 
 # Project Management Software by project-group-12
+
+## Purpose
+The purpose of this project is to create a simple and lightweight program that allows users to manage their projects by registering users and keeping track of hours worked and salary. 
+
 ## Downloading the repository  
 To get the repository on your computer:  
 1. Start Git Bash in the folder on your computer where you want to download the repository  
@@ -39,3 +43,13 @@ https://stackoverflow.com/a/8997703
 `git push`  
 `git checkout name-of-branch`  
 
+## Development Team
+Ella Alklid (guslarcaan@student.gu.se)  
+Fayona Cowperthwaite (guscowfa@student.gu.se)  
+Dominique Deramat (gusderdo@student.gu.se)  
+Negin Hashmati (gushashne@student.gu.se)  
+Jennifer Nord (gusnorjea@student.gu.se)  
+Victoria Vu (gusvuvij@student.gu.se)  
+
+
+This project was created for the course DIT092 in the first year of the Software Engineering and Management Bsc Program at Gothenburg University.
