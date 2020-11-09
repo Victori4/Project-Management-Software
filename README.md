@@ -52,4 +52,4 @@ Jennifer Nord (gusnorjea@student.gu.se)
 Victoria Vu (gusvuvij@student.gu.se)  
 
 
-This project was created for the course DIT092 in the first year of the Software Engineering and Management Bsc Program at Gothenburg University.
+This project was originally created for the course DIT092 in the first year of the Software Engineering and Management Bsc Program at Gothenburg University on GitLab.
